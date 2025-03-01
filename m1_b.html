@@ -1,51 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microeconomía</title>
+    <title>Quiz</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             text-align: center;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
         }
-        iframe {
+        .quiz-container {
+            max-width: 500px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .option {
+            display: block;
+            margin: 10px auto;
+            padding: 12px;
             width: 80%;
-            height: 500px;
-            border: 1px solid #ccc;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .option:hover {
+            background-color: #0056b3;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #score {
+            font-size: 18px;
             margin-top: 20px;
         }
-        .footer {
-            margin-top: 20px;
-        }
-        .footer a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #000;
-            font-size: 20px;
-        }
-        .footer img {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
+        #feedback {
+            font-size: 18px;
+            margin-top: 15px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Microeconomía</h1>
-    <p>Open <a href="m1_a.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 1)</a></p>
-    <iframe name="contentFrame"></iframe>
-    <div class="footer">
-        <p>Mauricio Apablaza - 2025</p>
-        <a href="https://github.com/m-apablaza" target="_blank">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
-        </a>
-        <a href="https://scholar.google.cl/citations?user=qKDaZAMAAAAJ" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" alt="Google Scholar">
-        </a>
-        <a href="https://www.linkedin.com/in/m-apablaza/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-        </a>
+    <div class="quiz-container">
+        <h1>Quiz 🌍</h1>
+        <p id="question">Cargando pregunta...</p>
+        <div id="options"></div>
+        <p id="feedback"></p>
+        <p id="score">Puntaje: 0 / 15</p>
     </div>
+    <script>
+        let questions = [];
+        let selectedQuestions = [];
+        let currentQuestion = 0;
+        let score = 0;
+
+        fetch('m1_a.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data.questions;
+                selectedQuestions = getRandomQuestions(questions, 15);
+                showQuestion();
+            });
+
+        function getRandomQuestions(questionList, num) {
+            let shuffled = [...questionList].sort(() => Math.random() - 0.5);
+            return shuffled.slice(0, num);
+        }
+
+        function showQuestion() {
+            if (currentQuestion >= selectedQuestions.length) {
+                document.getElementById("question").innerText = "🎉 Juego terminado. Puntaje final: " + score + " / " + selectedQuestions.length;
+                document.getElementById("options").innerHTML = "";
+                document.getElementById("feedback").innerText = "";
+                return;
+            }
+            
+            const q = selectedQuestions[currentQuestion];
+            document.getElementById("question").innerText = q.question;
+            document.getElementById("options").innerHTML = "";
+            document.getElementById("feedback").innerText = "";
+            
+            q.options.forEach(option => {
+                let btn = document.createElement("button");
+                btn.innerText = option;
+                btn.className = "option";
+                btn.onclick = () => checkAnswer(option);
+                document.getElementById("options").appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selected) {
+            const correctAnswer = selectedQuestions[currentQuestion].answer;
+            
+            if (selected === correctAnswer) {
+                score++;
+                document.getElementById("feedback").innerText = "🎉 ¡Correcto! Bien hecho.";
+            } else {
+                document.getElementById("feedback").innerText = "❌ Incorrecto. La respuesta correcta es: " + correctAnswer;
+            }
+            
+            document.getElementById("score").innerText = "Puntaje: " + score + " / " + selectedQuestions.length;
+            
+            setTimeout(() => {
+                currentQuestion++;
+                showQuestion();
+            }, 2000);
+        }
+    </script>
 </body>
 </html>
