@@ -1,404 +1,204 @@
 {
     "questions": [
         {
-            "question": "¿Cómo se define la economía?",
+            "question": "¿Qué es la economía?",
             "options": [
+                "La ciencia que estudia la producción de bienes y servicios.",
                 "La ciencia que estudia la asignación de recursos escasos a necesidades múltiples.",
-                "El estudio de la producción industrial.",
-                "La administración de empresas y negocios.",
-                "El análisis del comercio internacional."
+                "La ciencia que estudia el comportamiento de los mercados financieros.",
+                "La ciencia que estudia la distribución de la riqueza."
             ],
             "answer": "La ciencia que estudia la asignación de recursos escasos a necesidades múltiples."
         },
         {
-            "question": "¿Qué es la escasez en términos económicos?",
+            "question": "¿Qué es la escasez en economía?",
             "options": [
-                "La falta de dinero en una economía.",
-                "La imposibilidad de satisfacer todas las necesidades con los recursos disponibles.",
-                "Un fenómeno que solo afecta a los países en desarrollo.",
-                "Un exceso de demanda en los mercados."
+                "La falta de recursos para satisfacer todas las necesidades y deseos.",
+                "La abundancia de recursos naturales.",
+                "La distribución equitativa de los recursos.",
+                "La falta de interés en consumir bienes."
             ],
-            "answer": "La imposibilidad de satisfacer todas las necesidades con los recursos disponibles."
+            "answer": "La falta de recursos para satisfacer todas las necesidades y deseos."
         },
         {
-            "question": "¿Cuál es el principal problema que estudia la economía?",
+            "question": "Según Mankiw, ¿cuál es el primer principio de la economía?",
             "options": [
-                "La escasez y la asignación de recursos.",
-                "El crecimiento empresarial.",
-                "Las políticas gubernamentales.",
-                "El control de los precios."
+                "Las personas enfrentan disyuntivas.",
+                "El costo de algo es aquello a lo que se renuncia para obtenerlo.",
+                "Las personas racionales piensan en términos marginales.",
+                "Los individuos responden a incentivos."
             ],
-            "answer": "La escasez y la asignación de recursos."
+            "answer": "Las personas enfrentan disyuntivas."
+        },
+        {
+            "question": "¿Qué significa 'costo de oportunidad'?",
+            "options": [
+                "El costo monetario de una decisión.",
+                "El valor de la mejor alternativa a la que se renuncia al tomar una decisión.",
+                "El costo total de producir un bien.",
+                "El costo de los recursos naturales utilizados."
+            ],
+            "answer": "El valor de la mejor alternativa a la que se renuncia al tomar una decisión."
+        },
+        {
+            "question": "¿Qué principio de Mankiw se refiere a que las personas toman decisiones comparando beneficios y costos marginales?",
+            "options": [
+                "Las personas enfrentan disyuntivas.",
+                "El costo de algo es aquello a lo que se renuncia para obtenerlo.",
+                "Las personas racionales piensan en términos marginales.",
+                "Los individuos responden a incentivos."
+            ],
+            "answer": "Las personas racionales piensan en términos marginales."
+        },
+        {
+            "question": "¿Qué son los incentivos en economía?",
+            "options": [
+                "Recursos naturales utilizados en la producción.",
+                "Factores que motivan a las personas a actuar de cierta manera.",
+                "Costos asociados a la toma de decisiones.",
+                "Beneficios marginales de una acción."
+            ],
+            "answer": "Factores que motivan a las personas a actuar de cierta manera."
         },
         {
             "question": "¿Qué significa eficiencia en economía?",
             "options": [
-                "Maximizar la producción sin importar los costos.",
-                "Obtener el máximo beneficio con los recursos disponibles.",
-                "Lograr equidad en la distribución de bienes y servicios.",
-                "Aumentar el empleo sin mejorar la productividad."
+                "Lograr la máxima producción con los recursos disponibles.",
+                "Distribuir los recursos de manera equitativa.",
+                "Maximizar los beneficios sin considerar los costos.",
+                "Producir bienes de alta calidad."
             ],
-            "answer": "Obtener el máximo beneficio con los recursos disponibles."
+            "answer": "Lograr la máxima producción con los recursos disponibles."
         },
         {
-            "question": "¿Qué es la eficacia en términos económicos?",
+            "question": "¿Qué significa eficacia en economía?",
             "options": [
-                "Alcanzar un objetivo independientemente de los costos.",
-                "Utilizar los recursos disponibles de manera óptima.",
-                "Cumplir metas establecidas sin considerar la eficiencia.",
-                "Minimizar los costos sin importar los resultados."
+                "Alcanzar los objetivos deseados.",
+                "Minimizar los costos de producción.",
+                "Producir la mayor cantidad de bienes posibles.",
+                "Distribuir los recursos de manera justa."
             ],
-            "answer": "Alcanzar un objetivo independientemente de los costos."
-        },
-        {
-            "question": "¿Qué significa que las personas sean racionales en economía?",
-            "options": [
-                "Que toman decisiones para maximizar su bienestar con la información disponible.",
-                "Que siempre actúan de manera lógica y sin errores.",
-                "Que solo buscan el beneficio de la sociedad en general.",
-                "Que no son influenciadas por emociones en sus decisiones."
-            ],
-            "answer": "Que toman decisiones para maximizar su bienestar con la información disponible."
+            "answer": "Alcanzar los objetivos deseados."
         },
         {
             "question": "¿Qué es un cambio marginal?",
             "options": [
-                "Un cambio grande en la economía.",
-                "Una pequeña modificación en un plan o decisión.",
-                "El impacto de una crisis financiera en un país.",
-                "Una variación en la política fiscal."
+                "Un cambio significativo en la economía.",
+                "Un pequeño ajuste adicional a un plan de acción.",
+                "Un cambio en los precios de los bienes.",
+                "Un cambio en la distribución de la riqueza."
             ],
-            "answer": "Una pequeña modificación en un plan o decisión."
+            "answer": "Un pequeño ajuste adicional a un plan de acción."
         },
         {
-            "question": "¿Qué significa el principio de los incentivos en economía?",
+            "question": "¿Qué principio de Mankiw se refiere a que los individuos responden a incentivos?",
             "options": [
-                "Los incentivos pueden modificar las decisiones económicas de los individuos y empresas.",
-                "El gobierno es el único que puede generar incentivos.",
-                "Solo los consumidores reaccionan a incentivos.",
-                "Los incentivos no influyen en el comportamiento económico."
+                "Las personas enfrentan disyuntivas.",
+                "El costo de algo es aquello a lo que se renuncia para obtenerlo.",
+                "Las personas racionales piensan en términos marginales.",
+                "Los individuos responden a incentivos."
             ],
-            "answer": "Los incentivos pueden modificar las decisiones económicas de los individuos y empresas."
+            "answer": "Los individuos responden a incentivos."
         },
         {
-            "question": "¿Cuál es el primer principio de Mankiw?",
+            "question": "Proporcione tres ejemplos de disyuntivas importantes que haya enfrentado en su vida.",
             "options": [
-                "Los mercados son generalmente una buena forma de organizar la actividad económica.",
-                "La gente enfrenta disyuntivas.",
-                "El comercio puede mejorar el bienestar de todos.",
-                "El Estado debe controlar los precios."
+                "Comprar un auto nuevo vs. ahorrar para la jubilación.",
+                "Estudiar para un examen vs. salir con amigos.",
+                "Trabajar horas extras vs. pasar tiempo con la familia.",
+                "Todas las anteriores."
             ],
-            "answer": "La gente enfrenta disyuntivas."
+            "answer": "Todas las anteriores."
         },
         {
-            "question": "¿Cuál es el segundo principio de Mankiw?",
+            "question": "¿Cuál es el costo de oportunidad de ver una película?",
             "options": [
-                "El costo de una cosa es aquello a lo que se renuncia para obtenerla.",
-                "Los mercados son una buena forma de organizar la economía.",
-                "Los gobiernos pueden mejorar los resultados del mercado.",
-                "Las empresas deben maximizar sus beneficios sin restricciones."
+                "El precio de la entrada al cine.",
+                "El tiempo que podría haber dedicado a otra actividad.",
+                "El costo del transporte al cine.",
+                "El costo de las palomitas."
             ],
-            "answer": "El costo de una cosa es aquello a lo que se renuncia para obtenerla."
+            "answer": "El tiempo que podría haber dedicado a otra actividad."
         },
         {
-            "question": "Pregunta de economía número 11",
+            "question": "El agua es necesaria para vivir. ¿El beneficio marginal de un vaso de agua es grande o pequeño?",
             "options": [
-                "Opción A para la pregunta 11",
-                "Opción B para la pregunta 11",
-                "Opción C para la pregunta 11",
-                "Opción D para la pregunta 11"
+                "Grande, porque es esencial para la vida.",
+                "Pequeño, porque el agua es abundante.",
+                "Depende de la situación, pero generalmente es pequeño si ya se ha consumido suficiente agua.",
+                "No se puede medir."
             ],
-            "answer": "Opción A para la pregunta 11"
+            "answer": "Depende de la situación, pero generalmente es pequeño si ya se ha consumido suficiente agua."
         },
         {
-            "question": "Pregunta de economía número 12",
+            "question": "Describa algunas disyuntivas que enfrenta una familia que está pensando en comprar un automóvil nuevo.",
             "options": [
-                "Opción A para la pregunta 12",
-                "Opción B para la pregunta 12",
-                "Opción C para la pregunta 12",
-                "Opción D para la pregunta 12"
+                "Comprar un auto nuevo vs. ahorrar para la educación de los hijos.",
+                "Comprar un auto de lujo vs. uno más económico.",
+                "Comprar un auto vs. usar transporte público.",
+                "Todas las anteriores."
             ],
-            "answer": "Opción A para la pregunta 12"
+            "answer": "Todas las anteriores."
         },
         {
-            "question": "Pregunta de economía número 13",
+            "question": "¿Cuál es el verdadero costo de ir a esquiar si había planeado trabajar?",
             "options": [
-                "Opción A para la pregunta 13",
-                "Opción B para la pregunta 13",
-                "Opción C para la pregunta 13",
-                "Opción D para la pregunta 13"
+                "El costo del transporte y el equipo de esquí.",
+                "El salario que dejaría de ganar por no trabajar.",
+                "El costo de oportunidad de no estudiar.",
+                "El costo de la entrada a la pista de esquí."
             ],
-            "answer": "Opción A para la pregunta 13"
+            "answer": "El salario que dejaría de ganar por no trabajar."
         },
         {
-            "question": "Pregunta de economía número 14",
+            "question": "¿Cuál es el costo de oportunidad de gastar $100 ahora en lugar de depositarlos en el banco con un interés del 5%?",
             "options": [
-                "Opción A para la pregunta 14",
-                "Opción B para la pregunta 14",
-                "Opción C para la pregunta 14",
-                "Opción D para la pregunta 14"
+                "$5.",
+                "$100.",
+                "$105.",
+                "$95."
             ],
-            "answer": "Opción A para la pregunta 14"
+            "answer": "$5."
         },
         {
-            "question": "Pregunta de economía número 15",
+            "question": "¿Cómo afectan las pensiones los incentivos para ahorrar mientras se trabaja?",
             "options": [
-                "Opción A para la pregunta 15",
-                "Opción B para la pregunta 15",
-                "Opción C para la pregunta 15",
-                "Opción D para la pregunta 15"
+                "Reducen los incentivos para ahorrar, ya que se espera recibir una pensión.",
+                "Aumentan los incentivos para ahorrar, ya que las pensiones son insuficientes.",
+                "No afectan los incentivos para ahorrar.",
+                "Depende de la situación económica."
             ],
-            "answer": "Opción A para la pregunta 15"
+            "answer": "Reducen los incentivos para ahorrar, ya que se espera recibir una pensión."
         },
         {
-            "question": "Pregunta de economía número 16",
+            "question": "¿Cómo afecta una reducción en las prestaciones de seguridad social los incentivos para trabajar después de los 65 años?",
             "options": [
-                "Opción A para la pregunta 16",
-                "Opción B para la pregunta 16",
-                "Opción C para la pregunta 16",
-                "Opción D para la pregunta 16"
+                "Aumenta los incentivos para trabajar, ya que se necesita más ingresos.",
+                "Reduce los incentivos para trabajar, ya que las prestaciones son menores.",
+                "No afecta los incentivos para trabajar.",
+                "Depende de la situación personal."
             ],
-            "answer": "Opción A para la pregunta 16"
+            "answer": "Aumenta los incentivos para trabajar, ya que se necesita más ingresos."
         },
         {
-            "question": "Pregunta de economía número 17",
+            "question": "¿Cómo afecta una ley que limita a dos años la recepción de beneficios contra la pobreza los incentivos para trabajar?",
             "options": [
-                "Opción A para la pregunta 17",
-                "Opción B para la pregunta 17",
-                "Opción C para la pregunta 17",
-                "Opción D para la pregunta 17"
+                "Aumenta los incentivos para trabajar, ya que los beneficios son temporales.",
+                "Reduce los incentivos para trabajar, ya que los beneficios son insuficientes.",
+                "No afecta los incentivos para trabajar.",
+                "Depende de la situación económica."
             ],
-            "answer": "Opción A para la pregunta 17"
+            "answer": "Aumenta los incentivos para trabajar, ya que los beneficios son temporales."
         },
         {
-            "question": "Pregunta de economía número 18",
+            "question": "¿Por qué los cambios en los programas de bienestar pueden representar una disyuntiva entre equidad y eficiencia?",
             "options": [
-                "Opción A para la pregunta 18",
-                "Opción B para la pregunta 18",
-                "Opción C para la pregunta 18",
-                "Opción D para la pregunta 18"
+                "Porque aumentar la equidad puede reducir la eficiencia.",
+                "Porque aumentar la eficiencia puede reducir la equidad.",
+                "Porque ambos conceptos son incompatibles.",
+                "Porque los recursos son escasos."
             ],
-            "answer": "Opción A para la pregunta 18"
-        },
-        {
-            "question": "Pregunta de economía número 19",
-            "options": [
-                "Opción A para la pregunta 19",
-                "Opción B para la pregunta 19",
-                "Opción C para la pregunta 19",
-                "Opción D para la pregunta 19"
-            ],
-            "answer": "Opción A para la pregunta 19"
-        },
-        {
-            "question": "Pregunta de economía número 20",
-            "options": [
-                "Opción A para la pregunta 20",
-                "Opción B para la pregunta 20",
-                "Opción C para la pregunta 20",
-                "Opción D para la pregunta 20"
-            ],
-            "answer": "Opción A para la pregunta 20"
-        },
-        {
-            "question": "Pregunta de economía número 21",
-            "options": [
-                "Opción A para la pregunta 21",
-                "Opción B para la pregunta 21",
-                "Opción C para la pregunta 21",
-                "Opción D para la pregunta 21"
-            ],
-            "answer": "Opción A para la pregunta 21"
-        },
-        {
-            "question": "Pregunta de economía número 22",
-            "options": [
-                "Opción A para la pregunta 22",
-                "Opción B para la pregunta 22",
-                "Opción C para la pregunta 22",
-                "Opción D para la pregunta 22"
-            ],
-            "answer": "Opción A para la pregunta 22"
-        },
-        {
-            "question": "Pregunta de economía número 23",
-            "options": [
-                "Opción A para la pregunta 23",
-                "Opción B para la pregunta 23",
-                "Opción C para la pregunta 23",
-                "Opción D para la pregunta 23"
-            ],
-            "answer": "Opción A para la pregunta 23"
-        },
-        {
-            "question": "Pregunta de economía número 24",
-            "options": [
-                "Opción A para la pregunta 24",
-                "Opción B para la pregunta 24",
-                "Opción C para la pregunta 24",
-                "Opción D para la pregunta 24"
-            ],
-            "answer": "Opción A para la pregunta 24"
-        },
-        {
-            "question": "Pregunta de economía número 25",
-            "options": [
-                "Opción A para la pregunta 25",
-                "Opción B para la pregunta 25",
-                "Opción C para la pregunta 25",
-                "Opción D para la pregunta 25"
-            ],
-            "answer": "Opción A para la pregunta 25"
-        },
-        {
-            "question": "Pregunta de economía número 26",
-            "options": [
-                "Opción A para la pregunta 26",
-                "Opción B para la pregunta 26",
-                "Opción C para la pregunta 26",
-                "Opción D para la pregunta 26"
-            ],
-            "answer": "Opción A para la pregunta 26"
-        },
-        {
-            "question": "Pregunta de economía número 27",
-            "options": [
-                "Opción A para la pregunta 27",
-                "Opción B para la pregunta 27",
-                "Opción C para la pregunta 27",
-                "Opción D para la pregunta 27"
-            ],
-            "answer": "Opción A para la pregunta 27"
-        },
-        {
-            "question": "Pregunta de economía número 28",
-            "options": [
-                "Opción A para la pregunta 28",
-                "Opción B para la pregunta 28",
-                "Opción C para la pregunta 28",
-                "Opción D para la pregunta 28"
-            ],
-            "answer": "Opción A para la pregunta 28"
-        },
-        {
-            "question": "Pregunta de economía número 29",
-            "options": [
-                "Opción A para la pregunta 29",
-                "Opción B para la pregunta 29",
-                "Opción C para la pregunta 29",
-                "Opción D para la pregunta 29"
-            ],
-            "answer": "Opción A para la pregunta 29"
-        },
-        {
-            "question": "Pregunta de economía número 30",
-            "options": [
-                "Opción A para la pregunta 30",
-                "Opción B para la pregunta 30",
-                "Opción C para la pregunta 30",
-                "Opción D para la pregunta 30"
-            ],
-            "answer": "Opción A para la pregunta 30"
-        },
-        {
-            "question": "Pregunta de economía número 31",
-            "options": [
-                "Opción A para la pregunta 31",
-                "Opción B para la pregunta 31",
-                "Opción C para la pregunta 31",
-                "Opción D para la pregunta 31"
-            ],
-            "answer": "Opción A para la pregunta 31"
-        },
-        {
-            "question": "Pregunta de economía número 32",
-            "options": [
-                "Opción A para la pregunta 32",
-                "Opción B para la pregunta 32",
-                "Opción C para la pregunta 32",
-                "Opción D para la pregunta 32"
-            ],
-            "answer": "Opción A para la pregunta 32"
-        },
-        {
-            "question": "Pregunta de economía número 33",
-            "options": [
-                "Opción A para la pregunta 33",
-                "Opción B para la pregunta 33",
-                "Opción C para la pregunta 33",
-                "Opción D para la pregunta 33"
-            ],
-            "answer": "Opción A para la pregunta 33"
-        },
-        {
-            "question": "Pregunta de economía número 34",
-            "options": [
-                "Opción A para la pregunta 34",
-                "Opción B para la pregunta 34",
-                "Opción C para la pregunta 34",
-                "Opción D para la pregunta 34"
-            ],
-            "answer": "Opción A para la pregunta 34"
-        },
-        {
-            "question": "Pregunta de economía número 35",
-            "options": [
-                "Opción A para la pregunta 35",
-                "Opción B para la pregunta 35",
-                "Opción C para la pregunta 35",
-                "Opción D para la pregunta 35"
-            ],
-            "answer": "Opción A para la pregunta 35"
-        },
-        {
-            "question": "Pregunta de economía número 36",
-            "options": [
-                "Opción A para la pregunta 36",
-                "Opción B para la pregunta 36",
-                "Opción C para la pregunta 36",
-                "Opción D para la pregunta 36"
-            ],
-            "answer": "Opción A para la pregunta 36"
-        },
-        {
-            "question": "Pregunta de economía número 37",
-            "options": [
-                "Opción A para la pregunta 37",
-                "Opción B para la pregunta 37",
-                "Opción C para la pregunta 37",
-                "Opción D para la pregunta 37"
-            ],
-            "answer": "Opción A para la pregunta 37"
-        },
-        {
-            "question": "Pregunta de economía número 38",
-            "options": [
-                "Opción A para la pregunta 38",
-                "Opción B para la pregunta 38",
-                "Opción C para la pregunta 38",
-                "Opción D para la pregunta 38"
-            ],
-            "answer": "Opción A para la pregunta 38"
-        },
-        {
-            "question": "Pregunta de economía número 39",
-            "options": [
-                "Opción A para la pregunta 39",
-                "Opción B para la pregunta 39",
-                "Opción C para la pregunta 39",
-                "Opción D para la pregunta 39"
-            ],
-            "answer": "Opción A para la pregunta 39"
-        },
-        {
-            "question": "Pregunta de economía número 40",
-            "options": [
-                "Opción A para la pregunta 40",
-                "Opción B para la pregunta 40",
-                "Opción C para la pregunta 40",
-                "Opción D para la pregunta 40"
-            ],
-            "answer": "Opción A para la pregunta 40"
+            "answer": "Porque aumentar la equidad puede reducir la eficiencia."
         }
     ]
 }
