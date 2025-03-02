@@ -1,40 +1,404 @@
 {
     "questions": [
-        { "question": "What is the process by which plants convert sunlight into energy?", "options": ["Respiration", "Photosynthesis", "Combustion"], "answer": "Photosynthesis" },
-        { "question": "Which of the following is a synonym for 'sustainable'?", "options": ["Endurable", "Temporary", "Unsustainable"], "answer": "Endurable" },
-        { "question": "What is the Spanish translation of 'greenhouse effect'?", "options": ["Efecto invernadero", "Calentamiento global", "Cambio climático"], "answer": "Efecto invernadero" },
-        { "question": "What term describes the variety of life in a particular habitat or ecosystem?", "options": ["Extinction", "Biodiversity", "Climate"], "answer": "Biodiversity" },
-        { "question": "Which gas is the primary contributor to global warming?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen"], "answer": "Carbon dioxide" },
-        { "question": "What is a synonym for 'pollution'?", "options": ["Contamination", "Purification", "Restoration"], "answer": "Contamination" },
-        { "question": "What is the Spanish translation of 'renewable energy'?", "options": ["Energía fósil", "Energía renovable", "Energía nuclear"], "answer": "Energía renovable" },
-        { "question": "What is the term for the gradual increase in Earth's average temperature?", "options": ["Global cooling", "Global warming", "Climate neutrality"], "answer": "Global warming" },
-        { "question": "Which term describes the contamination of the Earth's atmosphere?", "options": ["Deforestation", "Air pollution", "Reforestation"], "answer": "Air pollution" },
-        { "question": "What is the Spanish translation of 'carbon footprint'?", "options": ["Huella ecológica", "Huella de carbono", "Emisión de gases"], "answer": "Huella de carbono" },
-        { "question": "What is the process of cutting down large areas of trees called?", "options": ["Afforestation", "Deforestation", "Reforestation"], "answer": "Deforestation" },
-        { "question": "Which of the following is a synonym for 'ecological'?", "options": ["Sustainable", "Artificial", "Toxic"], "answer": "Sustainable" },
-        { "question": "What is the Spanish translation of 'fossil fuels'?", "options": ["Energías fósiles", "Energía solar", "Combustibles renovables"], "answer": "Energías fósiles" },
-        { "question": "What is the process of converting waste materials into reusable materials?", "options": ["Recycling", "Littering", "Extracting"], "answer": "Recycling" },
-        { "question": "Which term refers to the loss of species from an ecosystem?", "options": ["Extinction", "Preservation", "Adaptation"], "answer": "Extinction" },
-        { "question": "What is the Spanish translation of 'ecosystem'?", "options": ["Biodiversidad", "Ecosistema", "Medio ambiente"], "answer": "Ecosistema" },
-        { "question": "What is the term for species that are at risk of extinction?", "options": ["Endangered", "Invasive", "Domesticated"], "answer": "Endangered" },
-        { "question": "What is the process by which water vapor turns into liquid?", "options": ["Evaporation", "Condensation", "Sublimation"], "answer": "Condensation" },
-        { "question": "What is the Spanish translation of 'sustainable development'?", "options": ["Desarrollo sostenible", "Expansión ecológica", "Progreso económico"], "answer": "Desarrollo sostenible" },
-        { "question": "Which of these is a synonym for 'conservation'?", "options": ["Preservation", "Exploitation", "Depletion"], "answer": "Preservation" },
-        { "question": "What is the Spanish translation of 'climate change'?", "options": ["Cambio climático", "Efecto invernadero", "Calentamiento artificial"], "answer": "Cambio climático" },
-        { "question": "What is the term for non-renewable energy sources formed over millions of years?", "options": ["Fossil fuels", "Solar power", "Wind energy"], "answer": "Fossil fuels" },
-        { "question": "Which of the following gases is NOT a greenhouse gas?", "options": ["Methane", "Oxygen", "Carbon dioxide"], "answer": "Oxygen" },
-        { "question": "What is the process by which soil loses its nutrients and becomes barren?", "options": ["Soil erosion", "Reforestation", "Afforestation"], "answer": "Soil erosion" },
-        { "question": "What is the Spanish translation of 'air pollution'?", "options": ["Contaminación del aire", "Emisión neutra", "Aire limpio"], "answer": "Contaminación del aire" },
-        { "question": "Which term refers to the excessive use of Earth's natural resources?", "options": ["Overexploitation", "Recycling", "Sustainability"], "answer": "Overexploitation" },
-        { "question": "What is the Spanish translation of 'waste management'?", "options": ["Manejo de residuos", "Basura reciclada", "Conservación del suelo"], "answer": "Manejo de residuos" },
-        { "question": "Which of the following is a synonym for 'emissions'?", "options": ["Discharges", "Reductions", "Absorptions"], "answer": "Discharges" },
-        { "question": "What is the term for the expansion of urban areas into natural environments?", "options": ["Urban sprawl", "Reforestation", "Erosion"], "answer": "Urban sprawl" },
-        { "question": "What is the Spanish translation of 'ecological footprint'?", "options": ["Huella ecológica", "Impacto climático", "Sostenibilidad del medio"], "answer": "Huella ecológica" },
-        { "question": "What is the process by which harmful substances accumulate in organisms?", "options": ["Bioaccumulation", "Evaporation", "Erosion"], "answer": "Bioaccumulation" },
-        { "question": "Which term refers to an organism introduced into an ecosystem where it is not native?", "options": ["Invasive species", "Endangered species", "Native species"], "answer": "Invasive species" },
-        { "question": "What is the Spanish translation of 'ozone layer'?", "options": ["Capa de ozono", "Capa atmosférica", "Atmósfera limpia"], "answer": "Capa de ozono" },
-        { "question": "Which of these is an example of a renewable energy source?", "options": ["Coal", "Wind", "Natural gas"], "answer": "Wind" },
-        { "question": "What is the Spanish translation of 'biodegradable'?", "options": ["Biodegradable", "Ecológico", "Reciclable"], "answer": "Biodegradable" },
-        { "question": "Which term refers to the ability of an environment to support itself without depletion?", "options": ["Sustainability", "Pollution", "Exploitation"], "answer": "Sustainability" }
+        {
+            "question": "¿Cómo se define la economía?",
+            "options": [
+                "La ciencia que estudia la asignación de recursos escasos a necesidades múltiples.",
+                "El estudio de la producción industrial.",
+                "La administración de empresas y negocios.",
+                "El análisis del comercio internacional."
+            ],
+            "answer": "La ciencia que estudia la asignación de recursos escasos a necesidades múltiples."
+        },
+        {
+            "question": "¿Qué es la escasez en términos económicos?",
+            "options": [
+                "La falta de dinero en una economía.",
+                "La imposibilidad de satisfacer todas las necesidades con los recursos disponibles.",
+                "Un fenómeno que solo afecta a los países en desarrollo.",
+                "Un exceso de demanda en los mercados."
+            ],
+            "answer": "La imposibilidad de satisfacer todas las necesidades con los recursos disponibles."
+        },
+        {
+            "question": "¿Cuál es el principal problema que estudia la economía?",
+            "options": [
+                "La escasez y la asignación de recursos.",
+                "El crecimiento empresarial.",
+                "Las políticas gubernamentales.",
+                "El control de los precios."
+            ],
+            "answer": "La escasez y la asignación de recursos."
+        },
+        {
+            "question": "¿Qué significa eficiencia en economía?",
+            "options": [
+                "Maximizar la producción sin importar los costos.",
+                "Obtener el máximo beneficio con los recursos disponibles.",
+                "Lograr equidad en la distribución de bienes y servicios.",
+                "Aumentar el empleo sin mejorar la productividad."
+            ],
+            "answer": "Obtener el máximo beneficio con los recursos disponibles."
+        },
+        {
+            "question": "¿Qué es la eficacia en términos económicos?",
+            "options": [
+                "Alcanzar un objetivo independientemente de los costos.",
+                "Utilizar los recursos disponibles de manera óptima.",
+                "Cumplir metas establecidas sin considerar la eficiencia.",
+                "Minimizar los costos sin importar los resultados."
+            ],
+            "answer": "Alcanzar un objetivo independientemente de los costos."
+        },
+        {
+            "question": "¿Qué significa que las personas sean racionales en economía?",
+            "options": [
+                "Que toman decisiones para maximizar su bienestar con la información disponible.",
+                "Que siempre actúan de manera lógica y sin errores.",
+                "Que solo buscan el beneficio de la sociedad en general.",
+                "Que no son influenciadas por emociones en sus decisiones."
+            ],
+            "answer": "Que toman decisiones para maximizar su bienestar con la información disponible."
+        },
+        {
+            "question": "¿Qué es un cambio marginal?",
+            "options": [
+                "Un cambio grande en la economía.",
+                "Una pequeña modificación en un plan o decisión.",
+                "El impacto de una crisis financiera en un país.",
+                "Una variación en la política fiscal."
+            ],
+            "answer": "Una pequeña modificación en un plan o decisión."
+        },
+        {
+            "question": "¿Qué significa el principio de los incentivos en economía?",
+            "options": [
+                "Los incentivos pueden modificar las decisiones económicas de los individuos y empresas.",
+                "El gobierno es el único que puede generar incentivos.",
+                "Solo los consumidores reaccionan a incentivos.",
+                "Los incentivos no influyen en el comportamiento económico."
+            ],
+            "answer": "Los incentivos pueden modificar las decisiones económicas de los individuos y empresas."
+        },
+        {
+            "question": "¿Cuál es el primer principio de Mankiw?",
+            "options": [
+                "Los mercados son generalmente una buena forma de organizar la actividad económica.",
+                "La gente enfrenta disyuntivas.",
+                "El comercio puede mejorar el bienestar de todos.",
+                "El Estado debe controlar los precios."
+            ],
+            "answer": "La gente enfrenta disyuntivas."
+        },
+        {
+            "question": "¿Cuál es el segundo principio de Mankiw?",
+            "options": [
+                "El costo de una cosa es aquello a lo que se renuncia para obtenerla.",
+                "Los mercados son una buena forma de organizar la economía.",
+                "Los gobiernos pueden mejorar los resultados del mercado.",
+                "Las empresas deben maximizar sus beneficios sin restricciones."
+            ],
+            "answer": "El costo de una cosa es aquello a lo que se renuncia para obtenerla."
+        },
+        {
+            "question": "Pregunta de economía número 11",
+            "options": [
+                "Opción A para la pregunta 11",
+                "Opción B para la pregunta 11",
+                "Opción C para la pregunta 11",
+                "Opción D para la pregunta 11"
+            ],
+            "answer": "Opción A para la pregunta 11"
+        },
+        {
+            "question": "Pregunta de economía número 12",
+            "options": [
+                "Opción A para la pregunta 12",
+                "Opción B para la pregunta 12",
+                "Opción C para la pregunta 12",
+                "Opción D para la pregunta 12"
+            ],
+            "answer": "Opción A para la pregunta 12"
+        },
+        {
+            "question": "Pregunta de economía número 13",
+            "options": [
+                "Opción A para la pregunta 13",
+                "Opción B para la pregunta 13",
+                "Opción C para la pregunta 13",
+                "Opción D para la pregunta 13"
+            ],
+            "answer": "Opción A para la pregunta 13"
+        },
+        {
+            "question": "Pregunta de economía número 14",
+            "options": [
+                "Opción A para la pregunta 14",
+                "Opción B para la pregunta 14",
+                "Opción C para la pregunta 14",
+                "Opción D para la pregunta 14"
+            ],
+            "answer": "Opción A para la pregunta 14"
+        },
+        {
+            "question": "Pregunta de economía número 15",
+            "options": [
+                "Opción A para la pregunta 15",
+                "Opción B para la pregunta 15",
+                "Opción C para la pregunta 15",
+                "Opción D para la pregunta 15"
+            ],
+            "answer": "Opción A para la pregunta 15"
+        },
+        {
+            "question": "Pregunta de economía número 16",
+            "options": [
+                "Opción A para la pregunta 16",
+                "Opción B para la pregunta 16",
+                "Opción C para la pregunta 16",
+                "Opción D para la pregunta 16"
+            ],
+            "answer": "Opción A para la pregunta 16"
+        },
+        {
+            "question": "Pregunta de economía número 17",
+            "options": [
+                "Opción A para la pregunta 17",
+                "Opción B para la pregunta 17",
+                "Opción C para la pregunta 17",
+                "Opción D para la pregunta 17"
+            ],
+            "answer": "Opción A para la pregunta 17"
+        },
+        {
+            "question": "Pregunta de economía número 18",
+            "options": [
+                "Opción A para la pregunta 18",
+                "Opción B para la pregunta 18",
+                "Opción C para la pregunta 18",
+                "Opción D para la pregunta 18"
+            ],
+            "answer": "Opción A para la pregunta 18"
+        },
+        {
+            "question": "Pregunta de economía número 19",
+            "options": [
+                "Opción A para la pregunta 19",
+                "Opción B para la pregunta 19",
+                "Opción C para la pregunta 19",
+                "Opción D para la pregunta 19"
+            ],
+            "answer": "Opción A para la pregunta 19"
+        },
+        {
+            "question": "Pregunta de economía número 20",
+            "options": [
+                "Opción A para la pregunta 20",
+                "Opción B para la pregunta 20",
+                "Opción C para la pregunta 20",
+                "Opción D para la pregunta 20"
+            ],
+            "answer": "Opción A para la pregunta 20"
+        },
+        {
+            "question": "Pregunta de economía número 21",
+            "options": [
+                "Opción A para la pregunta 21",
+                "Opción B para la pregunta 21",
+                "Opción C para la pregunta 21",
+                "Opción D para la pregunta 21"
+            ],
+            "answer": "Opción A para la pregunta 21"
+        },
+        {
+            "question": "Pregunta de economía número 22",
+            "options": [
+                "Opción A para la pregunta 22",
+                "Opción B para la pregunta 22",
+                "Opción C para la pregunta 22",
+                "Opción D para la pregunta 22"
+            ],
+            "answer": "Opción A para la pregunta 22"
+        },
+        {
+            "question": "Pregunta de economía número 23",
+            "options": [
+                "Opción A para la pregunta 23",
+                "Opción B para la pregunta 23",
+                "Opción C para la pregunta 23",
+                "Opción D para la pregunta 23"
+            ],
+            "answer": "Opción A para la pregunta 23"
+        },
+        {
+            "question": "Pregunta de economía número 24",
+            "options": [
+                "Opción A para la pregunta 24",
+                "Opción B para la pregunta 24",
+                "Opción C para la pregunta 24",
+                "Opción D para la pregunta 24"
+            ],
+            "answer": "Opción A para la pregunta 24"
+        },
+        {
+            "question": "Pregunta de economía número 25",
+            "options": [
+                "Opción A para la pregunta 25",
+                "Opción B para la pregunta 25",
+                "Opción C para la pregunta 25",
+                "Opción D para la pregunta 25"
+            ],
+            "answer": "Opción A para la pregunta 25"
+        },
+        {
+            "question": "Pregunta de economía número 26",
+            "options": [
+                "Opción A para la pregunta 26",
+                "Opción B para la pregunta 26",
+                "Opción C para la pregunta 26",
+                "Opción D para la pregunta 26"
+            ],
+            "answer": "Opción A para la pregunta 26"
+        },
+        {
+            "question": "Pregunta de economía número 27",
+            "options": [
+                "Opción A para la pregunta 27",
+                "Opción B para la pregunta 27",
+                "Opción C para la pregunta 27",
+                "Opción D para la pregunta 27"
+            ],
+            "answer": "Opción A para la pregunta 27"
+        },
+        {
+            "question": "Pregunta de economía número 28",
+            "options": [
+                "Opción A para la pregunta 28",
+                "Opción B para la pregunta 28",
+                "Opción C para la pregunta 28",
+                "Opción D para la pregunta 28"
+            ],
+            "answer": "Opción A para la pregunta 28"
+        },
+        {
+            "question": "Pregunta de economía número 29",
+            "options": [
+                "Opción A para la pregunta 29",
+                "Opción B para la pregunta 29",
+                "Opción C para la pregunta 29",
+                "Opción D para la pregunta 29"
+            ],
+            "answer": "Opción A para la pregunta 29"
+        },
+        {
+            "question": "Pregunta de economía número 30",
+            "options": [
+                "Opción A para la pregunta 30",
+                "Opción B para la pregunta 30",
+                "Opción C para la pregunta 30",
+                "Opción D para la pregunta 30"
+            ],
+            "answer": "Opción A para la pregunta 30"
+        },
+        {
+            "question": "Pregunta de economía número 31",
+            "options": [
+                "Opción A para la pregunta 31",
+                "Opción B para la pregunta 31",
+                "Opción C para la pregunta 31",
+                "Opción D para la pregunta 31"
+            ],
+            "answer": "Opción A para la pregunta 31"
+        },
+        {
+            "question": "Pregunta de economía número 32",
+            "options": [
+                "Opción A para la pregunta 32",
+                "Opción B para la pregunta 32",
+                "Opción C para la pregunta 32",
+                "Opción D para la pregunta 32"
+            ],
+            "answer": "Opción A para la pregunta 32"
+        },
+        {
+            "question": "Pregunta de economía número 33",
+            "options": [
+                "Opción A para la pregunta 33",
+                "Opción B para la pregunta 33",
+                "Opción C para la pregunta 33",
+                "Opción D para la pregunta 33"
+            ],
+            "answer": "Opción A para la pregunta 33"
+        },
+        {
+            "question": "Pregunta de economía número 34",
+            "options": [
+                "Opción A para la pregunta 34",
+                "Opción B para la pregunta 34",
+                "Opción C para la pregunta 34",
+                "Opción D para la pregunta 34"
+            ],
+            "answer": "Opción A para la pregunta 34"
+        },
+        {
+            "question": "Pregunta de economía número 35",
+            "options": [
+                "Opción A para la pregunta 35",
+                "Opción B para la pregunta 35",
+                "Opción C para la pregunta 35",
+                "Opción D para la pregunta 35"
+            ],
+            "answer": "Opción A para la pregunta 35"
+        },
+        {
+            "question": "Pregunta de economía número 36",
+            "options": [
+                "Opción A para la pregunta 36",
+                "Opción B para la pregunta 36",
+                "Opción C para la pregunta 36",
+                "Opción D para la pregunta 36"
+            ],
+            "answer": "Opción A para la pregunta 36"
+        },
+        {
+            "question": "Pregunta de economía número 37",
+            "options": [
+                "Opción A para la pregunta 37",
+                "Opción B para la pregunta 37",
+                "Opción C para la pregunta 37",
+                "Opción D para la pregunta 37"
+            ],
+            "answer": "Opción A para la pregunta 37"
+        },
+        {
+            "question": "Pregunta de economía número 38",
+            "options": [
+                "Opción A para la pregunta 38",
+                "Opción B para la pregunta 38",
+                "Opción C para la pregunta 38",
+                "Opción D para la pregunta 38"
+            ],
+            "answer": "Opción A para la pregunta 38"
+        },
+        {
+            "question": "Pregunta de economía número 39",
+            "options": [
+                "Opción A para la pregunta 39",
+                "Opción B para la pregunta 39",
+                "Opción C para la pregunta 39",
+                "Opción D para la pregunta 39"
+            ],
+            "answer": "Opción A para la pregunta 39"
+        },
+        {
+            "question": "Pregunta de economía número 40",
+            "options": [
+                "Opción A para la pregunta 40",
+                "Opción B para la pregunta 40",
+                "Opción C para la pregunta 40",
+                "Opción D para la pregunta 40"
+            ],
+            "answer": "Opción A para la pregunta 40"
+        }
     ]
 }
