@@ -24,16 +24,35 @@
             display: inline-block;
             margin-bottom: 20px;
         }
+        .menu button {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+        }
         .menu-content {
             display: none;
             position: absolute;
-            background-color: #f9f9f9;
+            background-color: #ffffff;
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
             padding: 10px;
             z-index: 1;
+            list-style: none;
+            text-align: left;
+            width: 200px;
         }
         .menu:hover .menu-content {
             display: block;
+        }
+        .menu-content li {
+            padding: 8px 12px;
+        }
+        .menu-content li a {
+            display: block;
+            color: black;
+        }
+        .menu-content li a:hover {
+            background-color: #f1f1f1;
         }
         .footer {
             margin-top: 20px;
@@ -55,10 +74,10 @@
     <h1><a href="index.html">Microeconomía</a></h1>
     <div class="menu">
         <button>Seleccionar Quiz</button>
-        <div class="menu-content">
-            <p><a href="m1_a.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 1)</a></p>
-            <p><a href="m1_b.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 2)</a></p>
-        </div>
+        <ul class="menu-content">
+            <li><a href="m1_a.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 1)</a></li>
+            <li><a href="m1_b.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 2)</a></li>
+        </ul>
     </div>
     <iframe name="contentFrame" src="fondo.html"></iframe>
     <div class="footer">
