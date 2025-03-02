@@ -1,40 +1,204 @@
 {
     "questions": [
-        { "question": "What is the process by which plants convert sunlight into energy?", "options": ["Respiration", "Photosynthesis", "Combustion"], "answer": "Photosynthesis" },
-        { "question": "Which of the following is a synonym for 'sustainable'?", "options": ["Endurable", "Temporary", "Unsustainable"], "answer": "Endurable" },
-        { "question": "What is the Spanish translation of 'greenhouse effect'?", "options": ["Efecto invernadero", "Calentamiento global", "Cambio climático"], "answer": "Efecto invernadero" },
-        { "question": "What term describes the variety of life in a particular habitat or ecosystem?", "options": ["Extinction", "Biodiversity", "Climate"], "answer": "Biodiversity" },
-        { "question": "Which gas is the primary contributor to global warming?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen"], "answer": "Carbon dioxide" },
-        { "question": "What is a synonym for 'pollution'?", "options": ["Contamination", "Purification", "Restoration"], "answer": "Contamination" },
-        { "question": "What is the Spanish translation of 'renewable energy'?", "options": ["Energía fósil", "Energía renovable", "Energía nuclear"], "answer": "Energía renovable" },
-        { "question": "What is the term for the gradual increase in Earth's average temperature?", "options": ["Global cooling", "Global warming", "Climate neutrality"], "answer": "Global warming" },
-        { "question": "Which term describes the contamination of the Earth's atmosphere?", "options": ["Deforestation", "Air pollution", "Reforestation"], "answer": "Air pollution" },
-        { "question": "What is the Spanish translation of 'carbon footprint'?", "options": ["Huella ecológica", "Huella de carbono", "Emisión de gases"], "answer": "Huella de carbono" },
-        { "question": "What is the process of cutting down large areas of trees called?", "options": ["Afforestation", "Deforestation", "Reforestation"], "answer": "Deforestation" },
-        { "question": "Which of the following is a synonym for 'ecological'?", "options": ["Sustainable", "Artificial", "Toxic"], "answer": "Sustainable" },
-        { "question": "What is the Spanish translation of 'fossil fuels'?", "options": ["Energías fósiles", "Energía solar", "Combustibles renovables"], "answer": "Energías fósiles" },
-        { "question": "What is the process of converting waste materials into reusable materials?", "options": ["Recycling", "Littering", "Extracting"], "answer": "Recycling" },
-        { "question": "Which term refers to the loss of species from an ecosystem?", "options": ["Extinction", "Preservation", "Adaptation"], "answer": "Extinction" },
-        { "question": "What is the Spanish translation of 'ecosystem'?", "options": ["Biodiversidad", "Ecosistema", "Medio ambiente"], "answer": "Ecosistema" },
-        { "question": "What is the term for species that are at risk of extinction?", "options": ["Endangered", "Invasive", "Domesticated"], "answer": "Endangered" },
-        { "question": "What is the process by which water vapor turns into liquid?", "options": ["Evaporation", "Condensation", "Sublimation"], "answer": "Condensation" },
-        { "question": "What is the Spanish translation of 'sustainable development'?", "options": ["Desarrollo sostenible", "Expansión ecológica", "Progreso económico"], "answer": "Desarrollo sostenible" },
-        { "question": "Which of these is a synonym for 'conservation'?", "options": ["Preservation", "Exploitation", "Depletion"], "answer": "Preservation" },
-        { "question": "What is the Spanish translation of 'climate change'?", "options": ["Cambio climático", "Efecto invernadero", "Calentamiento artificial"], "answer": "Cambio climático" },
-        { "question": "What is the term for non-renewable energy sources formed over millions of years?", "options": ["Fossil fuels", "Solar power", "Wind energy"], "answer": "Fossil fuels" },
-        { "question": "Which of the following gases is NOT a greenhouse gas?", "options": ["Methane", "Oxygen", "Carbon dioxide"], "answer": "Oxygen" },
-        { "question": "What is the process by which soil loses its nutrients and becomes barren?", "options": ["Soil erosion", "Reforestation", "Afforestation"], "answer": "Soil erosion" },
-        { "question": "What is the Spanish translation of 'air pollution'?", "options": ["Contaminación del aire", "Emisión neutra", "Aire limpio"], "answer": "Contaminación del aire" },
-        { "question": "Which term refers to the excessive use of Earth's natural resources?", "options": ["Overexploitation", "Recycling", "Sustainability"], "answer": "Overexploitation" },
-        { "question": "What is the Spanish translation of 'waste management'?", "options": ["Manejo de residuos", "Basura reciclada", "Conservación del suelo"], "answer": "Manejo de residuos" },
-        { "question": "Which of the following is a synonym for 'emissions'?", "options": ["Discharges", "Reductions", "Absorptions"], "answer": "Discharges" },
-        { "question": "What is the term for the expansion of urban areas into natural environments?", "options": ["Urban sprawl", "Reforestation", "Erosion"], "answer": "Urban sprawl" },
-        { "question": "What is the Spanish translation of 'ecological footprint'?", "options": ["Huella ecológica", "Impacto climático", "Sostenibilidad del medio"], "answer": "Huella ecológica" },
-        { "question": "What is the process by which harmful substances accumulate in organisms?", "options": ["Bioaccumulation", "Evaporation", "Erosion"], "answer": "Bioaccumulation" },
-        { "question": "Which term refers to an organism introduced into an ecosystem where it is not native?", "options": ["Invasive species", "Endangered species", "Native species"], "answer": "Invasive species" },
-        { "question": "What is the Spanish translation of 'ozone layer'?", "options": ["Capa de ozono", "Capa atmosférica", "Atmósfera limpia"], "answer": "Capa de ozono" },
-        { "question": "Which of these is an example of a renewable energy source?", "options": ["Coal", "Wind", "Natural gas"], "answer": "Wind" },
-        { "question": "What is the Spanish translation of 'biodegradable'?", "options": ["Biodegradable", "Ecológico", "Reciclable"], "answer": "Biodegradable" },
-        { "question": "Which term refers to the ability of an environment to support itself without depletion?", "options": ["Sustainability", "Pollution", "Exploitation"], "answer": "Sustainability" }
+        {
+            "question": "¿Qué principio de Mankiw se refiere a que el comercio puede mejorar el bienestar de todos?",
+            "options": [
+                "Las personas enfrentan disyuntivas.",
+                "El comercio puede mejorar el bienestar de todos.",
+                "Los mercados normalmente son un buen mecanismo para organizar la actividad económica.",
+                "El gobierno puede mejorar los resultados del mercado."
+            ],
+            "answer": "El comercio puede mejorar el bienestar de todos."
+        },
+        {
+            "question": "¿Qué principio de Mankiw se refiere a que los mercados son generalmente un buen mecanismo para organizar la actividad económica?",
+            "options": [
+                "Las personas enfrentan disyuntivas.",
+                "El comercio puede mejorar el bienestar de todos.",
+                "Los mercados normalmente son un buen mecanismo para organizar la actividad económica.",
+                "El gobierno puede mejorar los resultados del mercado."
+            ],
+            "answer": "Los mercados normalmente son un buen mecanismo para organizar la actividad económica."
+        },
+        {
+            "question": "¿Qué principio de Mankiw se refiere a que el gobierno puede mejorar los resultados del mercado?",
+            "options": [
+                "Las personas enfrentan disyuntivas.",
+                "El comercio puede mejorar el bienestar de todos.",
+                "Los mercados normalmente son un buen mecanismo para organizar la actividad económica.",
+                "El gobierno puede mejorar los resultados del mercado."
+            ],
+            "answer": "El gobierno puede mejorar los resultados del mercado."
+        },
+        {
+            "question": "¿Qué es una economía de mercado?",
+            "options": [
+                "Una economía donde el gobierno controla todos los recursos.",
+                "Una economía que asigna recursos mediante decisiones descentralizadas de hogares y empresas.",
+                "Una economía basada en el trueque.",
+                "Una economía sin propiedad privada."
+            ],
+            "answer": "Una economía que asigna recursos mediante decisiones descentralizadas de hogares y empresas."
+        },
+        {
+            "question": "¿Qué son los derechos de propiedad en economía?",
+            "options": [
+                "La capacidad del gobierno para controlar los recursos.",
+                "La habilidad de las personas para tener y controlar recursos escasos.",
+                "Las leyes que regulan el comercio internacional.",
+                "Los impuestos que se aplican a los bienes privados."
+            ],
+            "answer": "La habilidad de las personas para tener y controlar recursos escasos."
+        },
+        {
+            "question": "¿Qué es la 'mano invisible' de Adam Smith?",
+            "options": [
+                "Un mecanismo gubernamental para regular los mercados.",
+                "La idea de que los mercados se autorregulan mediante la oferta y la demanda.",
+                "Un concepto que explica cómo el gobierno interviene en la economía.",
+                "Una teoría sobre la distribución equitativa de la riqueza."
+            ],
+            "answer": "La idea de que los mercados se autorregulan mediante la oferta y la demanda."
+        },
+        {
+            "question": "¿Qué es una falla del mercado?",
+            "options": [
+                "Una situación en la que el mercado asigna recursos eficientemente.",
+                "Una situación en la que el mercado, por sí solo, no asigna recursos eficientemente.",
+                "Un exceso de oferta en el mercado.",
+                "Una intervención gubernamental en el mercado."
+            ],
+            "answer": "Una situación en la que el mercado, por sí solo, no asigna recursos eficientemente."
+        },
+        {
+            "question": "¿Qué es el poder de mercado?",
+            "options": [
+                "La capacidad de un solo actor económico de influir en los precios.",
+                "La capacidad del gobierno para regular los mercados.",
+                "La habilidad de los consumidores para controlar los precios.",
+                "La falta de competencia en un mercado."
+            ],
+            "answer": "La capacidad de un solo actor económico de influir en los precios."
+        },
+        {
+            "question": "¿Qué es una externalidad?",
+            "options": [
+                "Un impuesto aplicado por el gobierno.",
+                "Un efecto secundario de una actividad que afecta a terceros no directamente involucrados.",
+                "Un subsidio proporcionado por el gobierno.",
+                "Un bien público proporcionado por el gobierno."
+            ],
+            "answer": "Un efecto secundario de una actividad que afecta a terceros no directamente involucrados."
+        },
+        {
+            "question": "¿Por qué el comercio entre países no es como un juego en el que unos ganan y otros pierden?",
+            "options": [
+                "Porque el comercio beneficia a ambos países mediante la especialización.",
+                "Porque el comercio siempre perjudica a los países más pobres.",
+                "Porque el comercio solo beneficia a los países exportadores.",
+                "Porque el comercio no tiene impacto en la economía de los países."
+            ],
+            "answer": "Porque el comercio beneficia a ambos países mediante la especialización."
+        },
+        {
+            "question": "¿Cuál es la función de la 'mano invisible' del mercado?",
+            "options": [
+                "Regular los precios mediante la intervención gubernamental.",
+                "Autorregular los mercados mediante la oferta y la demanda.",
+                "Distribuir la riqueza de manera equitativa.",
+                "Controlar los monopolios en el mercado."
+            ],
+            "answer": "Autorregular los mercados mediante la oferta y la demanda."
+        },
+        {
+            "question": "Explique dos causas principales de las fallas del mercado y dé un ejemplo de cada una.",
+            "options": [
+                "Externalidades y poder de mercado. Ejemplo: Contaminación (externalidad) y monopolios (poder de mercado).",
+                "Impuestos y subsidios. Ejemplo: Impuestos al consumo y subsidios agrícolas.",
+                "Inflación y desempleo. Ejemplo: Aumento de precios y falta de empleo.",
+                "Comercio internacional y globalización. Ejemplo: Exportaciones e importaciones."
+            ],
+            "answer": "Externalidades y poder de mercado. Ejemplo: Contaminación (externalidad) y monopolios (poder de mercado)."
+        },
+        {
+            "question": "Si su compañero cocina mejor que usted, pero usted limpia más rápido, ¿cómo pueden beneficiarse de la especialización?",
+            "options": [
+                "Su compañero cocina y usted limpia, ahorrando tiempo para ambos.",
+                "Ambos cocinan y limpian por igual, sin especialización.",
+                "Usted cocina y su compañero limpia, aunque no sea eficiente.",
+                "No hay beneficio en la especialización."
+            ],
+            "answer": "Su compañero cocina y usted limpia, ahorrando tiempo para ambos."
+        },
+        {
+            "question": "¿Cómo beneficia la especialización y el comercio a dos países?",
+            "options": [
+                "Ambos países producen lo que hacen mejor y comercian el excedente.",
+                "Un país se beneficia a expensas del otro.",
+                "La especialización no tiene impacto en el comercio.",
+                "El comercio solo beneficia a los países desarrollados."
+            ],
+            "answer": "Ambos países producen lo que hacen mejor y comercian el excedente."
+        },
+        {
+            "question": "¿Cuál de las siguientes actividades gubernamentales está tomando en cuenta la equidad?",
+            "options": [
+                "Repartir vales de comida entre los pobres.",
+                "Regular los precios de la televisión por cable.",
+                "Disolver una empresa monopolística.",
+                "Incrementar los impuestos a los altos ingresos."
+            ],
+            "answer": "Repartir vales de comida entre los pobres."
+        },
+        {
+            "question": "¿Cuál de las siguientes actividades gubernamentales está tomando en cuenta la eficiencia?",
+            "options": [
+                "Regular los precios de la televisión por cable.",
+                "Repartir vales de comida entre los pobres.",
+                "Prohibir fumar en lugares públicos.",
+                "Disolver una empresa monopolística."
+            ],
+            "answer": "Disolver una empresa monopolística."
+        },
+        {
+            "question": "¿Qué tipo de falla de mercado provoca la contaminación?",
+            "options": [
+                "Externalidad negativa.",
+                "Poder de mercado.",
+                "Falta de derechos de propiedad.",
+                "Inequidad en la distribución de recursos."
+            ],
+            "answer": "Externalidad negativa."
+        },
+        {
+            "question": "¿Qué tipo de falla de mercado provoca un monopolio?",
+            "options": [
+                "Externalidad negativa.",
+                "Poder de mercado.",
+                "Falta de derechos de propiedad.",
+                "Inequidad en la distribución de recursos."
+            ],
+            "answer": "Poder de mercado."
+        },
+        {
+            "question": "¿Qué es un bien público?",
+            "options": [
+                "Un bien que es proporcionado por el gobierno.",
+                "Un bien que no es excluyente y no rival en el consumo.",
+                "Un bien que solo puede ser consumido por una persona a la vez.",
+                "Un bien que es producido por empresas privadas."
+            ],
+            "answer": "Un bien que no es excluyente y no rival en el consumo."
+        },
+        {
+            "question": "¿Qué es un bien privado?",
+            "options": [
+                "Un bien que es proporcionado por el gobierno.",
+                "Un bien que es excluyente y rival en el consumo.",
+                "Un bien que no puede ser consumido por más de una persona a la vez.",
+                "Un bien que es producido por empresas públicas."
+            ],
+            "answer": "Un bien que es excluyente y rival en el consumo."
+        }
     ]
 }
