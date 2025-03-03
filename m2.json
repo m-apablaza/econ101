@@ -1,0 +1,300 @@
+{
+    "questions": [
+        {
+            "question": "¿Por qué la economía es considerada una ciencia?",
+            "options": [
+                "Porque utiliza experimentos de laboratorio.",
+                "Porque se basa en la observación, la formulación de teorías y la recopilación de datos.",
+                "Porque solo estudia temas relacionados con el dinero.",
+                "Porque no tiene relación con otras disciplinas científicas."
+            ],
+            "answer": "Porque se basa en la observación, la formulación de teorías y la recopilación de datos."
+        },
+        {
+            "question": "¿Por qué los economistas hacen supuestos?",
+            "options": [
+                "Para simplificar la realidad y facilitar el análisis.",
+                "Porque no tienen datos suficientes.",
+                "Para evitar hacer predicciones.",
+                "Porque los supuestos siempre son correctos."
+            ],
+            "answer": "Para simplificar la realidad y facilitar el análisis."
+        },
+        {
+            "question": "¿Los modelos económicos deben describir con exactitud la realidad?",
+            "options": [
+                "Sí, de lo contrario no son útiles.",
+                "No, porque simplifican la realidad para entenderla mejor.",
+                "Solo si se trata de microeconomía.",
+                "Depende del tipo de economía que se estudie."
+            ],
+            "answer": "No, porque simplifican la realidad para entenderla mejor."
+        },
+        {
+            "question": "¿Qué representa el flujo circular de la renta?",
+            "options": [
+                "El movimiento de bienes y servicios entre empresas.",
+                "El intercambio de dinero y recursos entre hogares y empresas en los mercados de factores y productos.",
+                "El flujo de exportaciones e importaciones entre países.",
+                "El movimiento de capitales en los mercados financieros."
+            ],
+            "answer": "El intercambio de dinero y recursos entre hogares y empresas en los mercados de factores y productos."
+        },
+        {
+            "question": "En el flujo circular de la renta, ¿qué representa el mercado de factores?",
+            "options": [
+                "El lugar donde se venden bienes y servicios.",
+                "El lugar donde los hogares venden su trabajo y las empresas compran recursos productivos.",
+                "El lugar donde se intercambian divisas.",
+                "El lugar donde se negocian acciones y bonos."
+            ],
+            "answer": "El lugar donde los hogares venden su trabajo y las empresas compran recursos productivos."
+        },
+        {
+            "question": "¿Qué es la frontera de posibilidades de producción (FPP)?",
+            "options": [
+                "Una curva que muestra las combinaciones máximas de bienes que una economía puede producir con sus recursos.",
+                "Una gráfica que muestra el crecimiento económico de un país.",
+                "Una línea que representa el equilibrio entre oferta y demanda.",
+                "Una curva que muestra la distribución de la riqueza en una sociedad."
+            ],
+            "answer": "Una curva que muestra las combinaciones máximas de bienes que una economía puede producir con sus recursos."
+        },
+        {
+            "question": "¿Qué le sucede a la FPP si una enfermedad mata a la mitad de las vacas en una economía que produce leche y galletas?",
+            "options": [
+                "La FPP se desplaza hacia afuera.",
+                "La FPP se desplaza hacia adentro.",
+                "La FPP no cambia.",
+                "La FPP se vuelve una línea recta."
+            ],
+            "answer": "La FPP se desplaza hacia adentro."
+        },
+        {
+            "question": "¿Qué representa un punto dentro de la FPP?",
+            "options": [
+                "Una combinación eficiente de producción.",
+                "Una combinación inalcanzable de producción.",
+                "Una combinación ineficiente de producción.",
+                "Un punto de equilibrio entre oferta y demanda."
+            ],
+            "answer": "Una combinación ineficiente de producción."
+        },
+        {
+            "question": "¿Qué es la eficiencia en términos de la FPP?",
+            "options": [
+                "Producir la máxima cantidad posible de un bien sin sacrificar la producción de otro.",
+                "Producir menos de lo que la economía es capaz.",
+                "Producir más de lo que la economía necesita.",
+                "Distribuir los recursos de manera equitativa."
+            ],
+            "answer": "Producir la máxima cantidad posible de un bien sin sacrificar la producción de otro."
+        },
+        {
+            "question": "¿Cuál es la diferencia entre microeconomía y macroeconomía?",
+            "options": [
+                "La microeconomía estudia el comportamiento de individuos y empresas, mientras que la macroeconomía estudia la economía en su conjunto.",
+                "La microeconomía estudia el comercio internacional, mientras que la macroeconomía estudia el desempleo.",
+                "La microeconomía se enfoca en políticas gubernamentales, mientras que la macroeconomía se enfoca en decisiones individuales.",
+                "No hay diferencia, son lo mismo."
+            ],
+            "answer": "La microeconomía estudia el comportamiento de individuos y empresas, mientras que la macroeconomía estudia la economía en su conjunto."
+        },
+        {
+            "question": "¿Qué es una afirmación positiva en economía?",
+            "options": [
+                "Una afirmación que describe cómo debería ser el mundo.",
+                "Una afirmación que describe cómo es el mundo.",
+                "Una afirmación basada en opiniones personales.",
+                "Una afirmación que no puede ser verificada."
+            ],
+            "answer": "Una afirmación que describe cómo es el mundo."
+        },
+        {
+            "question": "¿Qué es una afirmación normativa en economía?",
+            "options": [
+                "Una afirmación que describe cómo debería ser el mundo.",
+                "Una afirmación que describe cómo es el mundo.",
+                "Una afirmación basada en datos empíricos.",
+                "Una afirmación que no puede ser discutida."
+            ],
+            "answer": "Una afirmación que describe cómo debería ser el mundo."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debería reducir los impuestos.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'Un aumento en el salario mínimo reducirá el empleo.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'Es injusto que algunas personas ganen más que otras.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La inflación es causada por un exceso de dinero en circulación.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debe aumentar el gasto en educación.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El desempleo aumentó un 2% el año pasado.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La sociedad debe exigir a los beneficiarios de la asistencia social que busquen trabajo.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'Impuestos menores provocan más trabajo y más ahorro.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La Reserva Federal de Estados Unidos debe reducir la tasa de interés.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El PIB creció un 3% en el último trimestre.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debe priorizar la reducción de la pobreza sobre el crecimiento económico.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'Un aumento en el precio del petróleo reducirá el consumo de gasolina.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'Las empresas deben pagar salarios más altos a sus empleados.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La tasa de desempleo en España es del 12%.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debe subsidiar las energías renovables.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La producción de automóviles eléctricos ha aumentado un 20% este año.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El comercio internacional beneficia a todos los países involucrados.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debe prohibir la venta de productos no reciclables.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La inflación en Argentina superó el 50% el año pasado.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debe invertir más en infraestructura pública.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'La demanda de viviendas aumentó un 10% este año.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Positiva."
+        },
+        {
+            "question": "Clasifica la siguiente afirmación: 'El gobierno debe garantizar un salario mínimo digno para todos los trabajadores.'",
+            "options": [
+                "Positiva.",
+                "Normativa."
+            ],
+            "answer": "Normativa."
+        }
+    ]
+}
