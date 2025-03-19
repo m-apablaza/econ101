@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Consumo de Coca-Cola</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e61a27;
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="number"] {
+            width: 80px;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        button {
+            background-color: #e61a27;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #c4151f;
+        }
+        #results {
+            margin-top: 30px;
+            display: none;
+        }
+        #demandChart {
+            width: 100%;
+            height: 400px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cuestionario de Consumo de Coca-Cola</h1>
+        <p>Por favor, indique cuántas botellas de Coca-Cola de 500ml consumiría en un mes a los siguientes precios:</p>
+        
+        <form id="surveyForm">
+            <div class="question">
+                <label>Si el precio fuera $1.00 por botella, ¿cuántas compraría al mes?
+                <input type="number" id="price1" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $1.50 por botella, ¿cuántas compraría al mes?
+                <input type="number" id="price2" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $2.00 por botella, ¿cuántas compraría al mes?
+                <input type="number" id="price3" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $2.50 por botella, ¿cuántas compraría al mes?
+                <input type="number" id="price4" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $3.00 por botella, ¿cuántas compraría al mes?
+                <input type="number" id="price5" min="0" value="0">
+                </label>
+            </div>
+            
+            <button type="button" onclick="generateDemandCurve()">Generar Gráfico de Demanda</button>
+        </form>
+        
+        <div id="results">
+            <h2>Curva de Demanda</h2>
+            <div id="demandChart"></div>
+            <div id="dataAnalysis"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script>
+        function generateDemandCurve() {
+            // Obtener valores del formulario
+            const quantities = [
+                parseInt(document.getElementById("price1").value) || 0,
+                parseInt(document.getElementById("price2").value) || 0,
+                parseInt(document.getElementById("price3").value) || 0,
+                parseInt(document.getElementById("price4").value) || 0,
+                parseInt(document.getElementById("price5").value) || 0
+            ];
+            
+            const prices = [1.00, 1.50, 2.00, 2.50, 3.00];
+            
+            // Mostrar resultados
+            document.getElementById("results").style.display = "block";
+            
+            // Crear el gráfico de demanda
+            const ctx = document.getElementById('demandChart').getContext('2d');
+            
+            // Destruir el gráfico anterior si existe
+            if (window.demandChart) {
+                window.demandChart.destroy();
+            }
+            
+            window.demandChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: prices.map(price => `$${price.toFixed(2)}`),
+                    datasets: [{
+                        label: 'Cantidad demandada',
+                        data: quantities,
+                        backgroundColor: 'rgba(230, 26, 39, 0.2)',
+                        borderColor: 'rgba(230, 26, 39, 1)',
+                        borderWidth: 2,
+                        pointBackgroundColor: 'rgba(230, 26, 39, 1)',
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Cantidad (botellas/mes)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Precio por botella'
+                            }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Curva de Demanda de Coca-Cola',
+                            font: {
+                                size: 18
+                            }
+                        }
+                    }
+                }
+            });
+            
+            // Análisis simple de elasticidad
+            let analysisHtml = "<h3>Análisis de Datos</h3>";
+            
+            // Calcular elasticidad entre puntos
+            let elasticityPoints = [];
+            for (let i = 0; i < prices.length - 1; i++) {
+                if (quantities[i] > 0 && quantities[i+1] > 0) {
+                    const percentChangeQ = (quantities[i+1] - quantities[i]) / quantities[i];
+                    const percentChangeP = (prices[i+1] - prices[i]) / prices[i];
+                    const elasticity = Math.abs(percentChangeQ / percentChangeP);
+                    
+                    elasticityPoints.push({
+                        priceRange: `$${prices[i].toFixed(2)} - $${prices[i+1].toFixed(2)}`,
+                        elasticity: elasticity.toFixed(2)
+                    });
+                }
+            }
+            
+            if (elasticityPoints.length > 0) {
+                analysisHtml += "<p>Elasticidad precio de la demanda:</p><ul>";
+                elasticityPoints.forEach(point => {
+                    let interpretation = "";
+                    const elasticity = parseFloat(point.elasticity);
+                    
+                    if (elasticity > 1) {
+                        interpretation = "Demanda elástica";
+                    } else if (elasticity < 1) {
+                        interpretation = "Demanda inelástica";
+                    } else {
+                        interpretation = "Elasticidad unitaria";
+                    }
+                    
+                    analysisHtml += `<li>Rango de precios ${point.priceRange}: ${point.elasticity} (${interpretation})</li>`;
+                });
+                analysisHtml += "</ul>";
+            } else {
+                analysisHtml += "<p>Complete el formulario con cantidades válidas para ver el análisis de elasticidad.</p>";
+            }
+            
+            document.getElementById("dataAnalysis").innerHTML = analysisHtml;
+        }
+    </script>
+</body>
+</html>
