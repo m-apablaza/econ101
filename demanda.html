@@ -220,7 +220,7 @@
         datasets: [{
             label: 'Precio por lata',
             data: sortedQuantities.map((quantity, index) => ({
-                x: quantity, // Cantidad en el eje x
+                x: quantity, // Cantidad en el eje x (numérico)
                 y: sortedPrices[index] // Precio en el eje y
             })),
             backgroundColor: 'rgba(230, 26, 39, 0.8)', // Color de los puntos
@@ -251,7 +251,10 @@
                     font: {
                         size: 12
                     },
-                    stepSize: 1 // Asegura que los incrementos sean de 1 en 1
+                    stepSize: 1, // Asegura que los incrementos sean de 1 en 1
+                    callback: function(value) {
+                        return `${value} latas`; // Formatear las etiquetas como "X latas"
+                    }
                 }
             },
             y: {
