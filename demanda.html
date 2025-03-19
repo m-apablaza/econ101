@@ -1,324 +1,126 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuestionario de Consumo de Coca-Cola</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f8f8f8;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #e61a27;
-            text-align: center;
-        }
-        .question {
-            margin-bottom: 20px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input[type="number"] {
-            width: 80px;
-            padding: 5px;
-            margin-left: 10px;
-        }
-        button {
-            background-color: #e61a27;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        button:hover {
-            background-color: #c4151f;
-        }
-        #results {
-            margin-top: 30px;
-        }
-        .chart-container {
-            width: 567px; /* 15cm en pixeles (1cm ≈ 37.8px) */
-            height: 567px;
-            margin: 20px auto;
-            border: 1px solid #ddd;
-        }
-        #demandChart {
-            width: 100%;
-            height: 100%;
-        }
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        .data-table th, .data-table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        .data-table th {
-            background-color: #f2f2f2;
-        }
-        .data-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Cuestionario de Consumo de Coca-Cola</h1>
-        <p>Por favor, indique cuántas latas de Coca-Cola consumiría en un mes a los siguientes precios:</p>
+<script>
+    let demandChart = null;
+    
+    function generateDemandCurve() {
+        // Obtener valores del formulario
+        const quantities = [
+            parseInt(document.getElementById("price1").value) || 0,
+            parseInt(document.getElementById("price2").value) || 0,
+            parseInt(document.getElementById("price3").value) || 0,
+            parseInt(document.getElementById("price4").value) || 0,
+            parseInt(document.getElementById("price5").value) || 0,
+            parseInt(document.getElementById("price6").value) || 0,
+            parseInt(document.getElementById("price7").value) || 0
+        ];
         
-        <form id="surveyForm">
-            <div class="question">
-                <label>Si el precio fuera $0 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price1" min="0" value="0">
-                </label>
-            </div>
-            
-            <div class="question">
-                <label>Si el precio fuera $250 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price2" min="0" value="0">
-                </label>
-            </div>
-            
-            <div class="question">
-                <label>Si el precio fuera $500 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price3" min="0" value="0">
-                </label>
-            </div>
-            
-            <div class="question">
-                <label>Si el precio fuera $750 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price4" min="0" value="0">
-                </label>
-            </div>
-            
-            <div class="question">
-                <label>Si el precio fuera $1000 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price5" min="0" value="0">
-                </label>
-            </div>
-            
-            <div class="question">
-                <label>Si el precio fuera $1250 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price6" min="0" value="0">
-                </label>
-            </div>
-            
-            <div class="question">
-                <label>Si el precio fuera $1500 por lata, ¿cuántas compraría al mes?
-                <input type="number" id="price7" min="0" value="0">
-                </label>
-            </div>
-            
-            <button type="button" onclick="generateDemandCurve()">Generar Gráfico de Demanda</button>
-        </form>
+        const prices = [0, 250, 500, 750, 1000, 1250, 1500];
         
-        <div id="results" style="display:none;">
-            <h2>Datos de Demanda</h2>
-            <div id="dataTable"></div>
-            
-            <h2>Curva de Demanda</h2>
-            <div class="chart-container">
-                <canvas id="demandChart"></canvas>
-            </div>
-            <div id="dataAnalysis"></div>
-        </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
-    <script>
-        let demandChart = null;
+        // Mostrar resultados
+        document.getElementById("results").style.display = "block";
         
-        function generateDemandCurve() {
-            // Obtener valores del formulario
-            const quantities = [
-                parseInt(document.getElementById("price1").value) || 0,
-                parseInt(document.getElementById("price2").value) || 0,
-                parseInt(document.getElementById("price3").value) || 0,
-                parseInt(document.getElementById("price4").value) || 0,
-                parseInt(document.getElementById("price5").value) || 0,
-                parseInt(document.getElementById("price6").value) || 0,
-                parseInt(document.getElementById("price7").value) || 0
-            ];
-            
-            const prices = [0, 250, 500, 750, 1000, 1250, 1500];
-            
-            // Mostrar resultados
-            document.getElementById("results").style.display = "block";
-            
-            // Crear tabla de datos
-            let tableHtml = `
-                <table class="data-table">
-                    <thead>
-                        <tr>
-                            <th>Precio (pesos)</th>
-                            <th>Cantidad demandada (latas/mes)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-            `;
-            
-            for (let i = 0; i < prices.length; i++) {
-                tableHtml += `
+        // Crear tabla de datos
+        let tableHtml = `
+            <table class="data-table">
+                <thead>
                     <tr>
-                        <td>$${prices[i]}</td>
-                        <td>${quantities[i]}</td>
+                        <th>Cantidad demandada (latas/mes)</th>
+                        <th>Precio (pesos)</th>
                     </tr>
-                `;
-            }
-            
+                </thead>
+                <tbody>
+        `;
+        
+        for (let i = 0; i < prices.length; i++) {
             tableHtml += `
-                    </tbody>
-                </table>
+                <tr>
+                    <td>${quantities[i]}</td>
+                    <td>$${prices[i]}</td>
+                </tr>
             `;
-            
-            document.getElementById("dataTable").innerHTML = tableHtml;
-            
-            // Crear el gráfico de demanda
-            const ctx = document.getElementById('demandChart').getContext('2d');
-            
-            // Destruir el gráfico anterior si existe
-            if (demandChart) {
-                demandChart.destroy();
-            }
-            
-            demandChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: prices.map(price => `$${price}`),
-                    datasets: [{
-                        label: 'Cantidad demandada',
-                        data: quantities,
-                        backgroundColor: 'rgba(230, 26, 39, 0.2)',
-                        borderColor: 'rgba(230, 26, 39, 1)',
-                        borderWidth: 3,
-                        pointBackgroundColor: 'rgba(230, 26, 39, 1)',
-                        pointRadius: 6,
-                        tension: 0.1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    aspectRatio: 1, // Hace que el gráfico sea cuadrado
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'Cantidad demandada (latas/mes)',
-                                font: {
-                                    size: 14,
-                                    weight: 'bold'
-                                }
-                            },
-                            ticks: {
-                                font: {
-                                    size: 12
-                                }
-                            }
-                        },
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Precio por lata (pesos)',
-                                font: {
-                                    size: 14,
-                                    weight: 'bold'
-                                }
-                            },
-                            ticks: {
-                                font: {
-                                    size: 12
-                                }
-                            }
-                        }
-                    },
-                    plugins: {
+        }
+        
+        tableHtml += `
+                </tbody>
+            </table>
+        `;
+        
+        document.getElementById("dataTable").innerHTML = tableHtml;
+        
+        // Crear el gráfico de demanda
+        const ctx = document.getElementById('demandChart').getContext('2d');
+        
+        // Destruir el gráfico anterior si existe
+        if (demandChart) {
+            demandChart.destroy();
+        }
+        
+        demandChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: quantities, // Eje X: Cantidad demandada
+                datasets: [{
+                    label: 'Precio (pesos)',
+                    data: prices, // Eje Y: Precio por lata
+                    backgroundColor: 'rgba(230, 26, 39, 0.2)',
+                    borderColor: 'rgba(230, 26, 39, 1)',
+                    borderWidth: 3,
+                    pointBackgroundColor: 'rgba(230, 26, 39, 1)',
+                    pointRadius: 6,
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                aspectRatio: 1,
+                scales: {
+                    x: {
                         title: {
                             display: true,
-                            text: 'Curva de Demanda de Coca-Cola',
+                            text: 'Cantidad demandada (latas/mes)',
                             font: {
-                                size: 18,
+                                size: 14,
                                 weight: 'bold'
                             }
                         },
-                        legend: {
+                        ticks: {
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        title: {
                             display: true,
-                            position: 'top'
+                            text: 'Precio por lata (pesos)',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        ticks: {
+                            font: {
+                                size: 12
+                            }
                         }
                     }
-                }
-            });
-            
-            // Análisis simple de elasticidad
-            let analysisHtml = "<h3>Análisis de Datos</h3>";
-            
-            // Calcular elasticidad entre puntos
-            let elasticityPoints = [];
-            for (let i = 0; i < prices.length - 1; i++) {
-                // Saltamos el cálculo si alguna cantidad es 0, o si el precio es 0 (indefinición)
-                if (quantities[i] > 0 && quantities[i+1] > 0 && prices[i] > 0) {
-                    const percentChangeQ = (quantities[i+1] - quantities[i]) / quantities[i];
-                    const percentChangeP = (prices[i+1] - prices[i]) / prices[i];
-                    const elasticity = Math.abs(percentChangeQ / percentChangeP);
-                    
-                    elasticityPoints.push({
-                        priceRange: `$${prices[i]} - $${prices[i+1]}`,
-                        elasticity: elasticity.toFixed(2)
-                    });
-                }
-            }
-            
-            if (elasticityPoints.length > 0) {
-                analysisHtml += "<p>Elasticidad precio de la demanda:</p><ul>";
-                elasticityPoints.forEach(point => {
-                    let interpretation = "";
-                    const elasticity = parseFloat(point.elasticity);
-                    
-                    if (elasticity > 1) {
-                        interpretation = "Demanda elástica";
-                    } else if (elasticity < 1) {
-                        interpretation = "Demanda inelástica";
-                    } else {
-                        interpretation = "Elasticidad unitaria";
+                },
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Curva de Demanda de Coca-Cola',
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
                     }
-                    
-                    analysisHtml += `<li>Rango de precios ${point.priceRange}: ${point.elasticity} (${interpretation})</li>`;
-                });
-                analysisHtml += "</ul>";
-            } else {
-                analysisHtml += "<p>Complete el formulario con cantidades válidas para ver el análisis de elasticidad. Recuerde que necesitamos al menos dos puntos con cantidades mayores a cero y el primer punto debe tener un precio mayor a cero para calcular la elasticidad.</p>";
+                }
             }
-            
-            document.getElementById("dataAnalysis").innerHTML = analysisHtml;
-        }
-        
-        // Asegurarnos de que Chart.js está disponible
-        window.onload = function() {
-            if (typeof Chart === 'undefined') {
-                alert("Error: No se pudo cargar la biblioteca Chart.js. Por favor, compruebe su conexión a Internet.");
-            }
-        };
-    </script>
-</body>
-</html>
+        });
+    }
+</script>
