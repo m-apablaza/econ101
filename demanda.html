@@ -215,76 +215,75 @@
             }
             
             demandChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: sortedQuantities, // Cantidades ordenadas en el eje x
-                    datasets: [{
-                        label: 'Precio por lata',
-                        data: sortedPrices, // Precios correspondientes en el eje y
-                        backgroundColor: 'rgba(230, 26, 39, 0.2)',
-                        borderColor: 'rgba(230, 26, 39, 1)',
-                        borderWidth: 3,
-                        pointBackgroundColor: 'rgba(230, 26, 39, 1)',
-                        pointRadius: 6,
-                        tension: 0.1
-                    }]
+    type: 'line',
+    data: {
+        labels: sortedQuantities.map(q => `${q} latas`), // Etiquetas formateadas
+        datasets: [{
+            label: 'Precio por lata',
+            data: sortedPrices, // Precios correspondientes en el eje y
+            backgroundColor: 'rgba(230, 26, 39, 0.2)',
+            borderColor: 'rgba(230, 26, 39, 1)',
+            borderWidth: 3,
+            pointBackgroundColor: 'rgba(230, 26, 39, 1)',
+            pointRadius: 6,
+            tension: 0.1
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        aspectRatio: 1, // Hace que el gráfico sea cuadrado
+        scales: {
+            x: {
+                beginAtZero: true, // Forzar que el eje x comience en 0
+                title: {
+                    display: true,
+                    text: 'Cantidad demandada (latas/mes)',
+                    font: {
+                        size: 14,
+                        weight: 'bold'
+                    }
                 },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    aspectRatio: 1, // Hace que el gráfico sea cuadrado
-                    scales: {
-                        x: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'Cantidad demandada (latas/mes)',
-                                font: {
-                                    size: 14,
-                                    weight: 'bold'
-                                }
-                            },
-                            ticks: {
-                                font: {
-                                    size: 12
-                                },
-                                stepSize: 1, // Asegura que los incrementos sean de 1 en 1
-                                min: 0
-                            }
-                        },
-                        y: {
-                            title: {
-                                display: true,
-                                text: 'Precio por lata (pesos)',
-                                font: {
-                                    size: 14,
-                                    weight: 'bold'
-                                }
-                            },
-                            ticks: {
-                                font: {
-                                    size: 12
-                                }
-                            }
-                        }
+                ticks: {
+                    font: {
+                        size: 12
                     },
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Curva de Demanda de Coca-Cola',
-                            font: {
-                                size: 18,
-                                weight: 'bold'
-                            }
-                        },
-                        legend: {
-                            display: true,
-                            position: 'top'
-                        }
+                    stepSize: 1, // Asegura que los incrementos sean de 1 en 1
+                    min: 0 // Forzar que el mínimo sea 0
+                }
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: 'Precio por lata (pesos)',
+                    font: {
+                        size: 14,
+                        weight: 'bold'
+                    }
+                },
+                ticks: {
+                    font: {
+                        size: 12
                     }
                 }
-            });
-            
+            }
+        },
+        plugins: {
+            title: {
+                display: true,
+                text: 'Curva de Demanda de Coca-Cola',
+                font: {
+                    size: 18,
+                    weight: 'bold'
+                }
+            },
+            legend: {
+                display: true,
+                position: 'top'
+            }
+        }
+    }
+});            
             // Análisis simple de elasticidad
             let analysisHtml = "<h3>Análisis de Datos</h3>";
             
