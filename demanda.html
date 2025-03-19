@@ -215,18 +215,20 @@
             }
             
             demandChart = new Chart(ctx, {
-    type: 'line',
+    type: 'scatter', // Cambiar a scatter plot
     data: {
-        labels: sortedQuantities.map(q => `${q} latas`), // Etiquetas formateadas
         datasets: [{
             label: 'Precio por lata',
-            data: sortedPrices, // Precios correspondientes en el eje y
-            backgroundColor: 'rgba(230, 26, 39, 0.2)',
+            data: sortedQuantities.map((quantity, index) => ({
+                x: quantity, // Cantidad en el eje x
+                y: sortedPrices[index] // Precio en el eje y
+            })),
+            backgroundColor: 'rgba(230, 26, 39, 0.8)', // Color de los puntos
             borderColor: 'rgba(230, 26, 39, 1)',
-            borderWidth: 3,
-            pointBackgroundColor: 'rgba(230, 26, 39, 1)',
+            borderWidth: 2,
             pointRadius: 6,
-            tension: 0.1
+            showLine: true, // Conectar los puntos con una línea
+            tension: 0.1 // Suavizar la línea
         }]
     },
     options: {
@@ -235,6 +237,7 @@
         aspectRatio: 1, // Hace que el gráfico sea cuadrado
         scales: {
             x: {
+                type: 'linear', // Eje x numérico
                 beginAtZero: true, // Forzar que el eje x comience en 0
                 title: {
                     display: true,
@@ -248,11 +251,12 @@
                     font: {
                         size: 12
                     },
-                    stepSize: 1, // Asegura que los incrementos sean de 1 en 1
-                    min: 0 // Forzar que el mínimo sea 0
+                    stepSize: 1 // Asegura que los incrementos sean de 1 en 1
                 }
             },
             y: {
+                type: 'linear', // Eje y numérico
+                beginAtZero: true, // Forzar que el eje y comience en 0
                 title: {
                     display: true,
                     text: 'Precio por lata (pesos)',
@@ -283,7 +287,7 @@
             }
         }
     }
-});            
+});
             // Análisis simple de elasticidad
             let analysisHtml = "<h3>Análisis de Datos</h3>";
             
