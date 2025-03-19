@@ -53,11 +53,15 @@
         #results {
             margin-top: 30px;
         }
+        .chart-container {
+            width: 189px; /* Aproximadamente 5cm en pixeles (1cm ≈ 37.8px) */
+            height: 189px;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+        }
         #demandChart {
             width: 100%;
-            height: 400px;
-            margin-top: 20px;
-            border: 1px solid #ddd;
+            height: 100%;
         }
     </style>
 </head>
@@ -126,7 +130,9 @@
         
         <div id="results" style="display:none;">
             <h2>Curva de Demanda</h2>
-            <canvas id="demandChart"></canvas>
+            <div class="chart-container">
+                <canvas id="demandChart"></canvas>
+            </div>
             <div id="dataAnalysis"></div>
         </div>
     </div>
@@ -167,7 +173,7 @@
                 data: {
                     labels: prices.map(price => `$${price}`),
                     datasets: [{
-                        label: 'Cantidad demandada',
+                        label: 'Cantidad',
                         data: quantities,
                         backgroundColor: 'rgba(230, 26, 39, 0.2)',
                         borderColor: 'rgba(230, 26, 39, 1)',
@@ -178,32 +184,39 @@
                 },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: false,
+                    maintainAspectRatio: true,
+                    aspectRatio: 1, // Hace que el gráfico sea cuadrado
                     scales: {
                         y: {
                             beginAtZero: true,
                             title: {
-                                display: true,
-                                text: 'Cantidad (latas/mes)'
+                                display: false // Quita el título del eje Y para ahorrar espacio
+                            },
+                            ticks: {
+                                font: {
+                                    size: 8 // Fuente más pequeña
+                                }
                             }
                         },
                         x: {
                             title: {
-                                display: true,
-                                text: 'Precio por lata (pesos)'
+                                display: false // Quita el título del eje X para ahorrar espacio
+                            },
+                            ticks: {
+                                font: {
+                                    size: 8 // Fuente más pequeña
+                                },
+                                maxRotation: 45,
+                                minRotation: 45
                             }
                         }
                     },
                     plugins: {
                         title: {
-                            display: true,
-                            text: 'Curva de Demanda de Coca-Cola',
-                            font: {
-                                size: 18
-                            }
+                            display: false // Quita el título del gráfico para ahorrar espacio
                         },
                         legend: {
-                            display: true
+                            display: false // Quita la leyenda para ahorrar espacio
                         }
                     }
                 }
