@@ -5,80 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuestionario de Consumo de Coca-Cola</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f8f8f8;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #e61a27;
-            text-align: center;
-        }
-        .question {
-            margin-bottom: 20px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input[type="number"] {
-            width: 80px;
-            padding: 5px;
-            margin-left: 10px;
-        }
-        button {
-            background-color: #e61a27;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-        button:hover {
-            background-color: #c4151f;
-        }
-        #results {
-            margin-top: 30px;
-        }
-        .chart-container {
-            width: 567px; /* 15cm en pixeles (1cm ≈ 37.8px) */
-            height: 567px;
-            margin: 20px auto;
-            border: 1px solid #ddd;
-        }
-        #demandChart {
-            width: 100%;
-            height: 100%;
-        }
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        .data-table th, .data-table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        .data-table th {
-            background-color: #f2f2f2;
-        }
-        .data-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
+        /* Estilos anteriores... */
     </style>
 </head>
 <body>
@@ -162,6 +89,19 @@
             
             const prices = [0, 250, 500, 750, 1000, 1250, 1500];
             
+            // Combinar cantidades y precios en un array de objetos para ordenar
+            const data = quantities.map((quantity, index) => ({
+                quantity: quantity,
+                price: prices[index]
+            }));
+            
+            // Ordenar los datos por cantidad (de menor a mayor)
+            data.sort((a, b) => a.quantity - b.quantity);
+            
+            // Separar las cantidades y precios ordenados
+            const sortedQuantities = data.map(item => item.quantity);
+            const sortedPrices = data.map(item => item.price);
+            
             // Mostrar resultados
             document.getElementById("results").style.display = "block";
             
@@ -177,11 +117,11 @@
                     <tbody>
             `;
             
-            for (let i = 0; i < prices.length; i++) {
+            for (let i = 0; i < sortedQuantities.length; i++) {
                 tableHtml += `
                     <tr>
-                        <td>${quantities[i]}</td>
-                        <td>$${prices[i]}</td>
+                        <td>${sortedQuantities[i]}</td>
+                        <td>$${sortedPrices[i]}</td>
                     </tr>
                 `;
             }
@@ -204,10 +144,10 @@
             demandChart = new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: quantities, // Ahora las cantidades son las etiquetas del eje x
+                    labels: sortedQuantities, // Cantidades ordenadas en el eje x
                     datasets: [{
                         label: 'Precio por lata',
-                        data: prices, // Ahora los precios son los datos del eje y
+                        data: sortedPrices, // Precios correspondientes en el eje y
                         backgroundColor: 'rgba(230, 26, 39, 0.2)',
                         borderColor: 'rgba(230, 26, 39, 1)',
                         borderWidth: 3,
@@ -234,7 +174,8 @@
                             ticks: {
                                 font: {
                                     size: 12
-                                }
+                                },
+                                stepSize: 1 // Asegura que los incrementos sean de 1 en 1
                             }
                         },
                         y: {
@@ -275,15 +216,15 @@
             
             // Calcular elasticidad entre puntos
             let elasticityPoints = [];
-            for (let i = 0; i < prices.length - 1; i++) {
+            for (let i = 0; i < sortedPrices.length - 1; i++) {
                 // Saltamos el cálculo si alguna cantidad es 0, o si el precio es 0 (indefinición)
-                if (quantities[i] > 0 && quantities[i+1] > 0 && prices[i] > 0) {
-                    const percentChangeQ = (quantities[i+1] - quantities[i]) / quantities[i];
-                    const percentChangeP = (prices[i+1] - prices[i]) / prices[i];
+                if (sortedQuantities[i] > 0 && sortedQuantities[i+1] > 0 && sortedPrices[i] > 0) {
+                    const percentChangeQ = (sortedQuantities[i+1] - sortedQuantities[i]) / sortedQuantities[i];
+                    const percentChangeP = (sortedPrices[i+1] - sortedPrices[i]) / sortedPrices[i];
                     const elasticity = Math.abs(percentChangeQ / percentChangeP);
                     
                     elasticityPoints.push({
-                        priceRange: `$${prices[i]} - $${prices[i+1]}`,
+                        priceRange: `$${sortedPrices[i]} - $${sortedPrices[i+1]}`,
                         elasticity: elasticity.toFixed(2)
                     });
                 }
