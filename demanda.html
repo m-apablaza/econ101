@@ -52,63 +52,89 @@
         }
         #results {
             margin-top: 30px;
-            display: none;
         }
         #demandChart {
             width: 100%;
             height: 400px;
             margin-top: 20px;
+            border: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Cuestionario de Consumo de Coca-Cola</h1>
-        <p>Por favor, indique cuántas botellas de Coca-Cola de 500ml consumiría en un mes a los siguientes precios:</p>
+        <p>Por favor, indique cuántas latas de Coca-Cola consumiría en un mes a los siguientes precios:</p>
         
         <form id="surveyForm">
             <div class="question">
-                <label>Si el precio fuera $1.00 por botella, ¿cuántas compraría al mes?
+                <label>Si el precio fuera $0 por lata, ¿cuántas compraría al mes?
                 <input type="number" id="price1" min="0" value="0">
                 </label>
             </div>
             
             <div class="question">
-                <label>Si el precio fuera $1.50 por botella, ¿cuántas compraría al mes?
+                <label>Si el precio fuera $250 por lata, ¿cuántas compraría al mes?
                 <input type="number" id="price2" min="0" value="0">
                 </label>
             </div>
             
             <div class="question">
-                <label>Si el precio fuera $2.00 por botella, ¿cuántas compraría al mes?
+                <label>Si el precio fuera $500 por lata, ¿cuántas compraría al mes?
                 <input type="number" id="price3" min="0" value="0">
                 </label>
             </div>
             
             <div class="question">
-                <label>Si el precio fuera $2.50 por botella, ¿cuántas compraría al mes?
+                <label>Si el precio fuera $750 por lata, ¿cuántas compraría al mes?
                 <input type="number" id="price4" min="0" value="0">
                 </label>
             </div>
             
             <div class="question">
-                <label>Si el precio fuera $3.00 por botella, ¿cuántas compraría al mes?
+                <label>Si el precio fuera $1000 por lata, ¿cuántas compraría al mes?
                 <input type="number" id="price5" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $1250 por lata, ¿cuántas compraría al mes?
+                <input type="number" id="price6" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $1500 por lata, ¿cuántas compraría al mes?
+                <input type="number" id="price7" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $1750 por lata, ¿cuántas compraría al mes?
+                <input type="number" id="price8" min="0" value="0">
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>Si el precio fuera $2000 por lata, ¿cuántas compraría al mes?
+                <input type="number" id="price9" min="0" value="0">
                 </label>
             </div>
             
             <button type="button" onclick="generateDemandCurve()">Generar Gráfico de Demanda</button>
         </form>
         
-        <div id="results">
+        <div id="results" style="display:none;">
             <h2>Curva de Demanda</h2>
-            <div id="demandChart"></div>
+            <canvas id="demandChart"></canvas>
             <div id="dataAnalysis"></div>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
     <script>
+        let demandChart = null;
+        
         function generateDemandCurve() {
             // Obtener valores del formulario
             const quantities = [
@@ -116,10 +142,14 @@
                 parseInt(document.getElementById("price2").value) || 0,
                 parseInt(document.getElementById("price3").value) || 0,
                 parseInt(document.getElementById("price4").value) || 0,
-                parseInt(document.getElementById("price5").value) || 0
+                parseInt(document.getElementById("price5").value) || 0,
+                parseInt(document.getElementById("price6").value) || 0,
+                parseInt(document.getElementById("price7").value) || 0,
+                parseInt(document.getElementById("price8").value) || 0,
+                parseInt(document.getElementById("price9").value) || 0
             ];
             
-            const prices = [1.00, 1.50, 2.00, 2.50, 3.00];
+            const prices = [0, 250, 500, 750, 1000, 1250, 1500, 1750, 2000];
             
             // Mostrar resultados
             document.getElementById("results").style.display = "block";
@@ -128,14 +158,14 @@
             const ctx = document.getElementById('demandChart').getContext('2d');
             
             // Destruir el gráfico anterior si existe
-            if (window.demandChart) {
-                window.demandChart.destroy();
+            if (demandChart) {
+                demandChart.destroy();
             }
             
-            window.demandChart = new Chart(ctx, {
+            demandChart = new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: prices.map(price => `$${price.toFixed(2)}`),
+                    labels: prices.map(price => `$${price}`),
                     datasets: [{
                         label: 'Cantidad demandada',
                         data: quantities,
@@ -147,18 +177,20 @@
                     }]
                 },
                 options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
                             beginAtZero: true,
                             title: {
                                 display: true,
-                                text: 'Cantidad (botellas/mes)'
+                                text: 'Cantidad (latas/mes)'
                             }
                         },
                         x: {
                             title: {
                                 display: true,
-                                text: 'Precio por botella'
+                                text: 'Precio por lata (pesos)'
                             }
                         }
                     },
@@ -169,6 +201,9 @@
                             font: {
                                 size: 18
                             }
+                        },
+                        legend: {
+                            display: true
                         }
                     }
                 }
@@ -180,13 +215,14 @@
             // Calcular elasticidad entre puntos
             let elasticityPoints = [];
             for (let i = 0; i < prices.length - 1; i++) {
-                if (quantities[i] > 0 && quantities[i+1] > 0) {
+                // Saltamos el cálculo si alguna cantidad es 0, o si el precio es 0 (indefinición)
+                if (quantities[i] > 0 && quantities[i+1] > 0 && prices[i] > 0) {
                     const percentChangeQ = (quantities[i+1] - quantities[i]) / quantities[i];
                     const percentChangeP = (prices[i+1] - prices[i]) / prices[i];
                     const elasticity = Math.abs(percentChangeQ / percentChangeP);
                     
                     elasticityPoints.push({
-                        priceRange: `$${prices[i].toFixed(2)} - $${prices[i+1].toFixed(2)}`,
+                        priceRange: `$${prices[i]} - $${prices[i+1]}`,
                         elasticity: elasticity.toFixed(2)
                     });
                 }
@@ -210,11 +246,18 @@
                 });
                 analysisHtml += "</ul>";
             } else {
-                analysisHtml += "<p>Complete el formulario con cantidades válidas para ver el análisis de elasticidad.</p>";
+                analysisHtml += "<p>Complete el formulario con cantidades válidas para ver el análisis de elasticidad. Recuerde que necesitamos al menos dos puntos con cantidades mayores a cero y el primer punto debe tener un precio mayor a cero para calcular la elasticidad.</p>";
             }
             
             document.getElementById("dataAnalysis").innerHTML = analysisHtml;
         }
+        
+        // Asegurarnos de que Chart.js está disponible
+        window.onload = function() {
+            if (typeof Chart === 'undefined') {
+                alert("Error: No se pudo cargar la biblioteca Chart.js. Por favor, compruebe su conexión a Internet.");
+            }
+        };
     </script>
 </body>
 </html>
