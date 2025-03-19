@@ -3,67 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microeconomía</title>
+    <title>Microeconomía I</title>
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
             text-align: center;
         }
-        iframe {
-            width: 80%;
-            height: 500px;
-            border: 0px solid #ccc;
-            margin-top: 20px;
-        }
-        a {
+
+        header a {
+            color: white;
             text-decoration: none;
-            color: black;
+            margin: 0 15px;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
         }
-        .menu {
-            position: relative;
-            display: inline-block;
-            margin-bottom: 20px;
+
+        header a:hover {
+            background-color: #FFC000;
+            border-radius: 5px;
         }
-        .menu button {
-            background-color: #f9f9f9;
-            border: 1px solid #ccc;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .menu-content {
-            display: none;
-            position: absolute;
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: #ffffff;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-            padding: 10px;
-            z-index: 1;
-            list-style: none;
-            text-align: left;
-            width: 200px;
         }
-        .menu:hover .menu-content {
-            display: block;
+
+        iframe {
+            width: 100%;
+            height: 90vh; /* Ocupa el 90% de la altura de la ventana */
+            border: none;
         }
-        .menu-content li {
-            padding: 8px 12px;
+
+        footer {
+            background-color: #fff;
+            padding: 10px 20px;
+            text-align: center;
         }
-        .menu-content li a {
-            display: block;
-            color: black;
+
+        footer a {
+            display: inline-block; /* Elimina el espacio entre los enlaces */
+            margin: 0 5px; /* Espaciado entre los íconos */
         }
-        .menu-content li a:hover {
-            background-color: #f1f1f1;
-        }
-        .footer {
-            margin-top: 20px;
-        }
-        .footer a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #000;
-            font-size: 20px;
-        }
-        .footer img {
+
+        footer img {
             width: 24px;
             height: 24px;
             vertical-align: middle;
@@ -71,12 +66,22 @@
     </style>
 </head>
 <body>
-    <h1><a href="index.html">Microeconomía I</a></h1><hr>
-    <p><a href="m1_a.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 1)</a></p>
-    <p><a href="m1_b.html" target="contentFrame">Quiz Mankiw Capítulo 1 (parte 2)</a></p>
-    <iframe name="contentFrame" src="fondo.html"></iframe>
-    <div class="footer">
-        <p>Mauricio Apablaza - 2025</p>
+
+    <header>
+        <h1><a href="index.html">Microeconomía I</a></h1>
+        <nav>
+            <a href="m1_a.html" target="contentFrame">M1a</a>
+            <a href="m1_b.html" target="contentFrame">M1b</a>
+            <a href="m2.html" target="contentFrame">M2</a>
+            <a href="demanda.html" target="contentFrame">Demanda</a>
+        </nav>
+    </header>
+
+    <main>
+        <iframe name="contentFrame" src="fondo.html"></iframe>
+    </main>
+
+    <footer>
         <a href="https://github.com/m-apablaza" target="_blank">
             <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
         </a>
@@ -89,6 +94,7 @@
         <a href="https://udd.instructure.com/courses/62764" target="_blank">
             <img src="https://play-lh.googleusercontent.com/FU4iUC-IdccQNHJLxzzdxfl8SkdIhWaWJCNsTD6EoiYWxkljknA-118MwXlEJHwCrg=w240-h480-rw" alt="UDD">
         </a>
-    </div>
+    </footer>
+
 </body>
 </html>
