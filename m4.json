@@ -1,0 +1,434 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es un mercado según la definición de Mankiw?",
+      "options": [
+        "Un lugar físico donde se intercambian bienes",
+        "Un grupo de compradores y vendedores de un bien o servicio en particular",
+        "Una institución gubernamental que regula los precios",
+        "Un sistema económico donde solo interviene el estado"
+      ],
+      "answer": "Un grupo de compradores y vendedores de un bien o servicio en particular"
+    },
+    {
+      "question": "¿Qué representa la curva de demanda?",
+      "options": [
+        "La relación entre el precio de un bien y la cantidad que los consumidores están dispuestos a comprar",
+        "La relación entre el precio de un bien y la cantidad que los productores están dispuestos a vender",
+        "El punto donde la oferta iguala a la demanda",
+        "El costo de producción de un bien"
+      ],
+      "answer": "La relación entre el precio de un bien y la cantidad que los consumidores están dispuestos a comprar"
+    },
+    {
+      "question": "¿Cuál es la ley de la demanda?",
+      "options": [
+        "Cuando el precio de un bien aumenta, la cantidad demandada disminuye",
+        "Cuando el precio de un bien aumenta, la cantidad demandada aumenta",
+        "Cuando el precio de un bien disminuye, la cantidad demandada disminuye",
+        "La demanda siempre es constante independientemente del precio"
+      ],
+      "answer": "Cuando el precio de un bien aumenta, la cantidad demandada disminuye"
+    },
+    {
+      "question": "¿Qué factores pueden desplazar la curva de demanda?",
+      "options": [
+        "Solo cambios en el precio del bien",
+        "Cambios en el ingreso, gustos, precios de bienes relacionados, expectativas y número de compradores",
+        "Únicamente cambios en la tecnología de producción",
+        "Solo cambios en el costo de los insumos"
+      ],
+      "answer": "Cambios en el ingreso, gustos, precios de bienes relacionados, expectativas y número de compradores"
+    },
+    {
+      "question": "Si el ingreso de los consumidores aumenta, ¿qué sucede con la curva de demanda de un bien normal?",
+      "options": [
+        "Se desplaza hacia la izquierda",
+        "Se desplaza hacia la derecha",
+        "No cambia de posición",
+        "Se vuelve horizontal"
+      ],
+      "answer": "Se desplaza hacia la derecha"
+    },
+    {
+      "question": "¿Qué son los bienes sustitutos?",
+      "options": [
+        "Bienes que se consumen juntos",
+        "Bienes para los que un aumento en el precio de uno lleva a un aumento en la demanda del otro",
+        "Bienes que no tienen relación entre sí",
+        "Bienes cuyo consumo disminuye cuando aumenta el ingreso"
+      ],
+      "answer": "Bienes para los que un aumento en el precio de uno lleva a un aumento en la demanda del otro"
+    },
+    {
+      "question": "¿Qué representa la curva de oferta?",
+      "options": [
+        "La relación entre el precio de un bien y la cantidad que los consumidores están dispuestos a comprar",
+        "La relación entre el precio de un bien y la cantidad que los productores están dispuestos a vender",
+        "El punto donde la oferta iguala a la demanda",
+        "El ingreso total de los productores"
+      ],
+      "answer": "La relación entre el precio de un bien y la cantidad que los productores están dispuestos a vender"
+    },
+    {
+      "question": "¿Cuál es la ley de la oferta?",
+      "options": [
+        "Cuando el precio de un bien aumenta, la cantidad ofrecida disminuye",
+        "Cuando el precio de un bien aumenta, la cantidad ofrecida aumenta",
+        "Cuando el precio de un bien disminuye, la cantidad ofrecida aumenta",
+        "La oferta siempre es constante independientemente del precio"
+      ],
+      "answer": "Cuando el precio de un bien aumenta, la cantidad ofrecida aumenta"
+    },
+    {
+      "question": "¿Qué factores pueden desplazar la curva de oferta?",
+      "options": [
+        "Solo cambios en el precio del bien",
+        "Cambios en los precios de los insumos, tecnología, expectativas y número de vendedores",
+        "Únicamente cambios en las preferencias de los consumidores",
+        "Solo cambios en el ingreso de los consumidores"
+      ],
+      "answer": "Cambios en los precios de los insumos, tecnología, expectativas y número de vendedores"
+    },
+    {
+      "question": "Si el costo de los insumos de producción aumenta, ¿qué sucede con la curva de oferta?",
+      "options": [
+        "Se desplaza hacia la izquierda",
+        "Se desplaza hacia la derecha",
+        "No cambia de posición",
+        "Se vuelve vertical"
+      ],
+      "answer": "Se desplaza hacia la izquierda"
+    },
+    {
+      "question": "¿Qué es el equilibrio de mercado?",
+      "options": [
+        "Cuando la demanda excede a la oferta",
+        "Cuando la oferta excede a la demanda",
+        "Cuando la cantidad demandada iguala a la cantidad ofrecida",
+        "Cuando el gobierno fija un precio"
+      ],
+      "answer": "Cuando la cantidad demandada iguala a la cantidad ofrecida"
+    },
+    {
+      "question": "¿Qué sucede si el precio está por encima del precio de equilibrio?",
+      "options": [
+        "Se produce un exceso de demanda",
+        "Se produce un exceso de oferta",
+        "El mercado está en equilibrio",
+        "No afecta al mercado"
+      ],
+      "answer": "Se produce un exceso de oferta"
+    },
+    {
+      "question": "¿Qué sucede si el precio está por debajo del precio de equilibrio?",
+      "options": [
+        "Se produce un exceso de demanda",
+        "Se produce un exceso de oferta",
+        "El mercado está en equilibrio",
+        "No afecta al mercado"
+      ],
+      "answer": "Se produce un exceso de demanda"
+    },
+    {
+      "question": "Según la teoría de Mankiw, ¿cómo reaccionan los mercados ante un exceso de oferta?",
+      "options": [
+        "Los precios tienden a subir",
+        "Los precios tienden a bajar",
+        "Los precios permanecen estables",
+        "El gobierno debe intervenir inmediatamente"
+      ],
+      "answer": "Los precios tienden a bajar"
+    },
+    {
+      "question": "¿Qué es la elasticidad precio de la demanda?",
+      "options": [
+        "Es la medida de cómo cambia la cantidad ofrecida cuando cambia el precio",
+        "Es la medida de cómo cambia la cantidad demandada cuando cambia el precio",
+        "Es la medida de cómo cambia el precio cuando cambia el ingreso",
+        "Es el precio de equilibrio en un mercado"
+      ],
+      "answer": "Es la medida de cómo cambia la cantidad demandada cuando cambia el precio"
+    },
+    {
+      "question": "¿Cómo se calcula la elasticidad precio de la demanda?",
+      "options": [
+        "Variación porcentual en la cantidad demandada / Variación porcentual en el precio",
+        "Variación porcentual en el precio / Variación porcentual en la cantidad demandada",
+        "Variación absoluta en la cantidad / Variación absoluta en el precio",
+        "Precio × Cantidad"
+      ],
+      "answer": "Variación porcentual en la cantidad demandada / Variación porcentual en el precio"
+    },
+    {
+      "question": "¿Cuándo se considera que la demanda es elástica?",
+      "options": [
+        "Cuando la elasticidad precio de la demanda es mayor que 1",
+        "Cuando la elasticidad precio de la demanda es menor que 1",
+        "Cuando la elasticidad precio de la demanda es igual a 1",
+        "Cuando la elasticidad precio de la demanda es 0"
+      ],
+      "answer": "Cuando la elasticidad precio de la demanda es mayor que 1"
+    },
+    {
+      "question": "¿Cuándo se considera que la demanda es inelástica?",
+      "options": [
+        "Cuando la elasticidad precio de la demanda es mayor que 1",
+        "Cuando la elasticidad precio de la demanda es menor que 1",
+        "Cuando la elasticidad precio de la demanda es igual a 1",
+        "Cuando la elasticidad precio de la demanda es infinita"
+      ],
+      "answer": "Cuando la elasticidad precio de la demanda es menor que 1"
+    },
+    {
+      "question": "¿Qué factores influyen en la elasticidad precio de la demanda?",
+      "options": [
+        "Solo el precio del bien",
+        "Disponibilidad de sustitutos, necesidad del bien, definición del mercado y horizonte temporal",
+        "Únicamente la renta de los consumidores",
+        "Solo la tecnología disponible"
+      ],
+      "answer": "Disponibilidad de sustitutos, necesidad del bien, definición del mercado y horizonte temporal"
+    },
+    {
+      "question": "¿Qué es la elasticidad precio de la oferta?",
+      "options": [
+        "Es la medida de cómo cambia la cantidad demandada cuando cambia el precio",
+        "Es la medida de cómo cambia la cantidad ofrecida cuando cambia el precio",
+        "Es la medida de cómo cambia el precio cuando cambia el costo de producción",
+        "Es el precio de equilibrio en un mercado"
+      ],
+      "answer": "Es la medida de cómo cambia la cantidad ofrecida cuando cambia el precio"
+    },
+    {
+      "question": "¿Qué efecto tiene un impuesto sobre el equilibrio de mercado?",
+      "options": [
+        "Aumenta la cantidad de equilibrio",
+        "Reduce el precio que pagan los compradores",
+        "Reduce la cantidad de equilibrio y aumenta el precio que pagan los compradores",
+        "No tiene efecto en el equilibrio"
+      ],
+      "answer": "Reduce la cantidad de equilibrio y aumenta el precio que pagan los compradores"
+    },
+    {
+      "question": "¿Qué son los bienes complementarios?",
+      "options": [
+        "Bienes que pueden sustituirse entre sí",
+        "Bienes que se consumen juntos",
+        "Bienes cuyo consumo aumenta cuando disminuye el ingreso",
+        "Bienes que no tienen relación entre sí"
+      ],
+      "answer": "Bienes que se consumen juntos"
+    },
+    {
+      "question": "Si el precio de un bien complementario aumenta, ¿qué sucede con la curva de demanda del otro bien?",
+      "options": [
+        "Se desplaza hacia la derecha",
+        "Se desplaza hacia la izquierda",
+        "No cambia",
+        "Se vuelve perfectamente elástica"
+      ],
+      "answer": "Se desplaza hacia la izquierda"
+    },
+    {
+      "question": "¿Qué son los bienes inferiores?",
+      "options": [
+        "Bienes de baja calidad",
+        "Bienes cuya demanda disminuye cuando aumenta el ingreso",
+        "Bienes que no tienen sustitutos",
+        "Bienes que tienen muchos complementarios"
+      ],
+      "answer": "Bienes cuya demanda disminuye cuando aumenta el ingreso"
+    },
+    {
+      "question": "Si la tecnología de producción mejora, ¿qué sucede con la curva de oferta?",
+      "options": [
+        "Se desplaza hacia la izquierda",
+        "Se desplaza hacia la derecha",
+        "No cambia",
+        "Se vuelve perfectamente inelástica"
+      ],
+      "answer": "Se desplaza hacia la derecha"
+    },
+    {
+      "question": "¿Qué representa una curva de demanda vertical?",
+      "options": [
+        "Demanda perfectamente elástica",
+        "Demanda perfectamente inelástica",
+        "Demanda con elasticidad unitaria",
+        "Demanda inexistente"
+      ],
+      "answer": "Demanda perfectamente inelástica"
+    },
+    {
+      "question": "¿Qué representa una curva de oferta horizontal?",
+      "options": [
+        "Oferta perfectamente elástica",
+        "Oferta perfectamente inelástica",
+        "Oferta con elasticidad unitaria",
+        "Oferta inexistente"
+      ],
+      "answer": "Oferta perfectamente elástica"
+    },
+    {
+      "question": "¿Cómo se define el excedente del consumidor?",
+      "options": [
+        "La diferencia entre lo que los consumidores están dispuestos a pagar y lo que realmente pagan",
+        "La diferencia entre lo que los productores reciben y sus costos de producción",
+        "La suma de los precios de todos los bienes",
+        "El beneficio total de los productores"
+      ],
+      "answer": "La diferencia entre lo que los consumidores están dispuestos a pagar y lo que realmente pagan"
+    },
+    {
+      "question": "¿Cómo se define el excedente del productor?",
+      "options": [
+        "La diferencia entre lo que los consumidores están dispuestos a pagar y lo que realmente pagan",
+        "La diferencia entre lo que los productores reciben y sus costos de producción",
+        "La suma de los costos de todos los bienes",
+        "El beneficio total de los consumidores"
+      ],
+      "answer": "La diferencia entre lo que los productores reciben y sus costos de producción"
+    },
+    {
+      "question": "¿Qué efecto tiene un subsidio en el mercado?",
+      "options": [
+        "Aumenta el precio para los consumidores",
+        "Reduce la cantidad de equilibrio",
+        "Aumenta la cantidad de equilibrio y reduce el precio para los consumidores",
+        "No tiene efecto en el equilibrio"
+      ],
+      "answer": "Aumenta la cantidad de equilibrio y reduce el precio para los consumidores"
+    },
+    {
+      "question": "¿Qué ocurre con el excedente total (suma del excedente del consumidor y del productor) cuando un mercado se encuentra en equilibrio?",
+      "options": [
+        "Es mínimo",
+        "Es máximo",
+        "Es cero",
+        "No puede determinarse"
+      ],
+      "answer": "Es máximo"
+    },
+    {
+      "question": "¿Qué sucede con la elasticidad precio de la demanda a lo largo de una curva de demanda lineal?",
+      "options": [
+        "Es constante",
+        "Varía, siendo mayor cuando el precio es alto",
+        "Varía, siendo mayor cuando el precio es bajo",
+        "Siempre es igual a 1"
+      ],
+      "answer": "Varía, siendo mayor cuando el precio es alto"
+    },
+    {
+      "question": "¿Qué determina la eficiencia de un mercado según Mankiw?",
+      "options": [
+        "La intervención gubernamental",
+        "La asignación de recursos que maximiza el excedente total",
+        "El número de compradores y vendedores",
+        "La estabilidad de los precios"
+      ],
+      "answer": "La asignación de recursos que maximiza el excedente total"
+    },
+    {
+      "question": "¿Qué es una tabla de demanda?",
+      "options": [
+        "Un gráfico que relaciona el precio con la cantidad demandada",
+        "Una tabla que muestra la cantidad demandada a diferentes precios",
+        "Un conjunto de datos sobre los gustos de los consumidores",
+        "Una lista de todos los bienes disponibles en el mercado"
+      ],
+      "answer": "Una tabla que muestra la cantidad demandada a diferentes precios"
+    },
+    {
+      "question": "¿Qué es una tabla de oferta?",
+      "options": [
+        "Un gráfico que relaciona el precio con la cantidad ofrecida",
+        "Una tabla que muestra la cantidad ofrecida a diferentes precios",
+        "Un conjunto de datos sobre los costos de producción",
+        "Una lista de todos los vendedores en el mercado"
+      ],
+      "answer": "Una tabla que muestra la cantidad ofrecida a diferentes precios"
+    },
+    {
+      "question": "¿Qué diferencia existe entre un 'cambio en la cantidad demandada' y un 'cambio en la demanda'?",
+      "options": [
+        "No hay diferencia, son términos intercambiables",
+        "Un cambio en la cantidad demandada es causado por un cambio en el precio, mientras que un cambio en la demanda implica un desplazamiento de toda la curva",
+        "Un cambio en la cantidad demandada afecta a todos los consumidores, mientras que un cambio en la demanda solo afecta a algunos",
+        "Un cambio en la cantidad demandada es permanente, mientras que un cambio en la demanda es temporal"
+      ],
+      "answer": "Un cambio en la cantidad demandada es causado por un cambio en el precio, mientras que un cambio en la demanda implica un desplazamiento de toda la curva"
+    },
+    {
+      "question": "¿Qué caracteriza a un mercado competitivo según Mankiw?",
+      "options": [
+        "Un mercado con pocos compradores y vendedores que influyen significativamente en el precio",
+        "Un mercado con muchos compradores y vendedores, cada uno con poca o ninguna influencia sobre el precio",
+        "Un mercado donde el gobierno regula completamente los precios",
+        "Un mercado dominado por un solo vendedor que establece el precio"
+      ],
+      "answer": "Un mercado con muchos compradores y vendedores, cada uno con poca o ninguna influencia sobre el precio"
+    },
+    {
+      "question": "¿Qué función cumplen los precios en las economías de mercado según Mankiw?",
+      "options": [
+        "Son establecidos arbitrariamente por las empresas más grandes",
+        "Son señales que guían las decisiones económicas y distribuyen los recursos escasos",
+        "Son determinados completamente por el gobierno",
+        "No tienen ninguna función real en la asignación de recursos"
+      ],
+      "answer": "Son señales que guían las decisiones económicas y distribuyen los recursos escasos"
+    },
+    {
+      "question": "Cuando un evento externo afecta a un mercado, ¿cuál es el procedimiento correcto para analizar su impacto según Mankiw?",
+      "options": [
+        "Determinar inmediatamente el nuevo precio de equilibrio sin analizar las curvas",
+        "Consultar con expertos qué sucederá con el precio",
+        "Seguir tres pasos: decidir qué curva se desplaza, determinar la dirección del desplazamiento y comparar el nuevo equilibrio con el inicial",
+        "Esperar a que el mercado se ajuste y luego medir los cambios observados"
+      ],
+      "answer": "Seguir tres pasos: decidir qué curva se desplaza, determinar la dirección del desplazamiento y comparar el nuevo equilibrio con el inicial"
+    },
+    {
+      "question": "Si el precio de un bien está por encima del precio de equilibrio, ¿qué ocurre con los planes de compra y venta de los participantes del mercado?",
+      "options": [
+        "Los vendedores no pueden vender toda la cantidad que quieren ofrecer y los compradores compran más de lo planeado",
+        "Los vendedores pueden vender toda la cantidad que quieren ofrecer y los compradores compran exactamente lo planeado",
+        "Los vendedores no pueden vender toda la cantidad que quieren ofrecer y los compradores compran exactamente la cantidad que desean",
+        "Los vendedores pueden vender toda la cantidad que quieren ofrecer pero los compradores no pueden comprar toda la cantidad que desean"
+      ],
+      "answer": "Los vendedores no pueden vender toda la cantidad que quieren ofrecer y los compradores compran exactamente la cantidad que desean"
+    },
+    {
+      "question": "¿Cómo define Mankiw la 'cantidad demandada'?",
+      "options": [
+        "La cantidad total de un bien disponible en el mercado",
+        "La cantidad que los consumidores están dispuestos y pueden comprar a un precio determinado",
+        "La suma de todos los bienes que compra un consumidor",
+        "La cantidad máxima que puede producir un vendedor"
+      ],
+      "answer": "La cantidad que los consumidores están dispuestos y pueden comprar a un precio determinado"
+    },
+    {
+      "question": "¿Cómo define Mankiw la 'cantidad ofrecida'?",
+      "options": [
+        "La cantidad total de un bien disponible en el mercado",
+        "La cantidad que los vendedores están dispuestos y pueden vender a un precio determinado",
+        "La suma de todos los bienes producidos en la economía",
+        "La cantidad máxima que puede comprar un consumidor"
+      ],
+      "answer": "La cantidad que los vendedores están dispuestos y pueden vender a un precio determinado"
+    },
+    {
+      "question": "En el análisis de Mankiw, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        "Los movimientos a lo largo de la curva de demanda son causados por cambios en los gustos de los consumidores",
+        "Los desplazamientos de la curva de oferta son causados por cambios en el precio del bien",
+        "Los movimientos a lo largo de la curva de oferta son causados por cambios en el precio del bien",
+        "Los desplazamientos de la curva de demanda son causados por cambios en el precio del bien"
+      ],
+      "answer": "Los movimientos a lo largo de la curva de oferta son causados por cambios en el precio del bien"
+    }
+  ]
+}
