@@ -1,0 +1,394 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es la elasticidad precio de la demanda?",
+      "options": [
+        "El cambio porcentual en la cantidad demandada dividido por el cambio porcentual en el precio.",
+        "El cambio porcentual en el precio dividido por el cambio porcentual en la cantidad demandada.",
+        "La relación entre el precio y la cantidad demandada.",
+        "El cambio absoluto en la cantidad demandada cuando cambia el precio."
+      ],
+      "answer": "El cambio porcentual en la cantidad demandada dividido por el cambio porcentual en el precio."
+    },
+    {
+      "question": "Si el precio de un bien aumenta en un 10% y la cantidad demandada disminuye en un 5%, la elasticidad precio de la demanda es:",
+      "options": [
+        "0.5",
+        "-0.5",
+        "2",
+        "-2"
+      ],
+      "answer": "-0.5"
+    },
+    {
+      "question": "¿Cuándo se considera que la demanda es inelástica?",
+      "options": [
+        "Cuando la elasticidad precio de la demanda es mayor que 1 en valor absoluto.",
+        "Cuando la elasticidad precio de la demanda es menor que 1 en valor absoluto.",
+        "Cuando la elasticidad precio de la demanda es igual a 1 en valor absoluto.",
+        "Cuando la elasticidad precio de la demanda es igual a 0."
+      ],
+      "answer": "Cuando la elasticidad precio de la demanda es menor que 1 en valor absoluto."
+    },
+    {
+      "question": "Si la elasticidad precio de la demanda es 0, la demanda es:",
+      "options": [
+        "Perfectamente elástica",
+        "Perfectamente inelástica",
+        "Unitaria",
+        "Negativa"
+      ],
+      "answer": "Perfectamente inelástica"
+    },
+    {
+      "question": "¿Qué tipo de bienes suelen tener una demanda más elástica?",
+      "options": [
+        "Bienes de primera necesidad",
+        "Bienes con pocos sustitutos",
+        "Bienes de lujo",
+        "Bienes adictivos"
+      ],
+      "answer": "Bienes de lujo"
+    },
+    {
+      "question": "Si el precio de un producto aumenta de $10 a $15 y la cantidad demandada disminuye de 100 a 80 unidades, la elasticidad precio de la demanda es:",
+      "options": [
+        "-0.2",
+        "-0.4",
+        "-0.5",
+        "-2"
+      ],
+      "answer": "-0.4"
+    },
+    {
+      "question": "¿Qué es la elasticidad ingreso de la demanda?",
+      "options": [
+        "El cambio porcentual en la cantidad demandada dividido por el cambio porcentual en el ingreso.",
+        "El cambio porcentual en el ingreso dividido por el cambio porcentual en la cantidad demandada.",
+        "La relación entre el ingreso y el precio.",
+        "El cambio absoluto en la cantidad demandada cuando cambia el ingreso."
+      ],
+      "answer": "El cambio porcentual en la cantidad demandada dividido por el cambio porcentual en el ingreso."
+    },
+    {
+      "question": "Un bien con elasticidad ingreso negativa se considera:",
+      "options": [
+        "Un bien normal",
+        "Un bien inferior",
+        "Un bien de lujo",
+        "Un bien complementario"
+      ],
+      "answer": "Un bien inferior"
+    },
+    {
+      "question": "Si el ingreso de un consumidor aumenta en un 5% y la cantidad demandada de un bien aumenta en un 10%, la elasticidad ingreso de la demanda es:",
+      "options": [
+        "0.5",
+        "2",
+        "-0.5",
+        "-2"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "¿Qué es la elasticidad cruzada de la demanda?",
+      "options": [
+        "El cambio porcentual en la cantidad demandada de un bien dividido por el cambio porcentual en el precio de otro bien.",
+        "El cambio porcentual en el precio de un bien dividido por el cambio porcentual en la cantidad demandada de otro bien.",
+        "La relación entre los precios de dos bienes diferentes.",
+        "El cambio absoluto en la cantidad demandada de un bien cuando cambia el precio de otro bien."
+      ],
+      "answer": "El cambio porcentual en la cantidad demandada de un bien dividido por el cambio porcentual en el precio de otro bien."
+    },
+    {
+      "question": "Si la elasticidad cruzada entre dos bienes es positiva, estos bienes son:",
+      "options": [
+        "Complementarios",
+        "Sustitutos",
+        "Independientes",
+        "Inferiores"
+      ],
+      "answer": "Sustitutos"
+    },
+    {
+      "question": "Si el precio del café aumenta en un 8% y la cantidad demandada de té aumenta en un 4%, la elasticidad cruzada es:",
+      "options": [
+        "0.5",
+        "-0.5",
+        "2",
+        "-2"
+      ],
+      "answer": "0.5"
+    },
+    {
+      "question": "¿Qué es la elasticidad precio de la oferta?",
+      "options": [
+        "El cambio porcentual en la cantidad ofrecida dividido por el cambio porcentual en el precio.",
+        "El cambio porcentual en el precio dividido por el cambio porcentual en la cantidad ofrecida.",
+        "La relación entre el precio y la cantidad ofrecida.",
+        "El cambio absoluto en la cantidad ofrecida cuando cambia el precio."
+      ],
+      "answer": "El cambio porcentual en la cantidad ofrecida dividido por el cambio porcentual en el precio."
+    },
+    {
+      "question": "Si el precio de un bien aumenta en un 20% y la cantidad ofrecida aumenta en un 10%, la elasticidad precio de la oferta es:",
+      "options": [
+        "0.5",
+        "2",
+        "-0.5",
+        "-2"
+      ],
+      "answer": "0.5"
+    },
+    {
+      "question": "Una oferta perfectamente inelástica tiene una elasticidad de:",
+      "options": [
+        "0",
+        "1",
+        "Infinito",
+        "-1"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Si el precio de un producto aumenta de $50 a $60 y la cantidad ofrecida aumenta de 200 a 260 unidades, la elasticidad precio de la oferta es:",
+      "options": [
+        "0.5",
+        "1.5",
+        "1",
+        "3"
+      ],
+      "answer": "1.5"
+    },
+    {
+      "question": "¿Qué factor NO afecta la elasticidad precio de la demanda?",
+      "options": [
+        "Disponibilidad de bienes sustitutos",
+        "Porcentaje del ingreso gastado en el bien",
+        "Tiempo disponible para ajustar el consumo",
+        "La tecnología de producción"
+      ],
+      "answer": "La tecnología de producción"
+    },
+    {
+      "question": "¿Cuál de los siguientes productos probablemente tiene la demanda más inelástica?",
+      "options": [
+        "Teléfonos móviles de una marca específica",
+        "Insulina para pacientes diabéticos",
+        "Boletos para un concierto",
+        "Ropa de moda"
+      ],
+      "answer": "Insulina para pacientes diabéticos"
+    },
+    {
+      "question": "Si la elasticidad precio de la demanda de un bien es unitaria, un aumento del 10% en el precio resultará en:",
+      "options": [
+        "Una disminución del 10% en la cantidad demandada",
+        "Una disminución del 5% en la cantidad demandada",
+        "Una disminución del 20% en la cantidad demandada",
+        "Ningún cambio en la cantidad demandada"
+      ],
+      "answer": "Una disminución del 10% en la cantidad demandada"
+    },
+    {
+      "question": "¿Cuál es la elasticidad precio de la demanda cuando el precio aumenta de $20 a $25 y la cantidad demandada disminuye de 500 a 400 unidades?",
+      "options": [
+        "-1",
+        "-0.8",
+        "-0.5",
+        "-2"
+      ],
+      "answer": "-0.8"
+    },
+    {
+      "question": "Si un bien tiene una elasticidad ingreso mayor que 1, se considera:",
+      "options": [
+        "Un bien normal",
+        "Un bien de lujo",
+        "Un bien inferior",
+        "Un bien necesario"
+      ],
+      "answer": "Un bien de lujo"
+    },
+    {
+      "question": "¿Cuál de los siguientes factores NO afecta la elasticidad precio de la oferta?",
+      "options": [
+        "El horizonte de tiempo",
+        "La disponibilidad de recursos",
+        "Las preferencias del consumidor",
+        "La tecnología de producción"
+      ],
+      "answer": "Las preferencias del consumidor"
+    },
+    {
+      "question": "Si el precio del petróleo aumenta un 15% y la cantidad ofrecida aumenta un 6%, la elasticidad precio de la oferta es:",
+      "options": [
+        "0.4",
+        "2.5",
+        "1.5",
+        "-0.4"
+      ],
+      "answer": "0.4"
+    },
+    {
+      "question": "¿Qué sucede con el ingreso total cuando la demanda es inelástica y el precio disminuye?",
+      "options": [
+        "El ingreso total aumenta",
+        "El ingreso total disminuye",
+        "El ingreso total permanece constante",
+        "No se puede determinar sin más información"
+      ],
+      "answer": "El ingreso total disminuye"
+    },
+    {
+      "question": "Si la elasticidad cruzada entre dos bienes es negativa, estos bienes son:",
+      "options": [
+        "Sustitutos",
+        "Complementarios",
+        "Independientes",
+        "Normales"
+      ],
+      "answer": "Complementarios"
+    },
+    {
+      "question": "¿Cuál es la elasticidad cruzada cuando el precio del bien X aumenta un 10% y la cantidad demandada del bien Y disminuye un 5%?",
+      "options": [
+        "0.5",
+        "-0.5",
+        "2",
+        "-2"
+      ],
+      "answer": "-0.5"
+    },
+    {
+      "question": "Una elasticidad ingreso cercana a cero indica que:",
+      "options": [
+        "El bien es de lujo",
+        "El bien es inferior",
+        "El bien es necesario y su demanda cambia poco con el ingreso",
+        "El bien es normal"
+      ],
+      "answer": "El bien es necesario y su demanda cambia poco con el ingreso"
+    },
+    {
+      "question": "Si el ingreso de un consumidor aumenta un 4% y la cantidad demandada de un bien disminuye un 2%, la elasticidad ingreso es:",
+      "options": [
+        "0.5",
+        "-0.5",
+        "2",
+        "-2"
+      ],
+      "answer": "-0.5"
+    },
+    {
+      "question": "La elasticidad precio de la demanda tiende a ser mayor en el:",
+      "options": [
+        "Corto plazo",
+        "Largo plazo",
+        "Es la misma en ambos horizontes temporales",
+        "No depende del horizonte temporal"
+      ],
+      "answer": "Largo plazo"
+    },
+    {
+      "question": "¿Qué tipo de elasticidad mide la sensibilidad de la cantidad demandada de un bien ante cambios en el precio de otro bien?",
+      "options": [
+        "Elasticidad precio de la demanda",
+        "Elasticidad ingreso de la demanda",
+        "Elasticidad cruzada de la demanda",
+        "Elasticidad precio de la oferta"
+      ],
+      "answer": "Elasticidad cruzada de la demanda"
+    },
+    {
+      "question": "Si la elasticidad precio de la demanda es -1.5, un aumento del 10% en el precio resultará en:",
+      "options": [
+        "Una disminución del 15% en la cantidad demandada",
+        "Una disminución del 5% en la cantidad demandada",
+        "Un aumento del 15% en la cantidad demandada",
+        "Ningún cambio en la cantidad demandada"
+      ],
+      "answer": "Una disminución del 15% en la cantidad demandada"
+    },
+    {
+      "question": "Si un producto tiene una elasticidad precio de la oferta igual a 2, un aumento del 5% en el precio resultará en:",
+      "options": [
+        "Un aumento del 2.5% en la cantidad ofrecida",
+        "Un aumento del 10% en la cantidad ofrecida",
+        "Una disminución del 10% en la cantidad ofrecida",
+        "No se puede determinar sin más información"
+      ],
+      "answer": "Un aumento del 10% en la cantidad ofrecida"
+    },
+    {
+      "question": "¿Cuál de los siguientes factores tiende a hacer que la demanda sea más elástica?",
+      "options": [
+        "Falta de sustitutos cercanos",
+        "El bien es una necesidad básica",
+        "El periodo de tiempo considerado es muy corto",
+        "El bien representa una pequeña fracción del presupuesto del consumidor"
+      ],
+      "answer": "El bien representa una pequeña fracción del presupuesto del consumidor"
+    },
+    {
+      "question": "La elasticidad precio de la oferta de bienes agrícolas tiende a ser:",
+      "options": [
+        "Alta en el corto plazo y baja en el largo plazo",
+        "Baja en el corto plazo y alta en el largo plazo",
+        "Alta tanto en el corto como en el largo plazo",
+        "Baja tanto en el corto como en el largo plazo"
+      ],
+      "answer": "Baja en el corto plazo y alta en el largo plazo"
+    },
+    {
+      "question": "¿Cuál es la elasticidad precio de la demanda cuando el precio disminuye de $40 a $30 y la cantidad demandada aumenta de 50 a 70 unidades?",
+      "options": [
+        "-0.75",
+        "-1.25",
+        "-1.6",
+        "-2"
+      ],
+      "answer": "-1.6"
+    },
+    {
+      "question": "¿Cuál NO es un factor que afecta la elasticidad precio de la oferta?",
+      "options": [
+        "Capacidad de almacenamiento",
+        "Tiempo para ajustar la producción",
+        "Disponibilidad de recursos productivos",
+        "Gustos y preferencias de los consumidores"
+      ],
+      "answer": "Gustos y preferencias de los consumidores"
+    },
+    {
+      "question": "Si la elasticidad ingreso de la demanda de un bien es 1.5 y el ingreso aumenta un 10%, la cantidad demandada aumentará en:",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "answer": "15%"
+    },
+    {
+      "question": "¿Cuál es la elasticidad precio de la oferta cuando el precio aumenta de $80 a $100 y la cantidad ofrecida aumenta de 120 a 180 unidades?",
+      "options": [
+        "1",
+        "1.5",
+        "2",
+        "2.5"
+      ],
+      "answer": "2"
+    },
+    {
+      "question": "¿Qué sucede con el ingreso total cuando la elasticidad precio de la demanda es unitaria y el precio cambia?",
+      "options": [
+        "El ingreso total aumenta",
+        "El ingreso total disminuye",
+        "El ingreso total permanece constante",
+        "No se puede determinar sin más información"
+      ],
+      "answer": "El ingreso total permanece constante"
+    }
+  ]
+}
