@@ -339,6 +339,56 @@
         "1250"
       ],
       "answer": "1250"
-        }
-    ]
+ },
+    {
+      "question": "¿Cómo se ve afectado el excedente del productor si aumentan los costos de producción?",
+      "options": [
+        "Aumenta",
+        "No se ve afectado",
+        "Disminuye",
+        "Se duplica"
+      ],
+      "answer": "Disminuye"
+    },
+    {
+      "question": "En un mercado de competencia perfecta, ¿qué sucede con los excedentes a largo plazo?",
+      "options": [
+        "Todos los excedentes desaparecen",
+        "Solo queda excedente del consumidor",
+        "Los excedentes se maximizan infinitamente",
+        "El excedente del productor tiende a ser normal"
+      ],
+      "answer": "El excedente del productor tiende a ser normal"
+    },
+    {
+      "question": "¿Qué efecto tiene la discriminación de precios perfecta sobre el excedente del consumidor?",
+      "options": [
+        "Lo elimina completamente",
+        "Lo duplica",
+        "Lo reduce a la mitad",
+        "No lo afecta"
+      ],
+      "answer": "Lo elimina completamente"
+    },
+    {
+      "question": "Si Qd = 100 - P y Qs = P - 20, ¿cuál es el excedente total del mercado?",
+      "options": [
+        "1800",
+        "1600",
+        "2000",
+        "1400"
+      ],
+      "answer": "1800"
+    },
+    {
+      "question": "¿Qué sucede con la distribución de excedentes cuando la demanda es más inelástica que la oferta?",
+      "options": [
+        "Los consumidores soportan mayor carga de los impuestos",
+        "Los productores soportan mayor carga",
+        "La carga se distribuye equitativamente",
+        "No hay efecto en los excedentes"
+      ],
+      "answer": "Los consumidores soportan mayor carga de los impuestos"
+    }
+  ]
 }
