@@ -1,0 +1,454 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuál es el principal objetivo de la política fiscal durante una recesión?",
+      "options": [
+        "Reducir el déficit fiscal",
+        "Estimular la demanda agregada mediante mayor gasto público",
+        "Aumentar los impuestos",
+        "Privatizar empresas públicas"
+      ],
+      "answer": "Estimular la demanda agregada mediante mayor gasto público"
+    },
+    {
+      "question": "¿Qué herramienta utiliza principalmente el banco central para controlar la inflación?",
+      "options": [
+        "El gasto público",
+        "Los impuestos",
+        "La tasa de interés de referencia",
+        "Las transferencias sociales"
+      ],
+      "answer": "La tasa de interés de referencia"
+    },
+    {
+      "question": "¿Cuál es la meta típica de inflación que establecen los bancos centrales?",
+      "options": [
+        "0% (deflación)",
+        "10% anual",
+        "La más alta posible",
+        "Alrededor del 2-3% anual"
+      ],
+      "answer": "Alrededor del 2-3% anual"
+    },
+    {
+      "question": "¿Qué componente NO forma parte de la balanza de pagos?",
+      "options": [
+        "El PIB nacional",
+        "La cuenta corriente",
+        "La cuenta de capital",
+        "La cuenta financiera"
+      ],
+      "answer": "El PIB nacional"
+    },
+    {
+      "question": "¿Cuál es el principal problema económico del desempleo estructural?",
+      "options": [
+        "Variaciones estacionales en la producción",
+        "Desajuste entre habilidades de trabajadores y demanda laboral",
+        "Fluctuaciones del ciclo económico",
+        "Políticas salariales inadecuadas"
+      ],
+      "answer": "Desajuste entre habilidades de trabajadores y demanda laboral"
+    },
+    {
+      "question": "¿Qué justifica la intervención estatal en casos de monopolio natural?",
+      "options": [
+        "La empresa es propiedad del estado",
+        "Los consumidores prefieren un solo proveedor",
+        "Los altos costos fijos hacen eficiente tener un solo productor",
+        "Es más fácil cobrar impuestos"
+      ],
+      "answer": "Los altos costos fijos hacen eficiente tener un solo productor"
+    },
+    {
+      "question": "¿Cuál es la principal característica de un oligopolio?",
+      "options": [
+        "Una sola empresa dominante",
+        "Muchas empresas pequeñas",
+        "Un solo comprador",
+        "Pocas empresas que pueden influir en el precio del mercado"
+      ],
+      "answer": "Pocas empresas que pueden influir en el precio del mercado"
+    },
+    {
+      "question": "¿Qué describe mejor un monopsonio?",
+      "options": [
+        "Un mercado con un solo comprador",
+        "Un mercado con un solo vendedor",
+        "Competencia perfecta",
+        "Muchos compradores y vendedores"
+      ],
+      "answer": "Un mercado con un solo comprador"
+    },
+    {
+      "question": "¿Cuál es un ejemplo típico de información asimétrica en los mercados?",
+      "options": [
+        "La compra de productos básicos",
+        "El mercado de seguros donde el asegurado conoce mejor su riesgo",
+        "El mercado de valores perfectamente eficiente",
+        "La competencia perfecta"
+      ],
+      "answer": "El mercado de seguros donde el asegurado conoce mejor su riesgo"
+    },
+    {
+      "question": "¿Qué problema puede causar la selección adversa?",
+      "options": [
+        "Exceso de competencia",
+        "Precios demasiado bajos",
+        "Que solo participen en el mercado los de mayor riesgo",
+        "Sobreproducción"
+      ],
+      "answer": "Que solo participen en el mercado los de mayor riesgo"
+    },
+    {
+      "question": "¿Cuál es una característica de los bienes públicos puros?",
+      "options": [
+        "Solo los puede consumir una persona",
+        "Se venden en el mercado privado",
+        "Son no rivales y no excluibles",
+        "Tienen costo marginal positivo"
+      ],
+      "answer": "Son no rivales y no excluibles"
+    },
+    {
+      "question": "¿Qué es una externalidad negativa?",
+      "options": [
+        "Cuando aumentan los precios",
+        "Cuando la actividad de una persona impone costos a terceros",
+        "Un impuesto del gobierno",
+        "La pérdida de empleos"
+      ],
+      "answer": "Cuando la actividad de una persona impone costos a terceros"
+    },
+    {
+      "question": "¿Cuál es un ejemplo de externalidad positiva?",
+      "options": [
+        "La contaminación del aire",
+        "El ruido de las fábricas",
+        "Los beneficios de la educación para la sociedad",
+        "El humo de los cigarrillos"
+      ],
+      "answer": "Los beneficios de la educación para la sociedad"
+    },
+    {
+      "question": "¿Qué caracteriza a los recursos comunes?",
+      "options": [
+        "Son rivales pero no excluibles",
+        "No son rivales ni excluibles",
+        "Son excluibles pero no rivales",
+        "Son tanto rivales como excluibles"
+      ],
+      "answer": "Son rivales pero no excluibles"
+    },
+    {
+      "question": "¿Cuál es el principal problema de los recursos comunes?",
+      "options": [
+        "Su bajo costo de producción",
+        "La falta de demanda",
+        "La sobreexplotación o 'tragedia de los comunes'",
+        "Su alta rentabilidad"
+      ],
+      "answer": "La sobreexplotación o 'tragedia de los comunes'"
+    },
+    {
+      "question": "¿Qué política implementaría el gobierno para reducir una externalidad negativa?",
+      "options": [
+        "Subsidios a la actividad contaminante",
+        "Impuestos pigouvianos",
+        "Eliminación de regulaciones",
+        "Reducción de multas"
+      ],
+      "answer": "Impuestos pigouvianos"
+    },
+    {
+      "question": "¿Cuál es el objetivo principal de las políticas de igualdad de oportunidades?",
+      "options": [
+        "Aumentar la recaudación fiscal",
+        "Reducir las barreras que impiden el acceso equitativo a oportunidades",
+        "Eliminar toda forma de competencia",
+        "Nacionalizar todas las empresas"
+      ],
+      "answer": "Reducir las barreras que impiden el acceso equitativo a oportunidades"
+    },
+    {
+      "question": "¿Qué mide la tasa de desempleo?",
+      "options": [
+        "El porcentaje de la población total sin trabajo",
+        "El número absoluto de desempleados",
+        "El porcentaje de la fuerza laboral que busca trabajo activamente",
+        "Solo el desempleo juvenil"
+      ],
+      "answer": "El porcentaje de la fuerza laboral que busca trabajo activamente"
+    },
+    {
+      "question": "¿Cuál es una función del banco central en la estabilidad macroeconómica?",
+      "options": [
+        "Fijar los precios de todos los productos",
+        "Controlar la oferta monetaria y las tasas de interés",
+        "Determinar los salarios mínimos",
+        "Administrar el presupuesto público"
+      ],
+      "answer": "Controlar la oferta monetaria y las tasas de interés"
+    },
+    {
+      "question": "¿Qué indica un déficit en la cuenta corriente de la balanza de pagos?",
+      "options": [
+        "El país exporta más de lo que importa",
+        "Hay equilibrio comercial",
+        "El país importa más de lo que exporta",
+        "No hay comercio internacional"
+      ],
+      "answer": "El país importa más de lo que exporta"
+    },
+    {
+      "question": "¿Cuál es el principal riesgo de una inflación muy alta?",
+      "options": [
+        "Aumento del poder adquisitivo",
+        "Reducción de la incertidumbre económica",
+        "Erosión del valor del dinero y distorsiones en los precios relativos",
+        "Mayor inversión empresarial"
+      ],
+      "answer": "Erosión del valor del dinero y distorsiones en los precios relativos"
+    },
+    {
+      "question": "¿Qué es el riesgo moral en los mercados con información asimétrica?",
+      "options": [
+        "La tendencia a asumir más riesgos cuando otros cargan con las consecuencias",
+        "El riesgo de perder dinero en inversiones",
+        "La moralidad de las empresas",
+        "El riesgo país en inversiones internacionales"
+      ],
+      "answer": "La tendencia a asumir más riesgos cuando otros cargan con las consecuencias"
+    },
+    {
+      "question": "¿Cuál es una herramienta para corregir fallas de mercado por información asimétrica?",
+      "options": [
+        "Aumentar los impuestos",
+        "Regulación y requerimientos de transparencia",
+        "Eliminar toda regulación",
+        "Privatizar servicios públicos"
+      ],
+      "answer": "Regulación y requerimientos de transparencia"
+    },
+    {
+      "question": "¿Por qué el gobierno debe proveer bienes públicos?",
+      "options": [
+        "Son más rentables que los bienes privados",
+        "El mercado privado no los proveerá eficientemente debido al problema del free rider",
+        "Son más baratos de producir",
+        "Solo el gobierno tiene la tecnología necesaria"
+      ],
+      "answer": "El mercado privado no los proveerá eficientemente debido al problema del free rider"
+    },
+    {
+      "question": "¿Qué es el PIB potencial?",
+      "options": [
+        "El PIB máximo teórico posible",
+        "El PIB actual de la economía",
+        "El nivel de PIB que se puede sostener sin generar presiones inflacionarias",
+        "El PIB de otros países"
+      ],
+      "answer": "El nivel de PIB que se puede sostener sin generar presiones inflacionarias"
+    },
+    {
+      "question": "¿Cuál es el efecto típico de una política monetaria expansiva?",
+      "options": [
+        "Reducir la inflación inmediatamente",
+        "Aumentar las tasas de interés",
+        "Estimular el crecimiento económico y el empleo",
+        "Reducir la oferta monetaria"
+      ],
+      "answer": "Estimular el crecimiento económico y el empleo"
+    },
+    {
+      "question": "¿Qué caracteriza a un mercado con competencia monopolística?",
+      "options": [
+        "Un solo vendedor",
+        "Productos idénticos",
+        "Muchos vendedores con productos diferenciados",
+        "Pocos compradores"
+      ],
+      "answer": "Muchos vendedores con productos diferenciados"
+    },
+    {
+      "question": "¿Cuál es una medida para promover la igualdad de oportunidades en educación?",
+      "options": [
+        "Cobrar más por la educación superior",
+        "Becas y programas de apoyo para estudiantes de bajos recursos",
+        "Reducir la calidad educativa",
+        "Eliminar la educación pública"
+      ],
+      "answer": "Becas y programas de apoyo para estudiantes de bajos recursos"
+    },
+    {
+      "question": "¿Qué problema económico busca resolver la política antimonopolio?",
+      "options": [
+        "El exceso de competencia",
+        "Los precios demasiado bajos",
+        "El abuso de poder de mercado y la ineficiencia",
+        "El desempleo estructural"
+      ],
+      "answer": "El abuso de poder de mercado y la ineficiencia"
+    },
+    {
+      "question": "¿Cuál es un ejemplo de bien club?",
+      "options": [
+        "El aire que respiramos",
+        "La defensa nacional",
+        "Una autopista con peaje",
+        "Los peces en el océano"
+      ],
+      "answer": "Una autopista con peaje"
+    },
+    {
+      "question": "¿Qué es la estanflación?",
+      "options": [
+        "Crecimiento económico acelerado",
+        "Deflación con crecimiento",
+        "Inflación alta combinada con estancamiento económico",
+        "Estabilidad de precios"
+      ],
+      "answer": "Inflación alta combinada con estancamiento económico"
+    },
+    {
+      "question": "¿Cuál es el principal objetivo de la regulación de monopolios naturales?",
+      "options": [
+        "Eliminar la empresa",
+        "Permitir precios libres",
+        "Regular precios para evitar abusos manteniendo eficiencia",
+        "Crear más competidores"
+      ],
+      "answer": "Regular precios para evitar abusos manteniendo eficiencia"
+    },
+    {
+      "question": "¿Qué efecto tiene un aumento en la inversión pública durante una recesión?",
+      "options": [
+        "Reduce el empleo",
+        "Puede estimular la demanda agregada y el crecimiento",
+        "Aumenta automáticamente la inflación",
+        "No tiene efectos económicos"
+      ],
+      "answer": "Puede estimular la demanda agregada y el crecimiento"
+    },
+    {
+      "question": "¿Cuál es una característica del desempleo friccional?",
+      "options": [
+        "Es causado por recesiones económicas",
+        "Es temporal y se debe al tiempo de búsqueda entre empleos",
+        "Afecta solo a trabajadores no calificados",
+        "Es causado por cambios tecnológicos"
+      ],
+      "answer": "Es temporal y se debe al tiempo de búsqueda entre empleos"
+    },
+    {
+      "question": "¿Qué instrumento NO es parte de la política fiscal?",
+      "options": [
+        "El gasto público",
+        "Los impuestos",
+        "Las transferencias sociales",
+        "La tasa de interés de referencia"
+      ],
+      "answer": "La tasa de interés de referencia"
+    },
+    {
+      "question": "¿Cuál es el problema principal de un cártel?",
+      "options": [
+        "Precios demasiado bajos",
+        "Exceso de producción",
+        "Colusión para fijar precios por encima del nivel competitivo",
+        "Competencia excesiva"
+      ],
+      "answer": "Colusión para fijar precios por encima del nivel competitivo"
+    },
+    {
+      "question": "¿Qué mide el índice de Gini?",
+      "options": [
+        "La inflación",
+        "El crecimiento económico",
+        "La desigualdad de ingresos",
+        "El desempleo"
+      ],
+      "answer": "La desigualdad de ingresos"
+    },
+    {
+      "question": "¿Cuál es una política para internalizar externalidades positivas?",
+      "options": [
+        "Impuestos a la actividad",
+        "Subsidios o apoyo gubernamental",
+        "Prohibir la actividad",
+        "Ignorar la externalidad"
+      ],
+      "answer": "Subsidios o apoyo gubernamental"
+    },
+    {
+      "question": "¿Qué es la trampa de liquidez?",
+      "options": [
+        "Cuando hay demasiado dinero en circulación",
+        "Cuando las tasas de interés están tan bajas que la política monetaria pierde efectividad",
+        "Cuando los bancos tienen exceso de liquidez",
+        "Cuando hay deflación moderada"
+      ],
+      "answer": "Cuando las tasas de interés están tan bajas que la política monetaria pierde efectividad"
+    },
+    {
+      "question": "¿Cuál es el objetivo de los sistemas de cuotas en recursos pesqueros?",
+      "options": [
+        "Aumentar las ganancias de los pescadores",
+        "Prevenir la sobreexplotación del recurso común",
+        "Reducir el precio del pescado",
+        "Eliminar la industria pesquera"
+      ],
+      "answer": "Prevenir la sobreexplotación del recurso común"
+    },
+    {
+      "question": "¿Qué caracteriza a una economía en pleno empleo?",
+      "options": [
+        "Desempleo del 0%",
+        "Solo existe desempleo friccional y estructural natural",
+        "Máxima producción posible",
+        "Inflación del 0%"
+      ],
+      "answer": "Solo existe desempleo friccional y estructural natural"
+    },
+    {
+      "question": "¿Cuál es una ventaja de los mecanismos de mercado para asignar derechos de contaminación?",
+      "options": [
+        "Eliminan toda contaminación",
+        "Son más costosos que la regulación directa",
+        "Permiten reducir la contaminación al menor costo posible",
+        "Solo benefician a las empresas grandes"
+      ],
+      "answer": "Permiten reducir la contaminación al menor costo posible"
+    },
+    {
+      "question": "¿Qué es la política de estabilización automática?",
+      "options": [
+        "Cambios discrecionales en la política fiscal",
+        "Mecanismos como el seguro de desempleo que actúan automáticamente",
+        "Control manual de la inflación",
+        "Fijación de tipos de cambio"
+      ],
+      "answer": "Mecanismos como el seguro de desempleo que actúan automáticamente"
+    },
+    {
+      "question": "¿Cuál es el principal desafío en la provisión de bienes públicos globales?",
+      "options": [
+        "Son demasiado costosos",
+        "La coordinación internacional y el problema del free rider entre países",
+        "No existe demanda por ellos",
+        "Solo los países ricos los necesitan"
+      ],
+      "answer": "La coordinación internacional y el problema del free rider entre países"
+    },
+    {
+      "question": "¿Qué efecto tiene típicamente una apreciación de la moneda nacional?",
+      "options": [
+        "Mejora la competitividad de las exportaciones",
+        "Encarece las importaciones",
+        "Reduce las importaciones y puede empeorar la balanza comercial",
+        "Aumenta automáticamente el PIB"
+      ],
+      "answer": "Reduce las importaciones y puede empeorar la balanza comercial"
+    }
+  ]
+}
