@@ -1,0 +1,454 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es el excedente del consumidor?",
+      "options": [
+        "La diferencia entre lo que los consumidores están dispuestos a pagar y lo que realmente pagan",
+        "La cantidad total que pagan los consumidores por un bien",
+        "El beneficio que obtienen los productores de la venta",
+        "La diferencia entre el precio de mercado y el costo de producción"
+      ],
+      "answer": "La diferencia entre lo que los consumidores están dispuestos a pagar y lo que realmente pagan"
+    },
+    {
+      "question": "¿Qué representa el excedente del productor?",
+      "options": [
+        "La diferencia entre el precio de mercado y el costo marginal de producción",
+        "La ganancia total de la empresa",
+        "El área bajo la curva de demanda",
+        "La cantidad producida multiplicada por el precio"
+      ],
+      "answer": "La diferencia entre el precio de mercado y el costo marginal de producción"
+    },
+    {
+      "question": "En un gráfico de oferta y demanda, ¿dónde se encuentra el excedente del consumidor?",
+      "options": [
+        "En el área triangular por encima del precio de equilibrio y por debajo de la curva de demanda",
+        "En el área triangular por debajo del precio de equilibrio y por encima de la curva de oferta",
+        "En el punto de intersección de las curvas",
+        "En el área rectangular formada por el precio y la cantidad"
+      ],
+      "answer": "En el área triangular por encima del precio de equilibrio y por debajo de la curva de demanda"
+    },
+    {
+      "question": "¿Dónde se ubica gráficamente el excedente del productor?",
+      "options": [
+        "En el área triangular por debajo del precio de equilibrio y por encima de la curva de oferta",
+        "En el área triangular por encima del precio de equilibrio y por debajo de la curva de demanda",
+        "En toda el área bajo la curva de demanda",
+        "En toda el área sobre la curva de oferta"
+      ],
+      "answer": "En el área triangular por debajo del precio de equilibrio y por encima de la curva de oferta"
+    },
+    {
+      "question": "Si la demanda es Qd = 100 - 2P y la oferta es Qs = 20 + P, ¿cuál es el precio de equilibrio?",
+      "options": [
+        "P = 26.67",
+        "P = 30",
+        "P = 25",
+        "P = 40"
+      ],
+      "answer": "P = 26.67"
+    },
+    {
+      "question": "Con las funciones Qd = 100 - 2P y Qs = 20 + P, ¿cuál es la cantidad de equilibrio?",
+      "options": [
+        "Q = 46.67",
+        "Q = 50",
+        "Q = 40",
+        "Q = 60"
+      ],
+      "answer": "Q = 46.67"
+    },
+    {
+      "question": "¿Qué sucede con el excedente del consumidor cuando aumenta el precio?",
+      "options": [
+        "Disminuye",
+        "Aumenta",
+        "Se mantiene igual",
+        "Se duplica"
+      ],
+      "answer": "Disminuye"
+    },
+    {
+      "question": "¿Qué ocurre con el excedente del productor cuando aumenta el precio?",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene constante",
+        "Se vuelve negativo"
+      ],
+      "answer": "Aumenta"
+    },
+    {
+      "question": "¿Qué es la pérdida irrecuperable de eficiencia (deadweight loss)?",
+      "options": [
+        "La pérdida de bienestar social cuando el mercado no está en equilibrio",
+        "El costo de producir un bien",
+        "La ganancia total del mercado",
+        "El excedente total del consumidor"
+      ],
+      "answer": "La pérdida de bienestar social cuando el mercado no está en equilibrio"
+    },
+    {
+      "question": "Si se impone un precio máximo por debajo del equilibrio, ¿qué sucede?",
+      "options": [
+        "Se crea escasez y pérdida irrecuperable",
+        "Aumenta el excedente total",
+        "El mercado funciona más eficientemente",
+        "No hay ningún efecto"
+      ],
+      "answer": "Se crea escasez y pérdida irrecuperable"
+    },
+    {
+      "question": "¿Qué efecto tiene un precio mínimo por encima del equilibrio?",
+      "options": [
+        "Crea exceso de oferta y pérdida irrecuperable",
+        "Aumenta la eficiencia del mercado",
+        "Reduce el excedente del productor",
+        "Elimina el excedente del consumidor"
+      ],
+      "answer": "Crea exceso de oferta y pérdida irrecuperable"
+    },
+    {
+      "question": "En un mercado perfectamente competitivo, ¿cuándo se maximiza el bienestar social?",
+      "options": [
+        "En el punto de equilibrio entre oferta y demanda",
+        "Cuando el precio es máximo",
+        "Cuando la cantidad es mínima",
+        "Cuando no hay consumidores"
+      ],
+      "answer": "En el punto de equilibrio entre oferta y demanda"
+    },
+    {
+      "question": "Si Qd = 80 - P y Qs = 2P - 10, ¿cuál es el excedente del consumidor?",
+      "options": [
+        "450",
+        "400",
+        "500",
+        "350"
+      ],
+      "answer": "450"
+    },
+    {
+      "question": "Con Qd = 80 - P y Qs = 2P - 10, ¿cuál es el excedente del productor?",
+      "options": [
+        "800",
+        "750",
+        "850",
+        "900"
+      ],
+      "answer": "800"
+    },
+    {
+      "question": "¿Cómo se calcula el excedente del consumidor en términos matemáticos?",
+      "options": [
+        "½ × base × altura del triángulo formado",
+        "Precio × cantidad",
+        "Área total bajo la curva de demanda",
+        "Pendiente de la curva × precio"
+      ],
+      "answer": "½ × base × altura del triángulo formado"
+    },
+    {
+      "question": "¿Qué representa el punto de intersección entre las curvas de oferta y demanda?",
+      "options": [
+        "El equilibrio de mercado donde se maximiza el bienestar social",
+        "El punto de máximo beneficio para los productores",
+        "El punto de mínimo costo para los consumidores",
+        "La cantidad máxima que se puede producir"
+      ],
+      "answer": "El equilibrio de mercado donde se maximiza el bienestar social"
+    },
+    {
+      "question": "Si la curva de demanda es más elástica, ¿qué sucede con el excedente del consumidor ante un cambio de precio?",
+      "options": [
+        "Cambia más significativamente",
+        "Cambia menos",
+        "No cambia",
+        "Se vuelve negativo"
+      ],
+      "answer": "Cambia más significativamente"
+    },
+    {
+      "question": "¿Qué efecto tiene un impuesto sobre el excedente total del mercado?",
+      "options": [
+        "Lo reduce creando pérdida irrecuperable",
+        "Lo aumenta",
+        "No tiene efecto",
+        "Lo duplica"
+      ],
+      "answer": "Lo reduce creando pérdida irrecuperable"
+    },
+    {
+      "question": "En un monopolio, comparado con competencia perfecta, ¿qué sucede con el excedente del consumidor?",
+      "options": [
+        "Disminuye",
+        "Aumenta",
+        "Se mantiene igual",
+        "Se maximiza"
+      ],
+      "answer": "Disminuye"
+    },
+    {
+      "question": "¿Qué es el bienestar social total?",
+      "options": [
+        "La suma del excedente del consumidor y del productor",
+        "Solo el excedente del consumidor",
+        "Solo el excedente del productor",
+        "El precio multiplicado por la cantidad"
+      ],
+      "answer": "La suma del excedente del consumidor y del productor"
+    },
+    {
+      "question": "Si Qd = 60 - 3P y Qs = P + 20, ¿cuál es el precio de equilibrio?",
+      "options": [
+        "P = 10",
+        "P = 15",
+        "P = 8",
+        "P = 12"
+      ],
+      "answer": "P = 10"
+    },
+    {
+      "question": "Con las funciones Qd = 60 - 3P y Qs = P + 20, ¿cuál es la cantidad de equilibrio?",
+      "options": [
+        "Q = 30",
+        "Q = 25",
+        "Q = 35",
+        "Q = 40"
+      ],
+      "answer": "Q = 30"
+    },
+    {
+      "question": "¿Qué sucede con la pérdida irrecuperable cuando se aleja más del equilibrio?",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene constante",
+        "Se vuelve negativa"
+      ],
+      "answer": "Aumenta"
+    },
+    {
+      "question": "En un subsidio al consumo, ¿qué ocurre con el excedente del consumidor?",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "No cambia",
+        "Se elimina completamente"
+      ],
+      "answer": "Aumenta"
+    },
+    {
+      "question": "¿Cómo afecta un subsidio al productor al excedente del productor?",
+      "options": [
+        "Lo aumenta",
+        "Lo disminuye",
+        "No lo afecta",
+        "Lo elimina"
+      ],
+      "answer": "Lo aumenta"
+    },
+    {
+      "question": "Si la pendiente de la curva de demanda es -2 y el precio de equilibrio es 15 con cantidad 30, ¿cuál es el excedente del consumidor?",
+      "options": [
+        "450",
+        "225",
+        "900",
+        "300"
+      ],
+      "answer": "450"
+    },
+    {
+      "question": "En una curva de oferta con pendiente 1, precio de equilibrio 15 y cantidad 30, si el precio mínimo de oferta es 5, ¿cuál es el excedente del productor?",
+      "options": [
+        "150",
+        "300",
+        "225",
+        "450"
+      ],
+      "answer": "150"
+    },
+    {
+      "question": "¿Qué representa la disposición a pagar de los consumidores?",
+      "options": [
+        "El precio máximo que están dispuestos a pagar por cada unidad",
+        "El precio mínimo que aceptan",
+        "El costo de producción",
+        "El precio de mercado actual"
+      ],
+      "answer": "El precio máximo que están dispuestos a pagar por cada unidad"
+    },
+    {
+      "question": "¿Qué indica la curva de oferta respecto al costo marginal?",
+      "options": [
+        "Representa el costo marginal de producción",
+        "No tiene relación con los costos",
+        "Muestra el precio máximo",
+        "Indica la demanda del mercado"
+      ],
+      "answer": "Representa el costo marginal de producción"
+    },
+    {
+      "question": "Si se impone una cuota de importación, ¿qué sucede con el excedente del consumidor doméstico?",
+      "options": [
+        "Disminuye",
+        "Aumenta",
+        "No se ve afectado",
+        "Se duplica"
+      ],
+      "answer": "Disminuye"
+    },
+    {
+      "question": "¿Cómo afecta un arancel al excedente del productor doméstico?",
+      "options": [
+        "Lo aumenta",
+        "Lo disminuye",
+        "No lo afecta",
+        "Lo elimina"
+      ],
+      "answer": "Lo aumenta"
+    },
+    {
+      "question": "En un mercado con Qd = 90 - 2P y Qs = 3P, ¿cuál es el bienestar social total?",
+      "options": [
+        "972",
+        "800",
+        "1080",
+        "756"
+      ],
+      "answer": "972"
+    },
+    {
+      "question": "¿Qué sucede con el excedente del consumidor cuando la curva de demanda se desplaza hacia la derecha?",
+      "options": [
+        "Puede aumentar o disminuir dependiendo del cambio en el equilibrio",
+        "Siempre aumenta",
+        "Siempre disminuye",
+        "No cambia"
+      ],
+      "answer": "Puede aumentar o disminuir dependiendo del cambio en el equilibrio"
+    },
+    {
+      "question": "Si la oferta se desplaza hacia la derecha, ¿qué ocurre típicamente con el excedente del consumidor?",
+      "options": [
+        "Aumenta",
+        "Disminuye",
+        "Se mantiene igual",
+        "Se vuelve cero"
+      ],
+      "answer": "Aumenta"
+    },
+    {
+      "question": "¿Cuál es el efecto de una mejora tecnológica en la producción sobre el excedente del productor?",
+      "options": [
+        "Generalmente lo aumenta",
+        "Siempre lo disminuye",
+        "No tiene efecto",
+        "Lo elimina completamente"
+      ],
+      "answer": "Generalmente lo aumenta"
+    },
+    {
+      "question": "Si Qd = 120 - 4P y Qs = 2P + 12, ¿cuál es la pérdida irrecuperable si se fija un precio de 20?",
+      "options": [
+        "36",
+        "48",
+        "24",
+        "60"
+      ],
+      "answer": "36"
+    },
+    {
+      "question": "¿Qué mide la eficiencia económica en un mercado?",
+      "options": [
+        "La maximización del bienestar social total",
+        "Solo el beneficio de los productores",
+        "Solo el beneficio de los consumidores",
+        "La cantidad total producida"
+      ],
+      "answer": "La maximización del bienestar social total"
+    },
+    {
+      "question": "En un mercado con información perfecta y sin externalidades, ¿cuándo se alcanza la eficiencia?",
+      "options": [
+        "En el equilibrio competitivo",
+        "Cuando el precio es máximo",
+        "Cuando no hay intercambio",
+        "Solo en monopolios"
+      ],
+      "answer": "En el equilibrio competitivo"
+    },
+    {
+      "question": "¿Qué representa el área total bajo la curva de demanda?",
+      "options": [
+        "El beneficio total que obtienen los consumidores",
+        "Solo el excedente del consumidor",
+        "El costo total de producción",
+        "El precio total pagado"
+      ],
+      "answer": "El beneficio total que obtienen los consumidores"
+    },
+    {
+      "question": "Si el precio de equilibrio es 25 y la cantidad es 50, con una curva de demanda lineal que intercepta el eje de precios en 75, ¿cuál es el excedente del consumidor?",
+      "options": [
+        "1250",
+        "1875",
+        "625",
+        "2500"
+      ],
+      "answer": "1250"
+    },
+    {
+      "question": "¿Cómo se ve afectado el excedente del productor si aumentan los costos de producción?",
+      "options": [
+        "Disminuye",
+        "Aumenta",
+        "No se ve afectado",
+        "Se duplica"
+      ],
+      "answer": "Disminuye"
+    },
+    {
+      "question": "En un mercado de competencia perfecta, ¿qué sucede con los excedentes a largo plazo?",
+      "options": [
+        "El excedente del productor tiende a ser normal",
+        "Todos los excedentes desaparecen",
+        "Solo queda excedente del consumidor",
+        "Los excedentes se maximizan infinitamente"
+      ],
+      "answer": "El excedente del productor tiende a ser normal"
+    },
+    {
+      "question": "¿Qué efecto tiene la discriminación de precios perfecta sobre el excedente del consumidor?",
+      "options": [
+        "Lo elimina completamente",
+        "Lo duplica",
+        "Lo reduce a la mitad",
+        "No lo afecta"
+      ],
+      "answer": "Lo elimina completamente"
+    },
+    {
+      "question": "Si Qd = 100 - P y Qs = P - 20, ¿cuál es el excedente total del mercado?",
+      "options": [
+        "1800",
+        "1600",
+        "2000",
+        "1400"
+      ],
+      "answer": "1800"
+    },
+    {
+      "question": "¿Qué sucede con la distribución de excedentes cuando la demanda es más inelástica que la oferta?",
+      "options": [
+        "Los consumidores soportan mayor carga de los impuestos",
+        "Los productores soportan mayor carga",
+        "La carga se distribuye equitativamente",
+        "No hay efecto en los excedentes"
+      ],
+      "answer": "Los consumidores soportan mayor carga de los impuestos"
+    }
+  ]
+}
