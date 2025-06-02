@@ -15,10 +15,10 @@
       "options": [
         "La ganancia total de la empresa",
         "El área bajo la curva de demanda",
-        "La diferencia entre el precio de mercado y el costo marginal de producción",
+        "La diferencia entre el precio de mercado y la curva de oferta",
         "La cantidad producida multiplicada por el precio"
       ],
-      "answer": "La diferencia entre el precio de mercado y el costo marginal de producción"
+      "answer": "La diferencia entre el precio de mercado y la curva de oferta"
     },
     {
       "question": "En un gráfico de oferta y demanda, ¿dónde se encuentra el excedente del consumidor?",
@@ -79,16 +79,6 @@
         "Aumenta"
       ],
       "answer": "Aumenta"
-    },
-    {
-      "question": "¿Qué es la pérdida irrecuperable de eficiencia (deadweight loss)?",
-      "options": [
-        "El costo de producir un bien",
-        "La pérdida de bienestar social cuando el mercado no está en equilibrio",
-        "La ganancia total del mercado",
-        "El excedente total del consumidor"
-      ],
-      "answer": "La pérdida de bienestar social cuando el mercado no está en equilibrio"
     },
     {
       "question": "Si se impone un precio máximo por debajo del equilibrio, ¿qué sucede?",
@@ -171,16 +161,6 @@
       "answer": "Cambia más significativamente"
     },
     {
-      "question": "¿Qué efecto tiene un impuesto sobre el excedente total del mercado?",
-      "options": [
-        "Lo aumenta",
-        "No tiene efecto",
-        "Lo reduce creando pérdida irrecuperable",
-        "Lo duplica"
-      ],
-      "answer": "Lo reduce creando pérdida irrecuperable"
-    },
-    {
       "question": "En un monopolio, comparado con competencia perfecta, ¿qué sucede con el excedente del consumidor?",
       "options": [
         "Aumenta",
@@ -231,26 +211,6 @@
       "answer": "Aumenta"
     },
     {
-      "question": "En un subsidio al consumo, ¿qué ocurre con el excedente del consumidor?",
-      "options": [
-        "Disminuye",
-        "No cambia",
-        "Aumenta",
-        "Se elimina completamente"
-      ],
-      "answer": "Aumenta"
-    },
-    {
-      "question": "¿Cómo afecta un subsidio al productor al excedente del productor?",
-      "options": [
-        "Lo disminuye",
-        "No lo afecta",
-        "Lo elimina",
-        "Lo aumenta"
-      ],
-      "answer": "Lo aumenta"
-    },
-    {
       "question": "Si la pendiente de la curva de demanda es -2 y el precio de equilibrio es 15 con cantidad 30, ¿cuál es el excedente del consumidor?",
       "options": [
         "225",
@@ -289,26 +249,6 @@
         "Indica la demanda del mercado"
       ],
       "answer": "Representa el costo marginal de producción"
-    },
-    {
-      "question": "Si se impone una cuota de importación, ¿qué sucede con el excedente del consumidor doméstico?",
-      "options": [
-        "Aumenta",
-        "Disminuye",
-        "No se ve afectado",
-        "Se duplica"
-      ],
-      "answer": "Disminuye"
-    },
-    {
-      "question": "¿Cómo afecta un arancel al excedente del productor doméstico?",
-      "options": [
-        "Lo disminuye",
-        "No lo afecta",
-        "Lo elimina",
-        "Lo aumenta"
-      ],
-      "answer": "Lo aumenta"
     },
     {
       "question": "En un mercado con Qd = 90 - 2P y Qs = 3P, ¿cuál es el bienestar social total?",
