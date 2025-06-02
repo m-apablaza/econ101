@@ -1,26 +1,4 @@
 {
-  "questions": [
-    {
-      "question": "¿Cuál es el principal objetivo de la política fiscal durante una recesión?",
-      "options": [
-        "Reducir el déficit fiscal",
-        "Estimular la demanda agregada mediante mayor gasto público",
-        "Aumentar los impuestos",
-        "Privatizar empresas públicas"
-      ],
-      "answer": "Estimular la demanda agregada mediante mayor gasto público"
-    },
-    {
-      "question": "¿Qué herramienta utiliza principalmente el banco central para controlar la inflación?",
-      "options": [
-        "El gasto público",
-        "Los impuestos",
-        "La tasa de interés de referencia",
-        "Las transferencias sociales"
-      ],
-      "answer": "La tasa de interés de referencia"
-    },
-    {
       "question": "¿Cuál es la meta típica de inflación que establecen los bancos centrales?",
       "options": [
         "0% (deflación)",
@@ -39,16 +17,6 @@
         "La cuenta financiera"
       ],
       "answer": "El PIB nacional"
-    },
-    {
-      "question": "¿Cuál es el principal problema económico del desempleo estructural?",
-      "options": [
-        "Variaciones estacionales en la producción",
-        "Desajuste entre habilidades de trabajadores y demanda laboral",
-        "Fluctuaciones del ciclo económico",
-        "Políticas salariales inadecuadas"
-      ],
-      "answer": "Desajuste entre habilidades de trabajadores y demanda laboral"
     },
     {
       "question": "¿Qué justifica la intervención estatal en casos de monopolio natural?",
@@ -151,16 +119,6 @@
       "answer": "La sobreexplotación o 'tragedia de los comunes'"
     },
     {
-      "question": "¿Qué política implementaría el gobierno para reducir una externalidad negativa?",
-      "options": [
-        "Subsidios a la actividad contaminante",
-        "Impuestos pigouvianos",
-        "Eliminación de regulaciones",
-        "Reducción de multas"
-      ],
-      "answer": "Impuestos pigouvianos"
-    },
-    {
       "question": "¿Cuál es el objetivo principal de las políticas de igualdad de oportunidades?",
       "options": [
         "Aumentar la recaudación fiscal",
@@ -191,16 +149,6 @@
       "answer": "Controlar la oferta monetaria y las tasas de interés"
     },
     {
-      "question": "¿Qué indica un déficit en la cuenta corriente de la balanza de pagos?",
-      "options": [
-        "El país exporta más de lo que importa",
-        "Hay equilibrio comercial",
-        "El país importa más de lo que exporta",
-        "No hay comercio internacional"
-      ],
-      "answer": "El país importa más de lo que exporta"
-    },
-    {
       "question": "¿Cuál es el principal riesgo de una inflación muy alta?",
       "options": [
         "Aumento del poder adquisitivo",
@@ -209,16 +157,6 @@
         "Mayor inversión empresarial"
       ],
       "answer": "Erosión del valor del dinero y distorsiones en los precios relativos"
-    },
-    {
-      "question": "¿Qué es el riesgo moral en los mercados con información asimétrica?",
-      "options": [
-        "La tendencia a asumir más riesgos cuando otros cargan con las consecuencias",
-        "El riesgo de perder dinero en inversiones",
-        "La moralidad de las empresas",
-        "El riesgo país en inversiones internacionales"
-      ],
-      "answer": "La tendencia a asumir más riesgos cuando otros cargan con las consecuencias"
     },
     {
       "question": "¿Cuál es una herramienta para corregir fallas de mercado por información asimétrica?",
@@ -239,36 +177,6 @@
         "Solo el gobierno tiene la tecnología necesaria"
       ],
       "answer": "El mercado privado no los proveerá eficientemente debido al problema del free rider"
-    },
-    {
-      "question": "¿Qué es el PIB potencial?",
-      "options": [
-        "El PIB máximo teórico posible",
-        "El PIB actual de la economía",
-        "El nivel de PIB que se puede sostener sin generar presiones inflacionarias",
-        "El PIB de otros países"
-      ],
-      "answer": "El nivel de PIB que se puede sostener sin generar presiones inflacionarias"
-    },
-    {
-      "question": "¿Cuál es el efecto típico de una política monetaria expansiva?",
-      "options": [
-        "Reducir la inflación inmediatamente",
-        "Aumentar las tasas de interés",
-        "Estimular el crecimiento económico y el empleo",
-        "Reducir la oferta monetaria"
-      ],
-      "answer": "Estimular el crecimiento económico y el empleo"
-    },
-    {
-      "question": "¿Qué caracteriza a un mercado con competencia monopolística?",
-      "options": [
-        "Un solo vendedor",
-        "Productos idénticos",
-        "Muchos vendedores con productos diferenciados",
-        "Pocos compradores"
-      ],
-      "answer": "Muchos vendedores con productos diferenciados"
     },
     {
       "question": "¿Cuál es una medida para promover la igualdad de oportunidades en educación?",
@@ -331,16 +239,6 @@
       "answer": "Puede estimular la demanda agregada y el crecimiento"
     },
     {
-      "question": "¿Cuál es una característica del desempleo friccional?",
-      "options": [
-        "Es causado por recesiones económicas",
-        "Es temporal y se debe al tiempo de búsqueda entre empleos",
-        "Afecta solo a trabajadores no calificados",
-        "Es causado por cambios tecnológicos"
-      ],
-      "answer": "Es temporal y se debe al tiempo de búsqueda entre empleos"
-    },
-    {
       "question": "¿Qué instrumento NO es parte de la política fiscal?",
       "options": [
         "El gasto público",
@@ -361,16 +259,6 @@
       "answer": "Colusión para fijar precios por encima del nivel competitivo"
     },
     {
-      "question": "¿Qué mide el índice de Gini?",
-      "options": [
-        "La inflación",
-        "El crecimiento económico",
-        "La desigualdad de ingresos",
-        "El desempleo"
-      ],
-      "answer": "La desigualdad de ingresos"
-    },
-    {
       "question": "¿Cuál es una política para internalizar externalidades positivas?",
       "options": [
         "Impuestos a la actividad",
@@ -379,26 +267,6 @@
         "Ignorar la externalidad"
       ],
       "answer": "Subsidios o apoyo gubernamental"
-    },
-    {
-      "question": "¿Qué es la trampa de liquidez?",
-      "options": [
-        "Cuando hay demasiado dinero en circulación",
-        "Cuando las tasas de interés están tan bajas que la política monetaria pierde efectividad",
-        "Cuando los bancos tienen exceso de liquidez",
-        "Cuando hay deflación moderada"
-      ],
-      "answer": "Cuando las tasas de interés están tan bajas que la política monetaria pierde efectividad"
-    },
-    {
-      "question": "¿Cuál es el objetivo de los sistemas de cuotas en recursos pesqueros?",
-      "options": [
-        "Aumentar las ganancias de los pescadores",
-        "Prevenir la sobreexplotación del recurso común",
-        "Reducir el precio del pescado",
-        "Eliminar la industria pesquera"
-      ],
-      "answer": "Prevenir la sobreexplotación del recurso común"
     },
     {
       "question": "¿Qué caracteriza a una economía en pleno empleo?",
@@ -421,16 +289,6 @@
       "answer": "Permiten reducir la contaminación al menor costo posible"
     },
     {
-      "question": "¿Qué es la política de estabilización automática?",
-      "options": [
-        "Cambios discrecionales en la política fiscal",
-        "Mecanismos como el seguro de desempleo que actúan automáticamente",
-        "Control manual de la inflación",
-        "Fijación de tipos de cambio"
-      ],
-      "answer": "Mecanismos como el seguro de desempleo que actúan automáticamente"
-    },
-    {
       "question": "¿Cuál es el principal desafío en la provisión de bienes públicos globales?",
       "options": [
         "Son demasiado costosos",
@@ -440,15 +298,5 @@
       ],
       "answer": "La coordinación internacional y el problema del free rider entre países"
     },
-    {
-      "question": "¿Qué efecto tiene típicamente una apreciación de la moneda nacional?",
-      "options": [
-        "Mejora la competitividad de las exportaciones",
-        "Encarece las importaciones",
-        "Reduce las importaciones y puede empeorar la balanza comercial",
-        "Aumenta automáticamente el PIB"
-      ],
-      "answer": "Reduce las importaciones y puede empeorar la balanza comercial"
-    }
   ]
 }
