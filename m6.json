@@ -201,7 +201,7 @@
       "answer": "Q = 30"
     },
     {
-      "question": "¿Qué sucede con la pérdida irrecuperable cuando se aleja más del equilibrio?",
+      "question": "¿Qué sucede con la pérdida irrecuperable cuando se aleja más del equilibrio? (* AUN NO)",
       "options": [
         "Disminuye",
         "Se mantiene constante",
@@ -251,7 +251,7 @@
       "answer": "Representa el costo marginal de producción"
     },
     {
-      "question": "En un mercado con Qd = 90 - 2P y Qs = 3P, ¿cuál es el bienestar social total?",
+      "question": "En un mercado con Qd = 90 - 2P y Qs = 3P, ¿cuál es el bienestar social total (suma de los excedentes)?",
       "options": [
         "800",
         "1080",
@@ -291,7 +291,7 @@
       "answer": "Generalmente lo aumenta"
     },
     {
-      "question": "Si Qd = 120 - 4P y Qs = 2P + 12, ¿cuál es la pérdida irrecuperable si se fija un precio de 20?",
+      "question": "Si Qd = 120 - 4P y Qs = 2P + 12, ¿cuál es la pérdida irrecuperable si se fija un precio de 20? (* AUN NO)",
       "options": [
         "48",
         "24",
@@ -351,7 +351,7 @@
       "answer": "Disminuye"
     },
     {
-      "question": "En un mercado de competencia perfecta, ¿qué sucede con los excedentes a largo plazo?",
+      "question": "En un mercado de competencia perfecta, ¿qué sucede con los excedentes a largo plazo? (* AUN NO)",
       "options": [
         "Todos los excedentes desaparecen",
         "Solo queda excedente del consumidor",
@@ -361,7 +361,7 @@
       "answer": "El excedente del productor tiende a ser normal"
     },
     {
-      "question": "¿Qué efecto tiene la discriminación de precios perfecta sobre el excedente del consumidor?",
+      "question": "¿Qué efecto tiene la discriminación de precios perfecta sobre el excedente del consumidor? (* AUN NO)",
       "options": [
         "Lo elimina completamente",
         "Lo duplica",
