@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question": "¿Qué es la elasticidad precio de la demanda?",
+      "question": "¿Qué es la elasticidad precio de la demanda (sin valor absoluto)?",
       "options": [
         "El cambio porcentual en la cantidad demandada dividido por el cambio porcentual en el precio.",
         "El cambio porcentual en el precio dividido por el cambio porcentual en la cantidad demandada.",
@@ -18,7 +18,7 @@
         "2",
         "-2"
       ],
-      "answer": "-0.5"
+      "answer": "0.5"
     },
     {
       "question": "¿Cuándo se considera que la demanda es inelástica?",
@@ -58,7 +58,7 @@
         "-0.5",
         "-2"
       ],
-      "answer": "-0.4"
+      "answer": "0.4"
     },
     {
       "question": "¿Qué es la elasticidad ingreso de la demanda?",
@@ -193,12 +193,12 @@
     {
       "question": "¿Cuál es la elasticidad precio de la demanda cuando el precio aumenta de $20 a $25 y la cantidad demandada disminuye de 500 a 400 unidades?",
       "options": [
-        "-1",
-        "-0.8",
-        "-0.5",
-        "-2"
+        "1",
+        "0.8",
+        "0.5",
+        "2"
       ],
-      "answer": "-0.8"
+      "answer": "0.8"
     },
     {
       "question": "Si un bien tiene una elasticidad ingreso mayor que 1, se considera:",
@@ -301,7 +301,7 @@
       "answer": "Elasticidad cruzada de la demanda"
     },
     {
-      "question": "Si la elasticidad precio de la demanda es -1.5, un aumento del 10% en el precio resultará en:",
+      "question": "Si la elasticidad precio de la demanda es 1.5, un aumento del 10% en el precio resultará en:",
       "options": [
         "Una disminución del 15% en la cantidad demandada",
         "Una disminución del 5% en la cantidad demandada",
@@ -343,12 +343,12 @@
     {
       "question": "¿Cuál es la elasticidad precio de la demanda cuando el precio disminuye de $40 a $30 y la cantidad demandada aumenta de 50 a 70 unidades?",
       "options": [
-        "-0.75",
-        "-1.25",
-        "-1.6",
-        "-2"
+        "0.75",
+        "1.25",
+        "1.6",
+        "2"
       ],
-      "answer": "-1.6"
+      "answer": "1.6"
     },
     {
       "question": "¿Cuál NO es un factor que afecta la elasticidad precio de la oferta?",
