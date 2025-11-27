@@ -1,0 +1,394 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuál es la **principal preocupación** que aborda la economía?",
+      "options": [
+        "La distribución de la renta en un país.",
+        "El estudio de los mercados de valores.",
+        "La escasez y la elección.",
+        "El crecimiento del Producto Interno Bruto (PIB)."
+      ],
+      "answer": "La escasez y la elección."
+    },
+    {
+      "question": "¿Qué representa la **Frontera de Posibilidades de Producción (FPP)** en un modelo económico básico?",
+      "options": [
+        "El máximo de bienes y servicios que una economía puede producir dados sus recursos y tecnología.",
+        "El conjunto de combinaciones de bienes que los consumidores están dispuestos a comprar.",
+        "La relación entre la inflación y el desempleo.",
+        "El nivel de ingresos de los trabajadores en un país."
+      ],
+      "answer": "El máximo de bienes y servicios que una economía puede producir dados sus recursos y tecnología."
+    },
+    {
+      "question": "Un aumento en el precio de un bien **sustituto** generalmente causa en la curva de demanda del bien original:",
+      "options": [
+        "Un movimiento a lo largo de la curva de demanda (cambio en la cantidad demandada).",
+        "Un desplazamiento de la curva de demanda hacia la derecha.",
+        "Un desplazamiento de la curva de demanda hacia la izquierda.",
+        "Ningún cambio en la curva de demanda."
+      ],
+      "answer": "Un desplazamiento de la curva de demanda hacia la derecha."
+    },
+    {
+      "question": "En un mercado, el **precio de equilibrio** es aquel donde:",
+      "options": [
+        "La cantidad ofrecida es mayor que la cantidad demandada.",
+        "La cantidad demandada es mayor que la cantidad ofrecida.",
+        "La cantidad demandada es igual a la cantidad ofrecida.",
+        "El precio es fijado por la autoridad gubernamental."
+      ],
+      "answer": "La cantidad demandada es igual a la cantidad ofrecida."
+    },
+    {
+      "question": "Si el **ingreso** de los consumidores aumenta y el bien es **normal**, ¿cómo afecta esto al equilibrio del mercado?",
+      "options": [
+        "El precio de equilibrio sube y la cantidad de equilibrio baja.",
+        "El precio de equilibrio baja y la cantidad de equilibrio sube.",
+        "El precio de equilibrio sube y la cantidad de equilibrio sube.",
+        "El precio de equilibrio y la cantidad de equilibrio se mantienen constantes."
+      ],
+      "answer": "El precio de equilibrio sube y la cantidad de equilibrio sube."
+    },
+    {
+      "question": "La **elasticidad precio de la demanda** mide:",
+      "options": [
+        "El cambio absoluto en la cantidad demandada ante un cambio en el precio.",
+        "La sensibilidad de la cantidad demandada a un cambio en el precio.",
+        "El cambio porcentual en el precio ante un cambio en la cantidad demandada.",
+        "La reacción de los consumidores ante un cambio en sus ingresos."
+      ],
+      "answer": "La sensibilidad de la cantidad demandada a un cambio en el precio."
+    },
+    {
+      "question": "¿Qué representa el **Excedente del Consumidor** en un mercado?",
+      "options": [
+        "La diferencia entre lo que pagan los consumidores y lo que reciben los productores.",
+        "La pérdida de eficiencia cuando el mercado no está en equilibrio.",
+        "La diferencia entre la disposición a pagar de los consumidores y el precio que realmente pagan.",
+        "El costo total de producción de un bien o servicio."
+      ],
+      "answer": "La diferencia entre la disposición a pagar de los consumidores y el precio que realmente pagan."
+    },
+    {
+      "question": "En el **Mercado de Divisas** (como el del Dólar), la **demanda** está determinada principalmente por:",
+      "options": [
+        "Las exportaciones de un país.",
+        "Las importaciones de un país y las salidas de capital.",
+        "La intervención del Banco Central.",
+        "La oferta de bienes y servicios nacionales."
+      ],
+      "answer": "Las importaciones de un país y las salidas de capital."
+    },
+    {
+      "question": "El **salario de equilibrio** en el **Mercado Laboral** se determina por la interacción entre:",
+      "options": [
+        "El gobierno y los sindicatos.",
+        "La oferta de trabajo (trabajadores) y la demanda de trabajo (empresas).",
+        "El Banco Central y el Ministerio de Hacienda.",
+        "El costo de vida y la inflación."
+      ],
+      "answer": "La oferta de trabajo (trabajadores) y la demanda de trabajo (empresas)."
+    },
+    {
+      "question": "¿Cuál de las siguientes es una justificación económica para la **intervención del Estado** en el mercado?",
+      "options": [
+        "Asegurar que todas las empresas obtengan beneficios.",
+        "Corregir fallos de mercado como las externalidades o los bienes públicos.",
+        "Establecer la tasa de interés de la economía.",
+        "Garantizar que no haya desempleo."
+      ],
+      "answer": "Corregir fallos de mercado como las externalidades o los bienes públicos."
+    },
+    {
+      "question": "Un **precio máximo (o tope de precio)** establecido **por debajo del precio de equilibrio** de mercado típicamente provoca:",
+      "options": [
+        "Un excedente de oferta (sobreproducción).",
+        "Un excedente de demanda (escasez).",
+        "Que el mercado alcance un nuevo equilibrio más alto.",
+        "Una reducción en los costos de producción."
+      ],
+      "answer": "Un excedente de demanda (escasez)."
+    },
+    {
+      "question": "La introducción de un **impuesto** de un bien generalmente resulta en un **aumento** en:",
+      "options": [
+        "El excedente del productor.",
+        "El precio pagado por el consumidor.",
+        "La cantidad de equilibrio.",
+        "La elasticidad de la demanda."
+      ],
+      "answer": "El precio pagado por el consumidor."
+    },
+    {
+      "question": "¿Qué efecto tiene un **subsidio** otorgado a los productores de un bien?",
+      "options": [
+        "Desplaza la curva de oferta hacia la izquierda (arriba).",
+        "Aumenta el costo de producción.",
+        "Disminuye el precio que paga el consumidor y aumenta la cantidad de equilibrio.",
+        "Disminuye la cantidad demandada."
+      ],
+      "answer": "Disminuye el precio que paga el consumidor y aumenta la cantidad de equilibrio."
+    },
+    {
+      "question": "El concepto de **Costo de Oportunidad** se refiere a:",
+      "options": [
+        "El costo monetario total de una elección.",
+        "El valor de la mejor alternativa a la que se renuncia al tomar una decisión.",
+        "Los costos fijos de una empresa.",
+        "El costo de producir una unidad adicional de un bien."
+      ],
+      "answer": "El valor de la mejor alternativa a la que se renuncia al tomar una decisión."
+    },
+    {
+      "question": "La **Ley de la Demanda** establece que, *ceteris paribus* (todo lo demás constante):",
+      "options": [
+        "La cantidad demandada de un bien aumenta cuando el precio aumenta.",
+        "Existe una relación positiva entre el precio y la cantidad demandada.",
+        "Existe una relación inversa entre el precio y la cantidad demandada.",
+        "Los consumidores compran más cuando tienen más ingresos."
+      ],
+      "answer": "Existe una relación inversa entre el precio y la cantidad demandada."
+    },
+    {
+      "question": "Una **Externalidad Negativa** ocurre cuando:",
+      "options": [
+        "La producción o el consumo impone costos a terceros no involucrados en la transacción.",
+        "El consumo de un bien beneficia a terceros.",
+        "El gobierno interviene en el mercado.",
+        "El precio de mercado es superior al costo de producción."
+      ],
+      "answer": "La producción o el consumo impone costos a terceros no involucrados en la transacción."
+    },
+    {
+      "question": "Un **bien público** se caracteriza por ser:",
+      "options": [
+        "Rival y excluible.",
+        "No rival y excluible.",
+        "Rival y no excluible.",
+        "No rival y no excluible."
+      ],
+      "answer": "No rival y no excluible."
+    },
+    {
+      "question": "El **Excedente del Productor** es la diferencia entre:",
+      "options": [
+        "El costo total y el ingreso total de la empresa.",
+        "El precio de mercado y el costo mínimo al que el productor está dispuesto a ofrecer el bien.",
+        "Lo que el consumidor está dispuesto a pagar y el precio de mercado.",
+        "La ganancia neta después de impuestos."
+      ],
+      "answer": "El precio de mercado y el costo mínimo al que el productor está dispuesto a ofrecer el bien."
+    },
+    {
+      "question": "Si el **tipo de cambio** (precio del dólar en moneda local) **aumenta**, ¿cómo afecta esto a las exportaciones de un país, *ceteris paribus*?",
+      "options": [
+        "Las exportaciones se vuelven más baratas para los extranjeros y la cantidad exportada aumenta.",
+        "Las exportaciones se vuelven más caras para los extranjeros y la cantidad exportada disminuye.",
+        "No tiene efecto sobre las exportaciones.",
+        "Las importaciones aumentan."
+      ],
+      "answer": "Las exportaciones se vuelven más baratas para los extranjeros y la cantidad exportada aumenta."
+    },
+    {
+      "question": "¿Qué consecuencia política o social puede derivarse de la implementación de un **salario mínimo** por encima del salario de equilibrio?",
+      "options": [
+        "Un aumento en el excedente del consumidor.",
+        "Un excedente de oferta de trabajo, es decir, desempleo.",
+        "Un desplazamiento de la demanda de trabajo a la derecha.",
+        "Una disminución en la oferta de trabajo."
+      ],
+      "answer": "Un excedente de oferta de trabajo, es decir, desempleo."
+    },
+    {
+      "question": "La **Incidencia de un Impuesto** (quién soporta la carga del impuesto) depende de:",
+      "options": [
+        "Si el impuesto es directo o indirecto.",
+        "La elasticidad relativa de la demanda y la oferta.",
+        "El tipo de bien que se está gravando (normal o inferior).",
+        "La tasa impositiva establecida por el gobierno."
+      ],
+      "answer": "La elasticidad relativa de la demanda y la oferta."
+    },
+    {
+      "question": "Si la **demanda es inelástica** y se aplica un impuesto, la **mayor parte de la carga** recae sobre:",
+      "options": [
+        "Los productores.",
+        "Los consumidores.",
+        "El gobierno.",
+        "Los bienes sustitutos."
+      ],
+      "answer": "Los consumidores."
+    },
+    {
+      "question": "Un **bien inferior** es aquel cuya demanda:",
+      "options": [
+        "Aumenta cuando el precio aumenta.",
+        "Disminuye cuando el ingreso del consumidor aumenta.",
+        "Es perfectamente inelástica.",
+        "Aumenta cuando el ingreso del consumidor aumenta."
+      ],
+      "answer": "Disminuye cuando el ingreso del consumidor aumenta."
+    },
+    {
+      "question": "¿Cuál es un supuesto clave en el **Modelo de Flujo Circular de la Renta**?",
+      "options": [
+        "El gobierno es el único agente económico.",
+        "Existe comercio internacional.",
+        "Las familias solo venden recursos y las empresas solo producen bienes.",
+        "Los mercados de bienes y servicios funcionan de forma independiente de los mercados de factores."
+      ],
+      "answer": "Las familias solo venden recursos y las empresas solo producen bienes."
+    },
+    {
+      "question": "Si el gobierno establece un **precio mínimo (o piso de precio)** **por encima del precio de equilibrio** de mercado, ¿qué resulta comúnmente?",
+      "options": [
+        "Una escasez del bien.",
+        "Un excedente de oferta.",
+        "Un aumento en la demanda.",
+        "Que el mercado opere en el equilibrio original."
+      ],
+      "answer": "Un excedente de oferta."
+    },
+    {
+      "question": "La **Pérdida Irrecuperable de Eficiencia (Pérdida Social)** causada por un impuesto es una medida de:",
+      "options": [
+        "La cantidad total de ingresos fiscales recaudados.",
+        "La redistribución de la renta entre consumidores y productores.",
+        "La pérdida de bienestar social que no beneficia ni al gobierno ni a los participantes del mercado.",
+        "El costo administrativo de recaudar el impuesto."
+      ],
+      "answer": "La pérdida de bienestar social que no beneficia ni al gobierno ni a los participantes del mercado."
+    },
+    {
+      "question": "En el contexto de la **Oferta y Demanda**, si hay un **descubrimiento tecnológico** que reduce el costo de producción, ¿qué ocurre en el mercado?",
+      "options": [
+        "La curva de demanda se desplaza a la derecha.",
+        "La curva de oferta se desplaza a la izquierda (arriba).",
+        "La curva de oferta se desplaza a la derecha (abajo), bajando el precio de equilibrio.",
+        "Ambas curvas se desplazan simultáneamente."
+      ],
+      "answer": "La curva de oferta se desplaza a la derecha (abajo), bajando el precio de equilibrio."
+    },
+    {
+      "question": "La **elasticidad cruzada de la demanda** se utiliza para determinar si dos bienes son:",
+      "options": [
+        "Normales o inferiores.",
+        "Bienes Giffen.",
+        "Sustitutos o complementarios.",
+        "De primera necesidad o de lujo."
+      ],
+      "answer": "Sustitutos o complementarios."
+    },
+    {
+      "question": "La **Ley de la Oferta** establece que, *ceteris paribus*:",
+      "options": [
+        "Existe una relación inversa entre el precio y la cantidad ofrecida.",
+        "La cantidad ofrecida de un bien disminuye cuando el precio sube.",
+        "Existe una relación positiva entre el precio y la cantidad ofrecida.",
+        "La oferta siempre es perfectamente elástica."
+      ],
+      "answer": "Existe una relación positiva entre el precio y la cantidad ofrecida."
+    },
+    {
+      "question": "¿Qué ocurre en el **Mercado del Dólar** si aumenta la demanda de bienes importados por el país?",
+      "options": [
+        "La oferta de dólares disminuye, depreciando la moneda local.",
+        "La demanda de dólares aumenta, depreciando la moneda local (sube el precio del dólar).",
+        "La demanda de dólares disminuye, apreciando la moneda local.",
+        "El precio del dólar se mantiene constante."
+      ],
+      "answer": "La demanda de dólares aumenta, depreciando la moneda local (sube el precio del dólar)."
+    },
+    {
+      "question": "Si el gobierno quiere fomentar la producción y el consumo de un bien considerado socialmente deseable, podría aplicar:",
+      "options": [
+        "Un impuesto a la producción.",
+        "Un precio máximo.",
+        "Un subsidio a la producción o al consumo.",
+        "Un precio mínimo."
+      ],
+      "answer": "Un subsidio a la producción o al consumo."
+    },
+    {
+      "question": "Un **impuesto por unidad (o específico)** aplicado a los productores desplaza la curva de oferta:",
+      "options": [
+        "Hacia la derecha por el monto del impuesto.",
+        "Hacia la izquierda (hacia arriba) por el monto del impuesto.",
+        "Sin desplazamiento, solo un movimiento a lo largo de la curva.",
+        "Hacia la derecha por el doble del monto del impuesto."
+      ],
+      "answer": "Hacia la izquierda (hacia arriba) por el monto del impuesto."
+    },
+    {
+      "question": "Desde una perspectiva de **eficiencia**, el nivel de producción de un bien con una **externalidad negativa** (por ejemplo, contaminación) en un mercado libre es generalmente:",
+      "options": [
+        "Demasiado bajo.",
+        "Óptimo.",
+        "Demasiado alto.",
+        "Perfectamente inelástico."
+      ],
+      "answer": "Demasiado alto."
+    },
+    {
+      "question": "¿Qué se conoce como **Pérdida Irrecuperable de Eficiencia (perdida social)** o peso muerto, en el contexto de la aplicación de un impuesto?",
+      "options": [
+        "La cantidad de ingresos que recauda el gobierno.",
+        "La porción del impuesto pagada por los consumidores.",
+        "La reducción del excedente total (consumidor y productor) que no es compensada por el ingreso fiscal.",
+        "El costo administrativo de recaudar el impuesto."
+      ],
+      "answer": "La reducción del excedente total (consumidor y productor) que no es compensada por el ingreso fiscal."
+    },
+    {
+      "question": "Un **subsidio** otorgado a los **consumidores** tiene el efecto de:",
+      "options": [
+        "Desplazar la curva de oferta hacia la derecha.",
+        "Desplazar la curva de demanda hacia la izquierda.",
+        "Desplazar la curva de demanda hacia la derecha.",
+        "Aumentar el precio de mercado para el consumidor."
+      ],
+      "answer": "Desplazar la curva de demanda hacia la derecha."
+    },
+    {
+      "question": "En el caso de un **subsidio**, la **mayor parte del beneficio** se destinará a los **productores** si:",
+      "options": [
+        "La demanda es más elástica que la oferta.",
+        "La oferta es más elástica que la demanda.",
+        "Ambas elasticidades son unitarias.",
+        "El subsidio se aplica directamente a los consumidores."
+      ],
+      "answer": "La demanda es más elástica que la oferta."
+    },
+    {
+      "question": "¿Cómo se calcula el **Ingreso Fiscal** (Recaudación) que genera un impuesto específico por unidad?",
+      "options": [
+        "Multiplicando el precio de equilibrio por la cantidad de equilibrio.",
+        "Multiplicando el monto del impuesto por la nueva cantidad de equilibrio (después del impuesto).",
+        "Restando el precio del consumidor del precio del productor.",
+        "Multiplicando el impuesto por el excedente del consumidor."
+      ],
+      "answer": "Multiplicando el monto del impuesto por la nueva cantidad de equilibrio (después del impuesto)."
+    },
+    {
+      "question": "Si se aplica un impuesto, cuanto **más inelástica** sea la **curva de demanda**:",
+      "options": [
+        "Mayor será la pérdida irrecuperable de eficiencia (Perdida social).",
+        "Menor será la pérdida irrecuperable de eficiencia (Perdida social).",
+        "Menor será el ingreso fiscal recaudado.",
+        "Mayor será la porción del impuesto pagada por los productores."
+      ],
+      "answer": "Menor será la pérdida irrecuperable de eficiencia (Perdida social)."
+    },
+    {
+      "question": "El **monto total del subsidio** pagado por el gobierno es igual a:",
+      "options": [
+        "La diferencia entre el precio que recibe el productor y el que paga el consumidor, multiplicado por la cantidad de equilibrio subsidiada.",
+        "El excedente del consumidor más el excedente del productor.",
+        "El aumento en la cantidad vendida debido al subsidio.",
+        "El costo de oportunidad de los recursos utilizados."
+      ],
+      "answer": "La diferencia entre el precio que recibe el productor y el que paga el consumidor, multiplicado por la cantidad de equilibrio subsidiada."
+    }
+  ]
+}
