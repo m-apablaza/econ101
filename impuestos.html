@@ -1,0 +1,424 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impuestos y Excedentes</title>
+
+<style>
+
+:root{
+    --bg:#f4f6f8;
+    --card:white;
+    --text:#222;
+    --accent:#0d6efd;
+}
+
+.dark{
+    --bg:#111827;
+    --card:#1f2937;
+    --text:#f3f4f6;
+    --accent:#60a5fa;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    margin:0;
+    padding:20px;
+    transition:.3s;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:var(--card);
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+button{
+    background:var(--accent);
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+.solution{
+    display:none;
+    margin-top:15px;
+}
+
+canvas{
+    width:100%;
+    max-width:700px;
+    height:400px;
+    border:1px solid #ccc;
+    background:white;
+    margin-top:15px;
+}
+
+.math{
+    font-family:monospace;
+    background:#eee;
+    padding:2px 5px;
+    border-radius:4px;
+}
+
+.dark .math{
+    color:black;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.result{
+    background:#eef6ff;
+    padding:10px;
+    border-left:4px solid var(--accent);
+    margin-top:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="topbar">
+<h1>Ejercicios de Impuestos y Excedentes</h1>
+<button onclick="toggleDark()">🌙 Modo oscuro</button>
+</div>
+
+<p>
+Para cada ejercicio:
+</p>
+
+<ol>
+<li>Determine el equilibrio competitivo.</li>
+<li>Calcule EC y EP.</li>
+<li>Determine el impuesto específico necesario para alcanzar la cantidad socialmente óptima.</li>
+<li>Obtenga precios consumidor y productor.</li>
+<li>Calcule los nuevos excedentes.</li>
+</ol>
+
+<div id="ejercicios"></div>
+
+</div>
+
+<script>
+
+const ejercicios = [
+
+{
+nombre:"Ejercicio 1",
+a:140,
+b:2,
+c:-20,
+d:2,
+qstar:40
+},
+
+{
+nombre:"Ejercicio 2",
+a:180,
+b:3,
+c:-20,
+d:2,
+qstar:40
+},
+
+{
+nombre:"Ejercicio 3",
+a:200,
+b:4,
+c:-40,
+d:2,
+qstar:20
+},
+
+{
+nombre:"Ejercicio 4",
+a:240,
+b:4,
+c:-30,
+d:1,
+qstar:20
+},
+
+{
+nombre:"Ejercicio 5",
+a:300,
+b:5,
+c:-60,
+d:3,
+qstar:50
+}
+
+];
+
+function equilibrio(a,b,c,d){
+
+const P=(a-c)/(b+d);
+const Q=a-b*P;
+
+return {P,Q};
+
+}
+
+function soluciones(e){
+
+const eq=equilibrio(e.a,e.b,e.c,e.d);
+
+const pMax=e.a/e.b;
+const pMin=(-e.c)/e.d;
+
+const EC=0.5*(pMax-eq.P)*eq.Q;
+const EP=0.5*(eq.P-pMin)*eq.Q;
+
+const Pc=(e.a-e.qstar)/e.b;
+const Pp=(e.qstar-e.c)/e.d;
+
+const impuesto=Pc-Pp;
+
+const EC2=0.5*(pMax-Pc)*e.qstar;
+const EP2=0.5*(Pp-pMin)*e.qstar;
+
+const rec=impuesto*e.qstar;
+
+const dwl=
+(EC+EP)-(EC2+EP2+rec);
+
+return {
+eq,
+pMax,
+pMin,
+EC,
+EP,
+Pc,
+Pp,
+impuesto,
+EC2,
+EP2,
+rec,
+dwl
+};
+
+}
+
+function toggle(id){
+
+const el=document.getElementById(id);
+
+el.style.display=
+el.style.display==="block"
+? "none"
+: "block";
+
+}
+
+function draw(canvas,e){
+
+const ctx=canvas.getContext("2d");
+
+const W=canvas.width=700;
+const H=canvas.height=400;
+
+ctx.clearRect(0,0,W,H);
+
+ctx.strokeStyle="black";
+
+ctx.beginPath();
+ctx.moveTo(50,20);
+ctx.lineTo(50,350);
+ctx.lineTo(650,350);
+ctx.stroke();
+
+const maxQ=e.a+20;
+const maxP=Math.max(e.a/e.b,100);
+
+function X(q){
+return 50+(q/maxQ)*550;
+}
+
+function Y(p){
+return 350-(p/maxP)*300;
+}
+
+ctx.strokeStyle="red";
+
+ctx.beginPath();
+ctx.moveTo(
+X(0),
+Y(e.a/e.b)
+);
+
+ctx.lineTo(
+X(e.a),
+Y(0)
+);
+
+ctx.stroke();
+
+ctx.fillStyle="red";
+ctx.fillText("Demanda",560,60);
+
+ctx.strokeStyle="blue";
+
+ctx.beginPath();
+
+ctx.moveTo(
+X(0),
+Y((-e.c)/e.d)
+);
+
+ctx.lineTo(
+X(maxQ),
+Y((maxQ-e.c)/e.d)
+);
+
+ctx.stroke();
+
+ctx.fillStyle="blue";
+ctx.fillText("Oferta",560,120);
+
+const s=soluciones(e);
+
+ctx.fillStyle="green";
+
+ctx.beginPath();
+
+ctx.arc(
+X(s.eq.Q),
+Y(s.eq.P),
+5,
+0,
+Math.PI*2
+);
+
+ctx.fill();
+
+ctx.fillText(
+"E",
+X(s.eq.Q)+10,
+Y(s.eq.P)-10
+);
+
+}
+
+function render(){
+
+const div=document.getElementById("ejercicios");
+
+ejercicios.forEach((e,i)=>{
+
+const s=soluciones(e);
+
+div.innerHTML+=`
+
+<div class="card">
+
+<h2>${e.nombre}</h2>
+
+<p><span class="math">Qd=${e.a}-${e.b}P</span></p>
+<p><span class="math">Qs=${e.c}+${e.d}P</span></p>
+
+<p><b>Cantidad socialmente óptima:</b> ${e.qstar}</p>
+
+<button onclick="toggle('sol${i}')">
+Mostrar solución
+</button>
+
+<div id="sol${i}" class="solution">
+
+<div class="result">
+
+<p><b>Equilibrio:</b></p>
+
+<p>P = ${s.eq.P.toFixed(2)}</p>
+<p>Q = ${s.eq.Q.toFixed(2)}</p>
+
+<p><b>Excedente consumidor:</b>
+${s.EC.toFixed(2)}</p>
+
+<p><b>Excedente productor:</b>
+${s.EP.toFixed(2)}</p>
+
+<p><b>Impuesto óptimo:</b>
+${s.impuesto.toFixed(2)}</p>
+
+<p><b>Precio consumidor:</b>
+${s.Pc.toFixed(2)}</p>
+
+<p><b>Precio productor:</b>
+${s.Pp.toFixed(2)}</p>
+
+<p><b>Recaudación:</b>
+${s.rec.toFixed(2)}</p>
+
+<p><b>Nuevo EC:</b>
+${s.EC2.toFixed(2)}</p>
+
+<p><b>Nuevo EP:</b>
+${s.EP2.toFixed(2)}</p>
+
+<p><b>DWL:</b>
+${s.dwl.toFixed(2)}</p>
+
+</div>
+
+<canvas id="g${i}"></canvas>
+
+</div>
+
+</div>
+`;
+
+});
+
+setTimeout(()=>{
+
+ejercicios.forEach((e,i)=>{
+
+draw(
+document.getElementById(`g${i}`),
+e
+);
+
+});
+
+},100);
+
+}
+
+function toggleDark(){
+
+document.body.classList.toggle("dark");
+
+}
+
+render();
+
+</script>
+
+</body>
+</html>
+```
